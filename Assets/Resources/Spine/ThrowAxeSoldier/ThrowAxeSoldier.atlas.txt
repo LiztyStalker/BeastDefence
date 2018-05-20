@@ -1,0 +1,125 @@
+
+ThrowAxeSoldier.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Accessery
+  rotate: false
+  xy: 200, 64
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Body
+  rotate: false
+  xy: 2, 4
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Face
+  rotate: false
+  xy: 132, 134
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 2, 70
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Helmet
+  rotate: false
+  xy: 260, 328
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+LArm
+  rotate: false
+  xy: 260, 262
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+LEar
+  rotate: false
+  xy: 390, 392
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+LFoot
+  rotate: false
+  xy: 68, 4
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+LHand
+  rotate: false
+  xy: 326, 262
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+LLeg
+  rotate: false
+  xy: 198, 134
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+RArm
+  rotate: false
+  xy: 264, 196
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+REar
+  rotate: false
+  xy: 264, 130
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+RFoot
+  rotate: false
+  xy: 330, 196
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+RHand
+  rotate: false
+  xy: 330, 130
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+RLeg
+  rotate: false
+  xy: 134, 68
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Tail
+  rotate: false
+  xy: 134, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Weapon
+  rotate: false
+  xy: 2, 200
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1

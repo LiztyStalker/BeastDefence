@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<StateControl xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Data>
+		<Key>-</Key>
+		<Name>-</Name>
+		<Value>0</Value>
+		<IncValue>0</IncValue>
+		<TypeStateValue>-</TypeStateValue>
+		<TypeClass>-</TypeClass>
+	</Data>
+	<Data>
+		<Key>AttackRateUp_025_005</Key>
+		<Name>공격력 25% 증가</Name>
+		<Value>0.25</Value>
+		<IncValue>0.05</IncValue>
+		<TypeStateValue>Rate</TypeStateValue>
+		<TypeClass>Attack</TypeClass>
+	</Data>
+	<Data>
+		<Key>MaxHealthRateUp_010_005</Key>
+		<Name>최대체력 10% 증가</Name>
+		<Value>0.1</Value>
+		<IncValue>0.05</IncValue>
+		<TypeStateValue>Rate</TypeStateValue>
+		<TypeClass>MaxHealth</TypeClass>
+	</Data>
+	<Data>
+		<Key>RecoveryHealthRateDn_010_000</Key>
+		<Name>체력회복 10% 감소</Name>
+		<Value>-0.1</Value>
+		<IncValue>0</IncValue>
+		<TypeStateValue>Rate</TypeStateValue>
+		<TypeClass>RecoveryHealth</TypeClass>
+	</Data>
+	<Data>
+		<Key>RecoveryHealthRateUp_010_005</Key>
+		<Name>체력회복 10% 증가</Name>
+		<Value>0.1</Value>
+		<IncValue>0.05</IncValue>
+		<TypeStateValue>Rate</TypeStateValue>
+		<TypeClass>RecoveryHealth</TypeClass>
+	</Data>
+	<Data>
+		<Key>RecoveryHealthRateUp_025_005</Key>
+		<Name>체력회복 25% 증가</Name>
+		<Value>0.25</Value>
+		<IncValue>0.05</IncValue>
+		<TypeStateValue>Rate</TypeStateValue>
+		<TypeClass>RecoveryHealth</TypeClass>
+	</Data>
+	<Data>
+		<Key>AttackSpeedRateUp_050_005</Key>
+		<Name>공격속도 50% 증가</Name>
+		<Value>0.5</Value>
+		<IncValue>0.05</IncValue>
+		<TypeStateValue>Rate</TypeStateValue>
+		<TypeClass>AttackSpeed</TypeClass>
+	</Data>
+	<Data>
+		<Key>AttackSpeedRateUp_030_010</Key>
+		<Name>공격속도 30% 증가</Name>
+		<Value>0.3</Value>
+		<IncValue>0.1</IncValue>
+		<TypeStateValue>Rate</TypeStateValue>
+		<TypeClass>AttackSpeed</TypeClass>
+	</Data>
+	<Data>
+		<Key>MoveSpeedRateDn_020_010</Key>
+		<Name>이동속도 20% 감소</Name>
+		<Value>-0.2</Value>
+		<IncValue>0.1</IncValue>
+		<TypeStateValue>Rate</TypeStateValue>
+		<TypeClass>MoveSpeed</TypeClass>
+	</Data>
+	<Data>
+		<Key>MoveSpeedRateUp_030_005</Key>
+		<Name>이동속도 30% 증가</Name>
+		<Value>0.3</Value>
+		<IncValue>0.05</IncValue>
+		<TypeStateValue>Rate</TypeStateValue>
+		<TypeClass>MoveSpeed</TypeClass>
+	</Data>
+	<Data>
+		<Key>DefenceRateUp_020_010</Key>
+		<Name>방어력 20% 증가</Name>
+		<Value>0.2</Value>
+		<IncValue>0.1</IncValue>
+		<TypeStateValue>Rate</TypeStateValue>
+		<TypeClass>Defence</TypeClass>
+	</Data>
+	<Data>
+		<Key>DefenceStatic_000_000</Key>
+		<Name>방어력 고정</Name>
+		<Value>0</Value>
+		<IncValue>0</IncValue>
+		<TypeStateValue>Static</TypeStateValue>
+		<TypeClass>Defence</TypeClass>
+	</Data>
+	<Data>
+		<Key>AttackRateUp_020_005</Key>
+		<Name>공격력 20% 증가</Name>
+		<Value>0.2</Value>
+		<IncValue>0.05</IncValue>
+		<TypeStateValue>Rate</TypeStateValue>
+		<TypeClass>Attack</TypeClass>
+	</Data>
+	<Data>
+		<Key>AttackSpeedRateUp_020_005</Key>
+		<Name>공격속도 20% 증가</Name>
+		<Value>0.2</Value>
+		<IncValue>0.05</IncValue>
+		<TypeStateValue>Rate</TypeStateValue>
+		<TypeClass>AttackSpeed</TypeClass>
+	</Data>
+	<Data>
+		<Key>MoveSpeedRateUp_020_005</Key>
+		<Name>이동속도 20% 증가</Name>
+		<Value>0.2</Value>
+		<IncValue>0.05</IncValue>
+		<TypeStateValue>Rate</TypeStateValue>
+		<TypeClass>MoveSpeed</TypeClass>
+	</Data>
+	<Data>
+		<Key>NotAttackState</Key>
+		<Name>공격불가</Name>
+		<Value>1</Value>
+		<IncValue>0</IncValue>
+		<TypeStateValue>Bool</TypeStateValue>
+		<TypeClass>NotAttack</TypeClass>
+	</Data>
+	<Data>
+		<Key>NotMoveState</Key>
+		<Name>멈춤</Name>
+		<Value>1</Value>
+		<IncValue>0</IncValue>
+		<TypeStateValue>Bool</TypeStateValue>
+		<TypeClass>NotMove</TypeClass>
+	</Data>
+	<Data>
+		<Key>NotSkillState</Key>
+		<Name>스킬사용불가</Name>
+		<Value>1</Value>
+		<IncValue>0</IncValue>
+		<TypeStateValue>Bool</TypeStateValue>
+		<TypeClass>NotSkill</TypeClass>
+	</Data>
+	<Data>
+		<Key>HideState</Key>
+		<Name>안보임</Name>
+		<Value>1</Value>
+		<IncValue>0</IncValue>
+		<TypeStateValue>Bool</TypeStateValue>
+		<TypeClass>Hide</TypeClass>
+	</Data>
+	<Data>
+		<Key>OnlyMoveState</Key>
+		<Name>앞으로만이동</Name>
+		<Value>1</Value>
+		<IncValue>0</IncValue>
+		<TypeStateValue>Bool</TypeStateValue>
+		<TypeClass>OnlyMove</TypeClass>
+	</Data>
+	<Data>
+		<Key>InvisibleState</Key>
+		<Name>무적</Name>
+		<Value>1</Value>
+		<IncValue>0</IncValue>
+		<TypeStateValue>Bool</TypeStateValue>
+		<TypeClass>Invisible</TypeClass>
+	</Data>
+	<Data>
+		<Key>AttackRateUp_010_000</Key>
+		<Name>공격력 10% 증가</Name>
+		<Value>0.1</Value>
+		<IncValue>0</IncValue>
+		<TypeStateValue>Rate</TypeStateValue>
+		<TypeClass>Attack</TypeClass>
+	</Data>
+	<Data>
+		<Key>AttackSpeedRateUp_010_000</Key>
+		<Name>공격속도 10% 증가</Name>
+		<Value>0.1</Value>
+		<IncValue>0</IncValue>
+		<TypeStateValue>Rate</TypeStateValue>
+		<TypeClass>AttackSpeed</TypeClass>
+	</Data>
+	<Data>
+		<Key>MoveSpeedRateUp_010_000</Key>
+		<Name>이동속도 10% 증가</Name>
+		<Value>0.1</Value>
+		<IncValue>0</IncValue>
+		<TypeStateValue>Rate</TypeStateValue>
+		<TypeClass>MoveSpeed</TypeClass>
+	</Data>
+	<Data>
+		<Key>AttackRateDn_010_000</Key>
+		<Name>공격력 10% 감소</Name>
+		<Value>-0.1</Value>
+		<IncValue>0</IncValue>
+		<TypeStateValue>Rate</TypeStateValue>
+		<TypeClass>Attack</TypeClass>
+	</Data>
+	<Data>
+		<Key>AttackSpeedRateDn_010_000</Key>
+		<Name>공격속도 10% 감소</Name>
+		<Value>-0.1</Value>
+		<IncValue>0</IncValue>
+		<TypeStateValue>Rate</TypeStateValue>
+		<TypeClass>AttackSpeed</TypeClass>
+	</Data>
+	<Data>
+		<Key>MoveSpeedRateDn_010_000</Key>
+		<Name>이동속도 10% 감소</Name>
+		<Value>-0.1</Value>
+		<IncValue>0</IncValue>
+		<TypeStateValue>Rate</TypeStateValue>
+		<TypeClass>MoveSpeed</TypeClass>
+	</Data>
+	<Data>
+		<Key>DefenceRateUp_010_010</Key>
+		<Name>방어력 10% 증가</Name>
+		<Value>0.1</Value>
+		<IncValue>0</IncValue>
+		<TypeStateValue>Rate</TypeStateValue>
+		<TypeClass>Defence</TypeClass>
+	</Data>
+	<Data>
+		<Key>DefenceRateDn_010_010</Key>
+		<Name>방어력 10% 감소</Name>
+		<Value>-0.1</Value>
+		<IncValue>0</IncValue>
+		<TypeStateValue>Rate</TypeStateValue>
+		<TypeClass>Defence</TypeClass>
+	</Data>
+	<Data>
+		<Key>MaxHealthRateUp_010_000</Key>
+		<Name>최대체력 10% 증가</Name>
+		<Value>0.1</Value>
+		<IncValue>0</IncValue>
+		<TypeStateValue>Rate</TypeStateValue>
+		<TypeClass>MaxHealth</TypeClass>
+	</Data>
+	<Data>
+		<Key>MaxHealthRateDn_010_000</Key>
+		<Name>최대체력 10% 감소</Name>
+		<Value>-0.1</Value>
+		<IncValue>0</IncValue>
+		<TypeStateValue>Rate</TypeStateValue>
+		<TypeClass>MaxHealth</TypeClass>
+	</Data>
+	<Data>
+		<Key>RecoveryHealthRateUp_010_000</Key>
+		<Name>체력회복 10% 증가</Name>
+		<Value>0.1</Value>
+		<IncValue>0</IncValue>
+		<TypeStateValue>Rate</TypeStateValue>
+		<TypeClass>RecoveryHealth</TypeClass>
+	</Data>
+	<Data>
+		<Key>AttackSpeedRateUp_010_005</Key>
+		<Name>공격속도 10% 증가</Name>
+		<Value>0.1</Value>
+		<IncValue>0.05</IncValue>
+		<TypeStateValue>Rate</TypeStateValue>
+		<TypeClass>AttackSpeed</TypeClass>
+	</Data>
+	<Data>
+		<Key>RangeRateUp_020_005</Key>
+		<Name>사정거리 20% 증가</Name>
+		<Value>0.2</Value>
+		<IncValue>0.05</IncValue>
+		<TypeStateValue>Rate</TypeStateValue>
+		<TypeClass>Range</TypeClass>
+	</Data>
+	<Data>
+		<Key>MunitionValueUp_001_001</Key>
+		<Name>군수품 1 추가 증가</Name>
+		<Value>1</Value>
+		<IncValue>1</IncValue>
+		<TypeStateValue>Value</TypeStateValue>
+		<TypeClass>Munition</TypeClass>
+	</Data>
+</StateControl>

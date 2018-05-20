@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Commander xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Data>
+		<Key>Cmd_Raty</Key>
+		<Name>라티</Name>
+		<TypeForce>Rebel</TypeForce>
+		<Health>100</Health>
+		<LeaderShip>100</LeaderShip>
+		<Munitions>100</Munitions>
+    <Skill0>Revolution</Skill0>
+    <Skill1>RainArrow</Skill1>
+    <Skill2>Brave</Skill2>
+    <Contents>반란군 세력의 지휘관. 작은 체구의 초식동물에도 불구하고 엄청난 기세를 가지고 있음. 육식동물을 두려워하지 않는 패기로 인해 리더쉽을 가지고 있다.</Contents>
+	</Data>
+	<Data>
+		<Key>Cmd_Caon</Key>
+		<Name>카온</Name>
+		<TypeForce>Order</TypeForce>
+		<Health>100</Health>
+		<LeaderShip>100</LeaderShip>
+		<Munitions>100</Munitions>
+		<Skill0>Suppression</Skill0>
+		<Skill1>VolleyFire</Skill1>
+		<Skill2>Fear</Skill2>
+		<Contents>용병단 세력의 지휘관.</Contents>
+	</Data>
+	<Data>
+		<Key>Cmd_Squirel</Key>
+		<Name>스퀴럴</Name>
+		<TypeForce>Rebel</TypeForce>
+		<Health>100</Health>
+		<LeaderShip>100</LeaderShip>
+		<Munitions>100</Munitions>
+		<Skill0>StrongFire</Skill0>
+		<Skill1>PenetrateArrow</Skill1>
+		<Skill2>BombArrow</Skill2>
+		<Contents>-</Contents>
+	</Data>
+	<Data>
+		<Key>Cmd_Otto</Key>
+		<Name>오토</Name>
+		<TypeForce>Order</TypeForce>
+		<Health>100</Health>
+		<LeaderShip>100</LeaderShip>
+		<Munitions>100</Munitions>
+		<Skill0>Control</Skill0>
+		<Skill1>Firewood</Skill1>
+    <Skill2>Brave</Skill2>
+		<Contents>-</Contents>
+	</Data>
+</Commander>

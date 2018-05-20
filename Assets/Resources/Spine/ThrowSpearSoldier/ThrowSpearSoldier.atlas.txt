@@ -1,0 +1,139 @@
+
+ThrowSpearSoldier.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Accessery
+  rotate: false
+  xy: 2, 650
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Body
+  rotate: false
+  xy: 260, 778
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Face
+  rotate: false
+  xy: 2, 262
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 260, 648
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Helmet
+  rotate: false
+  xy: 390, 778
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+LArm
+  rotate: false
+  xy: 2, 132
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+LBand
+  rotate: false
+  xy: 132, 326
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+LEar
+  rotate: false
+  xy: 260, 518
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+LFoot
+  rotate: false
+  xy: 390, 648
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+LHand
+  rotate: false
+  xy: 520, 778
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+LLeg
+  rotate: false
+  xy: 2, 2
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+RArm
+  rotate: false
+  xy: 390, 518
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+RBand
+  rotate: false
+  xy: 260, 452
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+REar
+  rotate: false
+  xy: 520, 648
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+RFoot
+  rotate: false
+  xy: 650, 778
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+RHand
+  rotate: false
+  xy: 520, 518
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+RLeg
+  rotate: false
+  xy: 650, 648
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Spear
+  rotate: false
+  xy: 2, 392
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Tail
+  rotate: false
+  xy: 780, 778
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1

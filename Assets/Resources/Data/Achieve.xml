@@ -1,0 +1,1283 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Achieve xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Data>
+		<Key>PlayCount0</Key>
+		<Name>게임 10회 플레이</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>GamePlay</TypeAchieve>
+		<AchieveValue>10</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>100</AwardValue>
+		<Contents>게임을 10회 플레이하세요</Contents>
+	</Data>
+	<Data>
+		<Key>PlayCount1</Key>
+		<Name>게임 100회 플레이</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>GamePlay</TypeAchieve>
+		<AchieveValue>100</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>500</AwardValue>
+		<Contents>게임을 100회 플레이하세요</Contents>
+	</Data>
+	<Data>
+		<Key>PlayCount2</Key>
+		<Name>게임 250회 플레이</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>GamePlay</TypeAchieve>
+		<AchieveValue>250</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>1000</AwardValue>
+		<Contents>게임을 250회 플레이하세요</Contents>
+	</Data>
+	<Data>
+		<Key>PlayCount3</Key>
+		<Name>게임 500회 플레이</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>GamePlay</TypeAchieve>
+		<AchieveValue>500</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>2000</AwardValue>
+		<Contents>게임을 500회 플레이하세요</Contents>
+	</Data>
+	<Data>
+		<Key>PlayCount4</Key>
+		<Name>게임 1000회 플레이</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>GamePlay</TypeAchieve>
+		<AchieveValue>1000</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>3000</AwardValue>
+		<Contents>게임을 1000회 플레이하세요</Contents>
+	</Data>
+	<Data>
+		<Key>PlayCount5</Key>
+		<Name>게임 2500회 플레이</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>GamePlay</TypeAchieve>
+		<AchieveValue>2500</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>4000</AwardValue>
+		<Contents>게임을 2500회 플레이하세요</Contents>
+	</Data>
+	<Data>
+		<Key>PlayCount6</Key>
+		<Name>게임 5000회 플레이</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>GamePlay</TypeAchieve>
+		<AchieveValue>5000</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>5000</AwardValue>
+		<Contents>게임을 5000회 플레이하세요</Contents>
+	</Data>
+	<Data>
+		<Key>PlayCount7</Key>
+		<Name>게임 10000회 플레이</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>GamePlay</TypeAchieve>
+		<AchieveValue>10000</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>7500</AwardValue>
+		<Contents>게임을 10000회 플레이하세요</Contents>
+	</Data>
+	<Data>
+		<Key>MainClear0</Key>
+		<Name>스테이지1 완료</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>MainStageCnt</TypeAchieve>
+		<AchieveValue>9</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>100</AwardValue>
+		<Contents>스테이지 1을 클리어하세요</Contents>
+	</Data>
+	<Data>
+		<Key>MainClear1</Key>
+		<Name>스테이지2 완료</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>MainStageCnt</TypeAchieve>
+		<AchieveValue>18</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>100</AwardValue>
+		<Contents>스테이지 2을 클리어하세요</Contents>
+	</Data>
+	<Data>
+		<Key>MainClear2</Key>
+		<Name>스테이지3 완료</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>MainStageCnt</TypeAchieve>
+		<AchieveValue>27</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>100</AwardValue>
+		<Contents>스테이지 3을 클리어하세요</Contents>
+	</Data>
+	<Data>
+		<Key>MainClear3</Key>
+		<Name>스테이지4 완료</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>MainStageCnt</TypeAchieve>
+		<AchieveValue>36</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>100</AwardValue>
+		<Contents>스테이지 4을 클리어하세요</Contents>
+	</Data>
+	<Data>
+		<Key>MainClear4</Key>
+		<Name>스테이지5 완료</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>MainStageCnt</TypeAchieve>
+		<AchieveValue>45</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>100</AwardValue>
+		<Contents>스테이지 5을 클리어하세요</Contents>
+	</Data>
+	<Data>
+		<Key>MainClear5</Key>
+		<Name>스테이지6 완료</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>MainStageCnt</TypeAchieve>
+		<AchieveValue>54</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>100</AwardValue>
+		<Contents>스테이지 6을 클리어하세요</Contents>
+	</Data>
+	<Data>
+		<Key>MainClear6</Key>
+		<Name>스테이지7 완료</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>MainStageCnt</TypeAchieve>
+		<AchieveValue>63</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>100</AwardValue>
+		<Contents>스테이지 7을 클리어하세요</Contents>
+	</Data>
+	<Data>
+		<Key>MainClear7</Key>
+		<Name>스테이지8 완료</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>MainStageCnt</TypeAchieve>
+		<AchieveValue>72</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>100</AwardValue>
+		<Contents>스테이지 8을 클리어하세요</Contents>
+	</Data>
+	<Data>
+		<Key>MainClear8</Key>
+		<Name>스테이지9 완료</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>MainStageCnt</TypeAchieve>
+		<AchieveValue>81</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>100</AwardValue>
+		<Contents>스테이지 9을 클리어하세요</Contents>
+	</Data>
+	<Data>
+		<Key>MainClear9</Key>
+		<Name>스테이지10 완료</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>MainStageCnt</TypeAchieve>
+		<AchieveValue>90</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>100</AwardValue>
+		<Contents>스테이지 10을 클리어하세요</Contents>
+	</Data>
+	<Data>
+		<Key>AccLevel0</Key>
+		<Name>계정 레벨 10 달성</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>AccLevel</TypeAchieve>
+		<AchieveValue>10</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>100</AwardValue>
+		<Contents>계정 레벨을 10 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>AccLevel1</Key>
+		<Name>계정 레벨 20 달성</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>AccLevel</TypeAchieve>
+		<AchieveValue>20</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>200</AwardValue>
+		<Contents>계정 레벨을 20 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>AccLevel2</Key>
+		<Name>계정 레벨 30 달성</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>AccLevel</TypeAchieve>
+		<AchieveValue>30</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>300</AwardValue>
+		<Contents>계정 레벨을 30 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>AccLevel3</Key>
+		<Name>계정 레벨 40 달성</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>AccLevel</TypeAchieve>
+		<AchieveValue>40</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>400</AwardValue>
+		<Contents>계정 레벨을 40 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>AccLevel4</Key>
+		<Name>계정 레벨 50 달성</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>AccLevel</TypeAchieve>
+		<AchieveValue>50</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>500</AwardValue>
+		<Contents>계정 레벨을 50 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedGold0</Key>
+		<Name>골드 총 10000개 사용</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>TotalUsedGold</TypeAchieve>
+		<AchieveValue>10000</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>1000</AwardValue>
+		<Contents>골드를 총 10000개 사용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedGold1</Key>
+		<Name>골드 총 25000개 사용</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>TotalUsedGold</TypeAchieve>
+		<AchieveValue>25000</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>2500</AwardValue>
+		<Contents>골드를 총 25000개 사용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedGold2</Key>
+		<Name>골드 총 50000개 사용</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>TotalUsedGold</TypeAchieve>
+		<AchieveValue>50000</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>5000</AwardValue>
+		<Contents>골드를 총 50000개 사용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedGold3</Key>
+		<Name>골드 총 75000개 사용</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>TotalUsedGold</TypeAchieve>
+		<AchieveValue>75000</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>7500</AwardValue>
+		<Contents>골드를 총 75000개 사용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedGold4</Key>
+		<Name>골드 총 100000개 사용</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>TotalUsedGold</TypeAchieve>
+		<AchieveValue>100000</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>10000</AwardValue>
+		<Contents>골드를 총 100000개 사용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedGold5</Key>
+		<Name>골드 총 250000개 사용</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>TotalUsedGold</TypeAchieve>
+		<AchieveValue>250000</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>1000</AwardValue>
+		<Contents>골드를 총 250000개 사용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedGold6</Key>
+		<Name>골드 총 500000개 사용</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>TotalUsedGold</TypeAchieve>
+		<AchieveValue>500000</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>2000</AwardValue>
+		<Contents>골드를 총 500000개 사용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedGold7</Key>
+		<Name>골드 총 1000000개 사용</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>TotalUsedGold</TypeAchieve>
+		<AchieveValue>1000000</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>3000</AwardValue>
+		<Contents>골드를 총 1000000개 사용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedGold8</Key>
+		<Name>골드 총 5000000개 사용</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>TotalUsedGold</TypeAchieve>
+		<AchieveValue>5000000</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>4000</AwardValue>
+		<Contents>골드를 총 5000000개 사용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedFruit0</Key>
+		<Name>열매 총 10000개 사용</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>TotalUsedFruit</TypeAchieve>
+		<AchieveValue>10000</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>1000</AwardValue>
+		<Contents>열매를 총 10000개 사용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedFruit1</Key>
+		<Name>열매 총 25000개 사용</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>TotalUsedFruit</TypeAchieve>
+		<AchieveValue>25000</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>2500</AwardValue>
+		<Contents>열매를 총 25000개 사용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedFruit2</Key>
+		<Name>열매 총 50000개 사용</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>TotalUsedFruit</TypeAchieve>
+		<AchieveValue>50000</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>5000</AwardValue>
+		<Contents>열매를 총 50000개 사용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedFruit3</Key>
+		<Name>열매 총 75000개 사용</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>TotalUsedFruit</TypeAchieve>
+		<AchieveValue>75000</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>7500</AwardValue>
+		<Contents>열매를 총 75000개 사용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedFruit4</Key>
+		<Name>열매 총 100000개 사용</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>TotalUsedFruit</TypeAchieve>
+		<AchieveValue>100000</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>10000</AwardValue>
+		<Contents>열매를 총 100000개 사용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedFood0</Key>
+		<Name>식량 총 10000개 사용</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>TotalUsedFood</TypeAchieve>
+		<AchieveValue>10000</AchieveValue>
+		<TypeAward>Food</TypeAward>
+		<AwardValue>100</AwardValue>
+		<Contents>식량을 총 10000개 사용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedFood1</Key>
+		<Name>식량 총 25000개 사용</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>TotalUsedFood</TypeAchieve>
+		<AchieveValue>25000</AchieveValue>
+		<TypeAward>Food</TypeAward>
+		<AwardValue>250</AwardValue>
+		<Contents>식량을 총 25000개 사용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedFood2</Key>
+		<Name>식량 총 50000개 사용</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>TotalUsedFood</TypeAchieve>
+		<AchieveValue>50000</AchieveValue>
+		<TypeAward>Food</TypeAward>
+		<AwardValue>500</AwardValue>
+		<Contents>식량을 총 50000개 사용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedFood3</Key>
+		<Name>식량 총 75000개 사용</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>TotalUsedFood</TypeAchieve>
+		<AchieveValue>75000</AchieveValue>
+		<TypeAward>Food</TypeAward>
+		<AwardValue>750</AwardValue>
+		<Contents>식량을 총 75000개 사용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedFood4</Key>
+		<Name>식량 총 100000개 사용</Name>
+		<TypeCategory>Normal</TypeCategory>
+		<TypeAchieve>TotalUsedFood</TypeAchieve>
+		<AchieveValue>100000</AchieveValue>
+		<TypeAward>Food</TypeAward>
+		<AwardValue>1000</AwardValue>
+		<Contents>식량을 총 100000개 사용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>CmdLevel0</Key>
+		<Name>지휘관 레벨 10 달성</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>CmdLevel</TypeAchieve>
+		<AchieveValue>10</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>1000</AwardValue>
+		<Contents>지휘관 중에서 한 지휘관의 레벨을 10 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>CmdLevel1</Key>
+		<Name>지휘관 레벨 20 달성</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>CmdLevel</TypeAchieve>
+		<AchieveValue>20</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>2000</AwardValue>
+		<Contents>지휘관 중에서 한 지휘관의 레벨을 20 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>CmdLevel2</Key>
+		<Name>지휘관 레벨 30 달성</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>CmdLevel</TypeAchieve>
+		<AchieveValue>30</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>3000</AwardValue>
+		<Contents>지휘관 중에서 한 지휘관의 레벨을 30 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>CmdLevel3</Key>
+		<Name>지휘관 레벨 40 달성</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>CmdLevel</TypeAchieve>
+		<AchieveValue>40</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>4000</AwardValue>
+		<Contents>지휘관 중에서 한 지휘관의 레벨을 40 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>CmdLevel4</Key>
+		<Name>지휘관 레벨 50 달성</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>CmdLevel</TypeAchieve>
+		<AchieveValue>50</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>5000</AwardValue>
+		<Contents>지휘관 중에서 한 지휘관의 레벨을 50 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>SoldierLevel0</Key>
+		<Name>병사 레벨 10 달성</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>SoldierLevel</TypeAchieve>
+		<AchieveValue>10</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>1000</AwardValue>
+		<Contents>병사 중에서 한 병사의 레벨을 10 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>SoldierLevel1</Key>
+		<Name>병사 레벨 20 달성</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>SoldierLevel</TypeAchieve>
+		<AchieveValue>20</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>2000</AwardValue>
+		<Contents>병사 중에서 한 병사의 레벨을 20 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>SoldierLevel2</Key>
+		<Name>병사 레벨 30 달성</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>SoldierLevel</TypeAchieve>
+		<AchieveValue>30</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>3000</AwardValue>
+		<Contents>병사 중에서 한 병사의 레벨을 30 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>SoldierLevel3</Key>
+		<Name>병사 레벨 40 달성</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>SoldierLevel</TypeAchieve>
+		<AchieveValue>40</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>4000</AwardValue>
+		<Contents>병사 중에서 한 병사의 레벨을 40 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>SoldierLevel4</Key>
+		<Name>병사 레벨 50 달성</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>SoldierLevel</TypeAchieve>
+		<AchieveValue>50</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>5000</AwardValue>
+		<Contents>병사 중에서 한 병사의 레벨을 50 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>HeroLevel0</Key>
+		<Name>영웅 레벨 10 달성</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>HeroLevel</TypeAchieve>
+		<AchieveValue>10</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>1000</AwardValue>
+		<Contents>영웅 중에서 한 영웅의 레벨을 10 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>HeroLevel1</Key>
+		<Name>영웅 레벨 20 달성</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>HeroLevel</TypeAchieve>
+		<AchieveValue>20</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>2000</AwardValue>
+		<Contents>영웅 중에서 한 영웅의 레벨을 20 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>HeroLevel2</Key>
+		<Name>영웅 레벨 30 달성</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>HeroLevel</TypeAchieve>
+		<AchieveValue>30</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>3000</AwardValue>
+		<Contents>영웅 중에서 한 영웅의 레벨을 30 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>HeroLevel3</Key>
+		<Name>영웅 레벨 40 달성</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>HeroLevel</TypeAchieve>
+		<AchieveValue>40</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>4000</AwardValue>
+		<Contents>영웅 중에서 한 영웅의 레벨을 40 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>HeroLevel4</Key>
+		<Name>영웅 레벨 50 달성</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>HeroLevel</TypeAchieve>
+		<AchieveValue>50</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>5000</AwardValue>
+		<Contents>영웅 중에서 한 영웅의 레벨을 50 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>GetUnit0</Key>
+		<Name>유닛 10기 고용</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>GetUnit</TypeAchieve>
+		<AchieveValue>10</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>1000</AwardValue>
+		<Contents>유닛을 총 10기 고용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>GetUnit1</Key>
+		<Name>유닛 50기 고용</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>GetUnit</TypeAchieve>
+		<AchieveValue>50</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>5000</AwardValue>
+		<Contents>유닛을 총 50기 고용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>GetUnit2</Key>
+		<Name>유닛 100기 고용</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>GetUnit</TypeAchieve>
+		<AchieveValue>100</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>10000</AwardValue>
+		<Contents>유닛을 총 100기 고용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>GetUnit3</Key>
+		<Name>유닛 150기 고용</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>GetUnit</TypeAchieve>
+		<AchieveValue>150</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>15000</AwardValue>
+		<Contents>유닛을 총 150기 고용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>GetUnit4</Key>
+		<Name>유닛 200기 고용</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>GetUnit</TypeAchieve>
+		<AchieveValue>200</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>20000</AwardValue>
+		<Contents>유닛을 총 200기 고용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>GetSoldier0</Key>
+		<Name>병사 5기 고용</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>GetSoldier</TypeAchieve>
+		<AchieveValue>5</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>500</AwardValue>
+		<Contents>병사를 총 5기 고용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>GetSoldier1</Key>
+		<Name>병사 10기 고용</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>GetSoldier</TypeAchieve>
+		<AchieveValue>10</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>1000</AwardValue>
+		<Contents>병사를 총 10기 고용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>GetSoldier2</Key>
+		<Name>병사 25기 고용</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>GetSoldier</TypeAchieve>
+		<AchieveValue>25</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>2500</AwardValue>
+		<Contents>병사를 총 25기 고용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>GetSoldier3</Key>
+		<Name>병사 50기 고용</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>GetSoldier</TypeAchieve>
+		<AchieveValue>50</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>5000</AwardValue>
+		<Contents>병사를 총 50기 고용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>GetSoldier4</Key>
+		<Name>병사 100기 고용</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>GetSoldier</TypeAchieve>
+		<AchieveValue>100</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>10000</AwardValue>
+		<Contents>병사를 총 100기 고용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>GetHero0</Key>
+		<Name>영웅 1기 고용</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>GetHero</TypeAchieve>
+		<AchieveValue>1</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>1000</AwardValue>
+		<Contents>영웅을 총 1기 고용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>GetHero1</Key>
+		<Name>영웅 5기 고용</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>GetHero</TypeAchieve>
+		<AchieveValue>5</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>5000</AwardValue>
+		<Contents>영웅을 총 5기 고용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>GetHero2</Key>
+		<Name>영웅 10기 고용</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>GetHero</TypeAchieve>
+		<AchieveValue>10</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>10000</AwardValue>
+		<Contents>영웅을 총 10기 고용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>GetHero3</Key>
+		<Name>영웅 15기 고용</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>GetHero</TypeAchieve>
+		<AchieveValue>15</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>15000</AwardValue>
+		<Contents>영웅을 총 15기 고용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>GetHero4</Key>
+		<Name>영웅 20기 고용</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>GetHero</TypeAchieve>
+		<AchieveValue>20</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>20000</AwardValue>
+		<Contents>영웅을 총 20기 고용하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedUnit0</Key>
+		<Name>유닛 전투 참여 2000회 도달</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>TotalUsedUnit</TypeAchieve>
+		<AchieveValue>2000</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>2000</AwardValue>
+		<Contents>전투 참여 유닛들을 총 2000회 도달하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedUnit1</Key>
+		<Name>유닛 전투 참여 4000회 도달</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>TotalUsedUnit</TypeAchieve>
+		<AchieveValue>4000</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>4000</AwardValue>
+		<Contents>전투 참여 유닛들을 총 4000회 도달하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedUnit2</Key>
+		<Name>유닛 전투 참여 8000회 도달</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>TotalUsedUnit</TypeAchieve>
+		<AchieveValue>8000</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>8000</AwardValue>
+		<Contents>전투 참여 유닛들을 총 8000회 도달하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedUnit3</Key>
+		<Name>유닛 전투 참여 16000회 도달</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>TotalUsedUnit</TypeAchieve>
+		<AchieveValue>16000</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>16000</AwardValue>
+		<Contents>전투 참여 유닛들을 총 16000회 도달하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedUnit4</Key>
+		<Name>유닛 전투 참여 32000회 도달</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>TotalUsedUnit</TypeAchieve>
+		<AchieveValue>32000</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>32000</AwardValue>
+		<Contents>전투 참여 유닛들을 총 32000회 도달하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedSoldier0</Key>
+		<Name>병사 전투 참여 1000회 도달</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>TotalUsedSoldier</TypeAchieve>
+		<AchieveValue>1000</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>1000</AwardValue>
+		<Contents>전투 참여 병사들을 총 1000회 도달하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedSoldier1</Key>
+		<Name>병사 전투 참여 2500회 도달</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>TotalUsedSoldier</TypeAchieve>
+		<AchieveValue>2500</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>2500</AwardValue>
+		<Contents>전투 참여 병사들을 총 2500회 도달하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedSoldier2</Key>
+		<Name>병사 전투 참여 5000회 도달</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>TotalUsedSoldier</TypeAchieve>
+		<AchieveValue>5000</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>5000</AwardValue>
+		<Contents>전투 참여 병사들을 총 5000회 도달하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedSoldier3</Key>
+		<Name>병사 전투 참여 7500회 도달</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>TotalUsedSoldier</TypeAchieve>
+		<AchieveValue>7500</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>7500</AwardValue>
+		<Contents>전투 참여 병사들을 총 7500회 도달하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedSoldier4</Key>
+		<Name>병사 전투 참여 10000회 도달</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>TotalUsedSoldier</TypeAchieve>
+		<AchieveValue>10000</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>10000</AwardValue>
+		<Contents>전투 참여 병사들을 총 10000회 도달하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedHero0</Key>
+		<Name>영웅 전투 참여 100회 도달</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>TotalUsedHero</TypeAchieve>
+		<AchieveValue>100</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>1000</AwardValue>
+		<Contents>전투 참여 영웅들을 총 100회 도달하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedHero1</Key>
+		<Name>영웅 전투 참여 250회 도달</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>TotalUsedHero</TypeAchieve>
+		<AchieveValue>250</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>2500</AwardValue>
+		<Contents>전투 참여 영웅들을 총 250회 도달하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedHero2</Key>
+		<Name>영웅 전투 참여 500회 도달</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>TotalUsedHero</TypeAchieve>
+		<AchieveValue>500</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>5000</AwardValue>
+		<Contents>전투 참여 영웅들을 총 500회 도달하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedHero3</Key>
+		<Name>영웅 전투 참여 750회 도달</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>TotalUsedHero</TypeAchieve>
+		<AchieveValue>750</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>7500</AwardValue>
+		<Contents>전투 참여 영웅들을 총 750회 도달하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalUsedHero4</Key>
+		<Name>영웅 전투 참여 1000회 도달</Name>
+		<TypeCategory>Unit</TypeCategory>
+		<TypeAchieve>TotalUsedHero</TypeAchieve>
+		<AchieveValue>1000</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>10000</AwardValue>
+		<Contents>전투 참여 영웅들을 총 1000회 도달하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalGold0</Key>
+		<Name>총 골드 10000개 획득</Name>
+		<TypeCategory>Pay</TypeCategory>
+		<TypeAchieve>TotalGold</TypeAchieve>
+		<AchieveValue>10000</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>100</AwardValue>
+		<Contents>골드를 총 10000개 획득하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalGold1</Key>
+		<Name>총 골드 25000개 획득</Name>
+		<TypeCategory>Pay</TypeCategory>
+		<TypeAchieve>TotalGold</TypeAchieve>
+		<AchieveValue>25000</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>250</AwardValue>
+		<Contents>골드를 총 25000개 획득하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalGold2</Key>
+		<Name>총 골드 50000개 획득</Name>
+		<TypeCategory>Pay</TypeCategory>
+		<TypeAchieve>TotalGold</TypeAchieve>
+		<AchieveValue>50000</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>500</AwardValue>
+		<Contents>골드를 총 50000개 획득하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalGold3</Key>
+		<Name>총 골드 75000개 획득</Name>
+		<TypeCategory>Pay</TypeCategory>
+		<TypeAchieve>TotalGold</TypeAchieve>
+		<AchieveValue>75000</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>750</AwardValue>
+		<Contents>골드를 총 75000개 획득하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalGold4</Key>
+		<Name>총 골드 100000개 획득</Name>
+		<TypeCategory>Pay</TypeCategory>
+		<TypeAchieve>TotalGold</TypeAchieve>
+		<AchieveValue>100000</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>1000</AwardValue>
+		<Contents>골드를 총 100000개 획득하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalFruit0</Key>
+		<Name>총 열매 1000개 획득</Name>
+		<TypeCategory>Pay</TypeCategory>
+		<TypeAchieve>TotalFruit</TypeAchieve>
+		<AchieveValue>1000</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>100</AwardValue>
+		<Contents>열매를 총 1000개 획득하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalFruit1</Key>
+		<Name>총 열매 5000개 획득</Name>
+		<TypeCategory>Pay</TypeCategory>
+		<TypeAchieve>TotalFruit</TypeAchieve>
+		<AchieveValue>5000</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>500</AwardValue>
+		<Contents>열매를 총 5000개 획득하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalFruit2</Key>
+		<Name>총 열매 10000개 획득</Name>
+		<TypeCategory>Pay</TypeCategory>
+		<TypeAchieve>TotalFruit</TypeAchieve>
+		<AchieveValue>10000</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>1000</AwardValue>
+		<Contents>열매를 총 10000개 획득하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalFruit3</Key>
+		<Name>총 열매 50000개 획득</Name>
+		<TypeCategory>Pay</TypeCategory>
+		<TypeAchieve>TotalFruit</TypeAchieve>
+		<AchieveValue>50000</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>5000</AwardValue>
+		<Contents>열매를 총 50000개 획득하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalFruit4</Key>
+		<Name>총 열매 100000개 획득</Name>
+		<TypeCategory>Pay</TypeCategory>
+		<TypeAchieve>TotalFruit</TypeAchieve>
+		<AchieveValue>100000</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>10000</AwardValue>
+		<Contents>열매를 총 100000개 획득하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalFood0</Key>
+		<Name>총 식량 1000개 획득</Name>
+		<TypeCategory>Pay</TypeCategory>
+		<TypeAchieve>TotalFood</TypeAchieve>
+		<AchieveValue>1000</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>100</AwardValue>
+		<Contents>식량을 총 1000개 획득하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalFood1</Key>
+		<Name>총 식량 5000개 획득</Name>
+		<TypeCategory>Pay</TypeCategory>
+		<TypeAchieve>TotalFood</TypeAchieve>
+		<AchieveValue>5000</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>500</AwardValue>
+		<Contents>식량을 총 5000개 획득하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalFood2</Key>
+		<Name>총 식량 10000개 획득</Name>
+		<TypeCategory>Pay</TypeCategory>
+		<TypeAchieve>TotalFood</TypeAchieve>
+		<AchieveValue>10000</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>1000</AwardValue>
+		<Contents>식량을 총 10000개 획득하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalFood3</Key>
+		<Name>총 식량 50000개 획득</Name>
+		<TypeCategory>Pay</TypeCategory>
+		<TypeAchieve>TotalFood</TypeAchieve>
+		<AchieveValue>50000</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>5000</AwardValue>
+		<Contents>식량을 총 50000개 획득하세요</Contents>
+	</Data>
+	<Data>
+		<Key>TotalFood4</Key>
+		<Name>총 식량 100000개 획득</Name>
+		<TypeCategory>Pay</TypeCategory>
+		<TypeAchieve>TotalFood</TypeAchieve>
+		<AchieveValue>100000</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>10000</AwardValue>
+		<Contents>식량을 총 100000개 획득하세요</Contents>
+	</Data>
+	<Data>
+		<Key>LoginDay0</Key>
+		<Name>접속일 2회 달성</Name>
+		<TypeCategory>Account</TypeCategory>
+		<TypeAchieve>LoginDay</TypeAchieve>
+		<AchieveValue>2</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>100</AwardValue>
+		<Contents>접속일을 총 2회 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>LoginDay1</Key>
+		<Name>접속일 4회 달성</Name>
+		<TypeCategory>Account</TypeCategory>
+		<TypeAchieve>LoginDay</TypeAchieve>
+		<AchieveValue>4</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>200</AwardValue>
+		<Contents>접속일을 총 4회 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>LoginDay2</Key>
+		<Name>접속일 7회 달성</Name>
+		<TypeCategory>Account</TypeCategory>
+		<TypeAchieve>LoginDay</TypeAchieve>
+		<AchieveValue>7</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>500</AwardValue>
+		<Contents>접속일을 총 7회 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>LoginDay3</Key>
+		<Name>접속일 14회 달성</Name>
+		<TypeCategory>Account</TypeCategory>
+		<TypeAchieve>LoginDay</TypeAchieve>
+		<AchieveValue>14</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>1000</AwardValue>
+		<Contents>접속일을 총 14회 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>LoginDay4</Key>
+		<Name>접속일 28회 달성</Name>
+		<TypeCategory>Account</TypeCategory>
+		<TypeAchieve>LoginDay</TypeAchieve>
+		<AchieveValue>28</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>2000</AwardValue>
+		<Contents>접속일을 총 28회 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>LoginDay5</Key>
+		<Name>접속일 60회 달성</Name>
+		<TypeCategory>Account</TypeCategory>
+		<TypeAchieve>LoginDay</TypeAchieve>
+		<AchieveValue>60</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>3000</AwardValue>
+		<Contents>접속일을 총 60회 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>LoginDay6</Key>
+		<Name>접속일 90회 달성</Name>
+		<TypeCategory>Account</TypeCategory>
+		<TypeAchieve>LoginDay</TypeAchieve>
+		<AchieveValue>90</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>4000</AwardValue>
+		<Contents>접속일을 총 90회 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>LoginDay7</Key>
+		<Name>접속일 180회 달성</Name>
+		<TypeCategory>Account</TypeCategory>
+		<TypeAchieve>LoginDay</TypeAchieve>
+		<AchieveValue>180</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>5000</AwardValue>
+		<Contents>접속일을 총 180회 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>LoginDay8</Key>
+		<Name>접속일 365회 달성</Name>
+		<TypeCategory>Account</TypeCategory>
+		<TypeAchieve>LoginDay</TypeAchieve>
+		<AchieveValue>365</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>6000</AwardValue>
+		<Contents>접속일을 총 365회 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>LoginDay9</Key>
+		<Name>접속일 730회 달성</Name>
+		<TypeCategory>Account</TypeCategory>
+		<TypeAchieve>LoginDay</TypeAchieve>
+		<AchieveValue>730</AchieveValue>
+		<TypeAward>Fruit</TypeAward>
+		<AwardValue>10000</AwardValue>
+		<Contents>접속일을 총 730회 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>PlayTime0</Key>
+		<Name>플레이 시간 1h 달성</Name>
+		<TypeCategory>Account</TypeCategory>
+		<TypeAchieve>PlayTime</TypeAchieve>
+		<AchieveValue>1</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>1000</AwardValue>
+		<Contents>접속시간을 총 1시간 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>PlayTime1</Key>
+		<Name>플레이 시간 2h 달성</Name>
+		<TypeCategory>Account</TypeCategory>
+		<TypeAchieve>PlayTime</TypeAchieve>
+		<AchieveValue>2</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>2000</AwardValue>
+		<Contents>접속시간을 총 2시간 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>PlayTime2</Key>
+		<Name>플레이 시간 4h 달성</Name>
+		<TypeCategory>Account</TypeCategory>
+		<TypeAchieve>PlayTime</TypeAchieve>
+		<AchieveValue>4</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>4000</AwardValue>
+		<Contents>접속시간을 총 4시간 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>PlayTime3</Key>
+		<Name>플레이 시간 8h 달성</Name>
+		<TypeCategory>Account</TypeCategory>
+		<TypeAchieve>PlayTime</TypeAchieve>
+		<AchieveValue>8</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>8000</AwardValue>
+		<Contents>접속시간을 총 8시간 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>PlayTime4</Key>
+		<Name>플레이 시간 16h 달성</Name>
+		<TypeCategory>Account</TypeCategory>
+		<TypeAchieve>PlayTime</TypeAchieve>
+		<AchieveValue>16</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>16000</AwardValue>
+		<Contents>접속시간을 총 16시간 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>PlayTime5</Key>
+		<Name>플레이 시간 32h 달성</Name>
+		<TypeCategory>Account</TypeCategory>
+		<TypeAchieve>PlayTime</TypeAchieve>
+		<AchieveValue>32</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>32000</AwardValue>
+		<Contents>접속시간을 총 32시간 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>PlayTime6</Key>
+		<Name>플레이 시간 64h 달성</Name>
+		<TypeCategory>Account</TypeCategory>
+		<TypeAchieve>PlayTime</TypeAchieve>
+		<AchieveValue>64</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>64000</AwardValue>
+		<Contents>접속시간을 총 64시간 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>PlayTime7</Key>
+		<Name>플레이 시간 128h 달성</Name>
+		<TypeCategory>Account</TypeCategory>
+		<TypeAchieve>PlayTime</TypeAchieve>
+		<AchieveValue>128</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>128000</AwardValue>
+		<Contents>접속시간을 총 128시간 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>PlayTime8</Key>
+		<Name>플레이 시간 256h 달성</Name>
+		<TypeCategory>Account</TypeCategory>
+		<TypeAchieve>PlayTime</TypeAchieve>
+		<AchieveValue>256</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>256000</AwardValue>
+		<Contents>접속시간을 총 256시간 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>PlayTime9</Key>
+		<Name>플레이 시간 512h 달성</Name>
+		<TypeCategory>Account</TypeCategory>
+		<TypeAchieve>PlayTime</TypeAchieve>
+		<AchieveValue>512</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>512000</AwardValue>
+		<Contents>접속시간을 총 512시간 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>PlayTime10</Key>
+		<Name>플레이 시간 1024h 달성</Name>
+		<TypeCategory>Account</TypeCategory>
+		<TypeAchieve>PlayTime</TypeAchieve>
+		<AchieveValue>1024</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>1024000</AwardValue>
+		<Contents>접속시간을 총 1024시간 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>DevCount1</Key>
+		<Name>개발 횟수 5개 달성</Name>
+		<TypeCategory>Develop</TypeCategory>
+		<TypeAchieve>DevCount</TypeAchieve>
+		<AchieveValue>5</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>500</AwardValue>
+		<Contents>개발횟수를 총 5개 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>DevCount2</Key>
+		<Name>개발 횟수 10개 달성</Name>
+		<TypeCategory>Develop</TypeCategory>
+		<TypeAchieve>DevCount</TypeAchieve>
+		<AchieveValue>10</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>1000</AwardValue>
+		<Contents>개발횟수를 총 10개 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>DevCount3</Key>
+		<Name>개발 횟수 25개 달성</Name>
+		<TypeCategory>Develop</TypeCategory>
+		<TypeAchieve>DevCount</TypeAchieve>
+		<AchieveValue>25</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>2500</AwardValue>
+		<Contents>개발횟수를 총 25개 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>DevCount4</Key>
+		<Name>개발 횟수 50개 달성</Name>
+		<TypeCategory>Develop</TypeCategory>
+		<TypeAchieve>DevCount</TypeAchieve>
+		<AchieveValue>50</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>5000</AwardValue>
+		<Contents>개발횟수를 총 50개 달성하세요</Contents>
+	</Data>
+	<Data>
+		<Key>DevCount5</Key>
+		<Name>개발 횟수 100개 달성</Name>
+		<TypeCategory>Develop</TypeCategory>
+		<TypeAchieve>DevCount</TypeAchieve>
+		<AchieveValue>100</AchieveValue>
+		<TypeAward>Gold</TypeAward>
+		<AwardValue>10000</AwardValue>
+		<Contents>개발횟수를 총 100개 달성하세요</Contents>
+	</Data>
+</Achieve>

@@ -1,0 +1,153 @@
+
+CannonShooter.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 2, 328
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Cannon_Body
+  rotate: false
+  xy: 2, 716
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Cannon_Cart
+  rotate: false
+  xy: 2, 458
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Cannon_Cart_B
+  rotate: false
+  xy: 260, 716
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Cannon_Wheel
+  rotate: false
+  xy: 2, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Face
+  rotate: false
+  xy: 260, 586
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 518, 844
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Helmet
+  rotate: false
+  xy: 2, 198
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+LArm
+  rotate: false
+  xy: 648, 844
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+LBand
+  rotate: false
+  xy: 908, 908
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+LEar
+  rotate: false
+  xy: 2, 68
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+LFoot
+  rotate: false
+  xy: 778, 844
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+LHand
+  rotate: false
+  xy: 132, 328
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+LLeg
+  rotate: false
+  xy: 132, 198
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+RArm
+  rotate: false
+  xy: 132, 68
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+RBand
+  rotate: false
+  xy: 260, 520
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+REar
+  rotate: false
+  xy: 390, 586
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+RFoot
+  rotate: false
+  xy: 326, 456
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+RHand
+  rotate: false
+  xy: 262, 326
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+RLeg
+  rotate: false
+  xy: 262, 196
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Tail
+  rotate: false
+  xy: 262, 66
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1

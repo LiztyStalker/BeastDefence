@@ -1,0 +1,97 @@
+
+LightningMagician.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Accessery
+  rotate: false
+  xy: 2, 198
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Body
+  rotate: false
+  xy: 2, 68
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Face
+  rotate: false
+  xy: 2, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 518, 326
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Helmet
+  rotate: false
+  xy: 132, 68
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+LArm
+  rotate: false
+  xy: 648, 326
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+LLeg
+  rotate: false
+  xy: 262, 68
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Mouth_Dn
+  rotate: false
+  xy: 392, 132
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+Mouth_Up
+  rotate: false
+  xy: 908, 390
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+RArm
+  rotate: false
+  xy: 778, 326
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+RLeg
+  rotate: false
+  xy: 518, 196
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Spear
+  rotate: false
+  xy: 260, 198
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Tail
+  rotate: false
+  xy: 648, 196
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1

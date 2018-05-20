@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Stage xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Data>
+		<Key>Stage011</Key>
+		<ParentKey>-</ParentKey>
+		<AreaKey>Grass</AreaKey>
+		<TypeStage>Main</TypeStage>
+		<Name>첫 공격!</Name>
+		<MapKey>Grass</MapKey>
+		<MapSize>Small</MapSize>
+		<TypeForce>Rebel</TypeForce>
+		<TypeMode>Annihilation</TypeMode>
+		<Requester>Char_Raty</Requester>
+		<Contents>처음으로 전투에 참전하니 기본적인 지시를 익혀둬야 해. 나중에 크게 도움이 될거야.</Contents>
+	</Data>
+	<Data>
+		<Key>Stage012</Key>
+		<ParentKey>Stage011</ParentKey>
+		<AreaKey>Grass</AreaKey>
+		<TypeStage>Main</TypeStage>
+		<Name>익숙해지기</Name>
+		<MapKey>Grass</MapKey>
+		<MapSize>Small</MapSize>
+		<TypeForce>Rebel</TypeForce>
+		<TypeMode>Annihilation</TypeMode>
+		<Requester>Char_Raty</Requester>
+		<Contents>계속해서 적을 몰아내자! 이 기회에 작동법이 익숙해지도록 연습하는게 좋아.</Contents>
+	</Data>
+	<Data>
+		<Key>Stage013</Key>
+		<ParentKey>Stage012</ParentKey>
+		<AreaKey>Grass</AreaKey>
+		<TypeStage>Main</TypeStage>
+		<Name>영웅 등장!</Name>
+		<MapKey>Grass</MapKey>
+		<MapSize>Small</MapSize>
+		<TypeForce>Rebel</TypeForce>
+		<TypeMode>Annihilation</TypeMode>
+		<Requester>Char_Raty</Requester>
+		<Contents>드디어 딩구가 참전하여 우리들을 몰아낼 거야. 나도 가만히 있을 수 없지.</Contents>
+	</Data>
+	<Data>
+		<Key>Stage01A</Key>
+		<ParentKey>Stage013</ParentKey>
+		<AreaKey>Grass</AreaKey>
+		<TypeStage>Normal</TypeStage>
+		<Name>딩구와의 전투</Name>
+		<MapKey>Grass</MapKey>
+		<MapSize>Small</MapSize>
+		<TypeForce>Rebel</TypeForce>
+		<TypeMode>Annihilation</TypeMode>
+		<Requester>Char_Raty</Requester>
+		<Contents>딩구가 다시 전투를 요청해 왔어. 여태까지 이뤄낸 경험으로 녀석을 물리치자!</Contents>
+	</Data>
+	<Data>
+		<Key>Stage014</Key>
+		<ParentKey>Stage013</ParentKey>
+		<AreaKey>Grass</AreaKey>
+		<TypeStage>Main</TypeStage>
+		<Name>물러서지 않는다!</Name>
+		<MapKey>Grass</MapKey>
+		<MapSize>Small</MapSize>
+		<TypeForce>Rebel</TypeForce>
+		<TypeMode>Annihilation</TypeMode>
+		<Requester>Char_Raty</Requester>
+		<Contents>딩구를 쓰러뜨리는데 성공했어! 하지만 녀석들은 우리들을 가만두지 않을거야. 이 기회에 녀석들을 쓸어버리자!</Contents>
+	</Data>
+	<Data>
+		<Key>Stage015</Key>
+		<ParentKey>Stage014</ParentKey>
+		<AreaKey>Grass</AreaKey>
+		<TypeStage>Main</TypeStage>
+		<Name>강해지는 적</Name>
+		<MapKey>Grass</MapKey>
+		<MapSize>Small</MapSize>
+		<TypeForce>Rebel</TypeForce>
+		<TypeMode>Annihilation</TypeMode>
+		<Requester>Char_Raty</Requester>
+		<Contents>적들의 공세가 강해지고 있어. 우리들도 녀석들에게 대항하여 병력을 보강해야 할 필요가 있겠는데?</Contents>
+	</Data>
+	<Data>
+		<Key>Stage016</Key>
+		<ParentKey>Stage015</ParentKey>
+		<AreaKey>Grass</AreaKey>
+		<TypeStage>Main</TypeStage>
+		<Name>스패로우훅의 등장</Name>
+		<MapKey>Grass</MapKey>
+		<MapSize>Small</MapSize>
+		<TypeForce>Rebel</TypeForce>
+		<TypeMode>Annihilation</TypeMode>
+		<Requester>Char_Raty</Requester>
+		<Contents>하늘의 감시자 스패로우훅이 참전했어. 마침 아군 영웅 스퀴럴이 도와준다고 하니 우리들도 가만히 있을 수 없지.</Contents>
+	</Data>
+	<Data>
+		<Key>Stage01B</Key>
+		<ParentKey>Stage016</ParentKey>
+		<AreaKey>Grass</AreaKey>
+		<TypeStage>Normal</TypeStage>
+		<Name>스패로우훅과의 전투</Name>
+		<MapKey>Grass</MapKey>
+		<MapSize>Small</MapSize>
+		<TypeForce>Rebel</TypeForce>
+		<TypeMode>Annihilation</TypeMode>
+		<Requester>Char_Raty</Requester>
+		<Contents>스패로우훅의 군대가 몰려왔어. 한번에 해치우자!</Contents>
+	</Data>
+	<Data>
+		<Key>Stage017</Key>
+		<ParentKey>Stage016</ParentKey>
+		<AreaKey>Grass</AreaKey>
+		<TypeStage>Main</TypeStage>
+		<Name>적들의 공세</Name>
+		<MapKey>Grass</MapKey>
+		<MapSize>Small</MapSize>
+		<TypeForce>Rebel</TypeForce>
+		<TypeMode>Annihilation</TypeMode>
+		<Requester>Char_Raty</Requester>
+		<Contents>적들은 전혀 물러설 기미를 보이지 않아. 이 구역의 관리자 카온을 물리친다면 녀석들도 물러날 거야</Contents>
+	</Data>
+	<Data>
+		<Key>Stage018</Key>
+		<ParentKey>Stage017</ParentKey>
+		<AreaKey>Grass</AreaKey>
+		<TypeStage>Main</TypeStage>
+		<Name>화살비</Name>
+		<MapKey>Grass</MapKey>
+		<MapSize>Small</MapSize>
+		<TypeForce>Rebel</TypeForce>
+		<TypeMode>Annihilation</TypeMode>
+		<Requester>Char_Raty</Requester>
+		<Contents>엄청난 화살비가 쏟아지고 있어. 거리를 두면서 싸우기엔 우리들이 불리해. 한번에 접근하자!</Contents>
+	</Data>
+	<Data>
+		<Key>Stage019</Key>
+		<ParentKey>Stage018</ParentKey>
+		<AreaKey>Grass</AreaKey>
+		<TypeStage>Main</TypeStage>
+		<Name>초원마을의 관리자 카온의 등장</Name>
+		<MapKey>Grass</MapKey>
+		<MapSize>Small</MapSize>
+		<TypeForce>Rebel</TypeForce>
+		<TypeMode>Annihilation</TypeMode>
+		<Requester>Char_Raty</Requester>
+		<Contents>드디어 초원마을 관리자 카온이 등장했어. 모든 힘을 다해서 녀석을 물리치고 초원마을을 해방하자!</Contents>
+	</Data>
+	<Data>
+		<Key>Stage01C</Key>
+		<ParentKey>Stage019</ParentKey>
+		<AreaKey>Grass</AreaKey>
+		<TypeStage>Normal</TypeStage>
+		<Name>카온과의 전투</Name>
+		<MapKey>Grass</MapKey>
+		<MapSize>Small</MapSize>
+		<TypeForce>Rebel</TypeForce>
+		<TypeMode>Annihilation</TypeMode>
+		<Requester>Char_Raty</Requester>
+		<Contents>그날의 복수를 빌미로 카온이 다시 전투를 요청해왔어. 또 다시 코를 납작하게 해주자!</Contents>
+	</Data>
+	<Data>
+		<Key>Stage021</Key>
+		<ParentKey>Stage019</ParentKey>
+		<AreaKey>Forest</AreaKey>
+		<TypeStage>Main</TypeStage>
+		<Name>숲속마을 외곽에서</Name>
+		<MapKey>Forest</MapKey>
+		<MapSize>Small</MapSize>
+		<TypeForce>Rebel</TypeForce>
+		<TypeMode>Annihilation</TypeMode>
+		<Requester>Char_Raty</Requester>
+		<Contents>숲속마을을 해방하기 위해 근처까지 접근하자 경비병이 나타났어. 녀석들을 몰아내자!</Contents>
+	</Data>
+	<Data>
+		<Key>Stage022</Key>
+		<ParentKey>Stage021</ParentKey>
+		<AreaKey>Forest</AreaKey>
+		<TypeStage>Main</TypeStage>
+		<Name>적의 침투</Name>
+		<MapKey>Forest</MapKey>
+		<MapSize>Small</MapSize>
+		<TypeForce>Rebel</TypeForce>
+		<TypeMode>Annihilation</TypeMode>
+		<Requester>Char_Raty</Requester>
+		<Contents>녀석들은 나무 사이를 오가며 우리들을 교란하고 있다! 이대로 멈출 수 없지!</Contents>
+	</Data>
+	<Data>
+		<Key>Stage023</Key>
+		<ParentKey>Stage022</ParentKey>
+		<AreaKey>Forest</AreaKey>
+		<TypeStage>Main</TypeStage>
+		<Name>광전사 캣파드</Name>
+		<MapKey>Forest</MapKey>
+		<MapSize>Small</MapSize>
+		<TypeForce>Rebel</TypeForce>
+		<TypeMode>Annihilation</TypeMode>
+		<Requester>Char_Raty</Requester>
+		<Contents>광전사 캣파드가 돌진해왔어! 녀석의 공격에 우리병사들이 쓰러지고 있어! 어서 녀석을 막아야 해!</Contents>
+	</Data>
+	<Data>
+		<Key>Stage02A</Key>
+		<ParentKey>Stage023</ParentKey>
+		<AreaKey>Forest</AreaKey>
+		<TypeStage>Normal</TypeStage>
+		<Name>캣파드와의 전투</Name>
+		<MapKey>Forest</MapKey>
+		<MapSize>Small</MapSize>
+		<TypeForce>Rebel</TypeForce>
+		<TypeMode>Annihilation</TypeMode>
+		<Requester>Char_Raty</Requester>
+		<Contents>패배한 캣파드가 울부짖으며 우리에게 달려들었어. 녀석을 혼내주자!</Contents>
+	</Data>
+	<Data>
+		<Key>Stage024</Key>
+		<ParentKey>Stage023</ParentKey>
+		<AreaKey>Forest</AreaKey>
+		<TypeStage>Main</TypeStage>
+		<Name>적의 공세</Name>
+		<MapKey>Forest</MapKey>
+		<MapSize>Small</MapSize>
+		<TypeForce>Rebel</TypeForce>
+		<TypeMode>Annihilation</TypeMode>
+		<Requester>Char_Raty</Requester>
+		<Contents>숲 안으로 들어갈 수록 녀석들의 공세가 강해지고 있어. 조금씩 앞으로 접근하자!</Contents>
+	</Data>
+	<Data>
+		<Key>Stage025</Key>
+		<ParentKey>Stage024</ParentKey>
+		<AreaKey>Forest</AreaKey>
+		<TypeStage>Main</TypeStage>
+		<Name>접근금지</Name>
+		<MapKey>Forest</MapKey>
+		<MapSize>Small</MapSize>
+		<TypeForce>Rebel</TypeForce>
+		<TypeMode>Annihilation</TypeMode>
+		<Requester>Char_Raty</Requester>
+		<Contents>드디어 숲속마을에 도착했지만 우리 앞에 보이는건 많은 병력이었어. 녀석들을 쓰러뜨리자!</Contents>
+	</Data>
+	<Data>
+		<Key>Stage026</Key>
+		<ParentKey>Stage025</ParentKey>
+		<AreaKey>Forest</AreaKey>
+		<TypeStage>Main</TypeStage>
+		<Name>오토의 습격</Name>
+		<MapKey>Forest</MapKey>
+		<MapSize>Small</MapSize>
+		<TypeForce>Rebel</TypeForce>
+		<TypeMode>Annihilation</TypeMode>
+		<Requester>Char_Raty</Requester>
+		<Contents>숲속마을 관리자 오토가 공격해왔다! 숲속마을을 해방하기 위하여 오토를 몰아내자!</Contents>
+	</Data>
+	<Data>
+		<Key>Stage02B</Key>
+		<ParentKey>Stage026</ParentKey>
+		<AreaKey>Forest</AreaKey>
+		<TypeStage>Normal</TypeStage>
+		<Name>오토와의 전투</Name>
+		<MapKey>Forest</MapKey>
+		<MapSize>Small</MapSize>
+		<TypeForce>Rebel</TypeForce>
+		<TypeMode>Annihilation</TypeMode>
+		<Requester>Char_Raty</Requester>
+		<Contents>패배한 오토가 복수를 다짐하기 위해 접근해왔다! 녀석을 물리치자!</Contents>
+	</Data>
+	<Data>
+		<Key>Stage027</Key>
+		<ParentKey>Stage026</ParentKey>
+		<AreaKey>Forest</AreaKey>
+		<TypeStage>Main</TypeStage>
+		<Name>숲속마을의 해방을 위하여</Name>
+		<MapKey>Forest</MapKey>
+		<MapSize>Small</MapSize>
+		<TypeForce>Rebel</TypeForce>
+		<TypeMode>Annihilation</TypeMode>
+		<Requester>Char_Raty</Requester>
+		<Contents>오토가 도망가고 숲속마을은 해방되었지만 아직 남은 마을이 있다고 했어. 그곳에 있는 마을까지 해방해주자!</Contents>
+	</Data>
+	<Data>
+		<Key>Stage028</Key>
+		<ParentKey>Stage027</ParentKey>
+		<AreaKey>Forest</AreaKey>
+		<TypeStage>Main</TypeStage>
+		<Name>공병의 도움</Name>
+		<MapKey>Forest</MapKey>
+		<MapSize>Small</MapSize>
+		<TypeForce>Rebel</TypeForce>
+		<TypeMode>Annihilation</TypeMode>
+		<Requester>Char_Raty</Requester>
+		<Contents>구출된 공병들은 폭탄을 가지고 적들을 쓸어버렸어. 하지만 남은 잔당들이 악착같이 공격해왔어. 그들을 몰아내자!</Contents>
+	</Data>
+	<Data>
+		<Key>Stage029</Key>
+		<ParentKey>Stage028</ParentKey>
+		<AreaKey>Forest</AreaKey>
+		<TypeStage>Main</TypeStage>
+		<Name>최후의 공격</Name>
+		<MapKey>Forest</MapKey>
+		<MapSize>Small</MapSize>
+		<TypeForce>Rebel</TypeForce>
+		<TypeMode>Annihilation</TypeMode>
+		<Requester>Char_Raty</Requester>
+		<Contents>캣파드와 오토가 협동하여 공격해왔다! 녀석들을 물리치고 숲속마을의 평화를 갖다주자!</Contents>
+	</Data>
+	<Data>
+		<Key>Stage02C</Key>
+		<ParentKey>Stage029</ParentKey>
+		<AreaKey>Forest</AreaKey>
+		<TypeStage>Normal</TypeStage>
+		<Name>오토와 캣파드의 협공</Name>
+		<MapKey>Forest</MapKey>
+		<MapSize>Small</MapSize>
+		<TypeForce>Rebel</TypeForce>
+		<TypeMode>Annihilation</TypeMode>
+		<Requester>Char_Raty</Requester>
+		<Contents>캣파드와 오토가 패배를 인정하지 않고 공격해왔다! 그들에게 패배를 안겨주자!</Contents>
+	</Data>
+</Stage>

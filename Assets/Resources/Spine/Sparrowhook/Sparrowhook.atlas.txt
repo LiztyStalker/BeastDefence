@@ -1,0 +1,111 @@
+
+Sparrowhook.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Accessery
+  rotate: false
+  xy: 2, 198
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Body
+  rotate: false
+  xy: 2, 68
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Face
+  rotate: false
+  xy: 1034, 326
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Flag
+  rotate: false
+  xy: 776, 198
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Flag_Stick
+  rotate: false
+  xy: 260, 198
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 132, 68
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Helmet
+  rotate: false
+  xy: 1164, 326
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+LArm
+  rotate: false
+  xy: 262, 68
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+RArm
+  rotate: false
+  xy: 262, 68
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+LBand
+  rotate: false
+  xy: 2, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+RBand
+  rotate: false
+  xy: 2, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+LLeg
+  rotate: false
+  xy: 1294, 326
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+RLeg
+  rotate: false
+  xy: 1294, 326
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Spear
+  rotate: false
+  xy: 518, 198
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1
+Tail
+  rotate: false
+  xy: 392, 68
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1

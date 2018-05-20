@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Character xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Data>
+		<Key>Char_Raty</Key>
+		<Name>라티</Name>
+	</Data>
+	<Data>
+		<Key>Char_Caon</Key>
+		<Name>카온</Name>
+	</Data>
+	<Data>
+		<Key>Char_Squirel</Key>
+		<Name>스퀴럴</Name>
+	</Data>
+	<Data>
+		<Key>Char_Otto</Key>
+		<Name>오토</Name>
+	</Data>
+	<Data>
+		<Key>Char_Goad</Key>
+		<Name>고드</Name>
+	</Data>
+	<Data>
+		<Key>Char_Catpard</Key>
+		<Name>캣파드</Name>
+	</Data>
+	<Data>
+		<Key>Char_Dingoo</Key>
+		<Name>딩구</Name>
+	</Data>
+	<Data>
+		<Key>Char_Sparrowhook</Key>
+		<Name>스패로우훅</Name>
+	</Data>
+</Character>

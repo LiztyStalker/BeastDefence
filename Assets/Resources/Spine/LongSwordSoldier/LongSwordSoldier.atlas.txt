@@ -1,0 +1,139 @@
+
+LongSwordSoldier.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Body
+  rotate: false
+  xy: 2, 68
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Face
+  rotate: false
+  xy: 260, 326
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 390, 326
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Helmet
+  rotate: false
+  xy: 520, 326
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Horn
+  rotate: false
+  xy: 650, 326
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+LArm
+  rotate: false
+  xy: 780, 326
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+LBand
+  rotate: false
+  xy: 2, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+LEar
+  rotate: false
+  xy: 132, 68
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+LFoot
+  rotate: false
+  xy: 262, 196
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+LHand
+  rotate: false
+  xy: 910, 390
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+LLeg
+  rotate: false
+  xy: 392, 196
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+RArm
+  rotate: false
+  xy: 522, 196
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+RBand
+  rotate: false
+  xy: 68, 2
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+REar
+  rotate: false
+  xy: 652, 196
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+RFoot
+  rotate: false
+  xy: 262, 66
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+RHand
+  rotate: false
+  xy: 782, 260
+  size: 64, 64
+  orig: 64, 64
+  offset: 0, 0
+  index: -1
+RLeg
+  rotate: false
+  xy: 392, 66
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Tail
+  rotate: false
+  xy: 522, 66
+  size: 128, 128
+  orig: 128, 128
+  offset: 0, 0
+  index: -1
+Weapon
+  rotate: false
+  xy: 2, 198
+  size: 256, 256
+  orig: 256, 256
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Map xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Data>
+		<Key>Grass</Key>
+		<Name>초원</Name>
+		<Effect>-</Effect>
+		<Contents>드넓은 초원입니다. 아무런 영향을 받지 않습니다.</Contents>
+	</Data>
+	<Data>
+		<Key>Forest</Key>
+		<Name>숲속</Name>
+		<Effect>-</Effect>
+		<Contents>우거진 숲속입니다.</Contents>
+	</Data>
+	<Data>
+		<Key>Beach</Key>
+		<Name>해변</Name>
+		<Effect>-</Effect>
+		<Contents>해변</Contents>
+	</Data>
+	<Data>
+		<Key>Mountain</Key>
+		<Name>산맥</Name>
+		<Effect>-</Effect>
+		<Contents>산맥</Contents>
+	</Data>
+	<Data>
+		<Key>City</Key>
+		<Name>도시</Name>
+		<Effect>-</Effect>
+		<Contents>도시</Contents>
+	</Data>
+	<Data>
+		<Key>Swamp</Key>
+		<Name>늪지</Name>
+		<Effect>-</Effect>
+		<Contents>늪지</Contents>
+	</Data>
+	<Data>
+		<Key>Velley</Key>
+		<Name>협곡</Name>
+		<Effect>-</Effect>
+		<Contents>협곡</Contents>
+	</Data>
+	<Data>
+		<Key>Desert</Key>
+		<Name>사막</Name>
+		<Effect>-</Effect>
+		<Contents>사막</Contents>
+	</Data>
+</Map>

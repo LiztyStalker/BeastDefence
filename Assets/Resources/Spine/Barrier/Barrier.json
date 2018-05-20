@@ -1,0 +1,19 @@
+{
+"skeleton": { "hash": "KFmjmUQbYux7jkDgtPdQk1u4rKA", "spine": "3.6.52", "width": 128, "height": 512 },
+"bones": [
+	{ "name": "root", "x": 1.55, "y": 4.65 }
+],
+"slots": [
+	{ "name": "Castle", "bone": "root", "attachment": "Castle" }
+],
+"skins": {
+	"default": {
+		"Castle": {
+			"Castle": { "x": 3.67, "y": 92.5, "scaleX": -0.25, "width": 512, "height": 512 }
+		}
+	}
+},
+"animations": {
+	"animation": {}
+}
+}

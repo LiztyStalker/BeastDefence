@@ -1,0 +1,97 @@
+
+Turret.png
+size: 512,128
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Accessery_Back
+  rotate: true
+  xy: 331, 84
+  size: 42, 83
+  orig: 256, 256
+  offset: 71, 78
+  index: -1
+Arrow
+  rotate: false
+  xy: 331, 55
+  size: 95, 27
+  orig: 256, 256
+  offset: 74, 115
+  index: -1
+Body
+  rotate: true
+  xy: 175, 12
+  size: 37, 54
+  orig: 256, 256
+  offset: 103, 83
+  index: -1
+Bow
+  rotate: false
+  xy: 2, 69
+  size: 142, 57
+  orig: 256, 256
+  offset: 27, 67
+  index: -1
+Face
+  rotate: false
+  xy: 2, 4
+  size: 69, 63
+  orig: 256, 256
+  offset: 96, 119
+  index: -1
+Head
+  rotate: false
+  xy: 146, 51
+  size: 94, 75
+  orig: 256, 256
+  offset: 78, 119
+  index: -1
+Helmet
+  rotate: false
+  xy: 242, 52
+  size: 87, 74
+  orig: 256, 256
+  offset: 67, 128
+  index: -1
+LArm
+  rotate: false
+  xy: 129, 2
+  size: 44, 47
+  orig: 256, 256
+  offset: 126, 80
+  index: -1
+LEar
+  rotate: true
+  xy: 231, 5
+  size: 44, 32
+  orig: 256, 256
+  offset: 81, 186
+  index: -1
+LLeg
+  rotate: false
+  xy: 428, 44
+  size: 50, 50
+  orig: 256, 256
+  offset: 111, 45
+  index: -1
+RArm
+  rotate: true
+  xy: 416, 96
+  size: 30, 62
+  orig: 256, 256
+  offset: 87, 66
+  index: -1
+REar
+  rotate: false
+  xy: 265, 16
+  size: 44, 34
+  orig: 256, 256
+  offset: 47, 160
+  index: -1
+RLeg
+  rotate: false
+  xy: 73, 12
+  size: 54, 55
+  orig: 256, 256
+  offset: 90, 38
+  index: -1
