@@ -345,7 +345,7 @@
 		<Munitions>10</Munitions>
 		<Health>1400</Health>
 		<IncHealth>40</IncHealth>
-		<Attack>175</Attack>
+		<Attack>200</Attack>
 		<IncAttack>5</IncAttack>
 		<AttackSpeed>1</AttackSpeed>
 		<IncAttackSpeed>0.005</IncAttackSpeed>
@@ -465,7 +465,7 @@
 		<Munitions>24</Munitions>
 		<Health>1000</Health>
 		<IncHealth>30</IncHealth>
-		<Attack>200</Attack>
+		<Attack>175</Attack>
 		<IncAttack>4</IncAttack>
 		<AttackSpeed>1.25</AttackSpeed>
 		<IncAttackSpeed>0.0075</IncAttackSpeed>
@@ -495,7 +495,7 @@
 		<Munitions>20</Munitions>
 		<Health>700</Health>
 		<IncHealth>20</IncHealth>
-		<Attack>175</Attack>
+		<Attack>160</Attack>
 		<IncAttack>4</IncAttack>
 		<AttackSpeed>1.25</AttackSpeed>
 		<IncAttackSpeed>0.0075</IncAttackSpeed>
@@ -525,7 +525,7 @@
 		<Munitions>8</Munitions>
 		<Health>600</Health>
 		<IncHealth>10</IncHealth>
-		<Attack>200</Attack>
+		<Attack>175</Attack>
 		<IncAttack>5</IncAttack>
 		<AttackSpeed>1.1</AttackSpeed>
 		<IncAttackSpeed>0.0075</IncAttackSpeed>
@@ -555,7 +555,7 @@
 		<Munitions>20</Munitions>
 		<Health>900</Health>
 		<IncHealth>15</IncHealth>
-		<Attack>300</Attack>
+		<Attack>275</Attack>
 		<IncAttack>5</IncAttack>
 		<AttackSpeed>1</AttackSpeed>
 		<IncAttackSpeed>0.0075</IncAttackSpeed>
@@ -645,7 +645,7 @@
 		<Munitions>18</Munitions>
 		<Health>500</Health>
 		<IncHealth>12</IncHealth>
-		<Attack>200</Attack>
+		<Attack>250</Attack>
 		<IncAttack>4</IncAttack>
 		<AttackSpeed>0.75</AttackSpeed>
 		<IncAttackSpeed>0.0025</IncAttackSpeed>
@@ -705,7 +705,7 @@
 		<Munitions>24</Munitions>
 		<Health>600</Health>
 		<IncHealth>10</IncHealth>
-		<Attack>250</Attack>
+		<Attack>150</Attack>
 		<IncAttack>5</IncAttack>
 		<AttackSpeed>0.7</AttackSpeed>
 		<IncAttackSpeed>0.0025</IncAttackSpeed>
@@ -975,7 +975,7 @@
 		<Munitions>7</Munitions>
 		<Health>600</Health>
 		<IncHealth>8</IncHealth>
-		<Attack>100</Attack>
+		<Attack>90</Attack>
 		<IncAttack>2</IncAttack>
 		<AttackSpeed>1.25</AttackSpeed>
 		<IncAttackSpeed>0.005</IncAttackSpeed>
@@ -1395,7 +1395,7 @@
 		<Munitions>34</Munitions>
 		<Health>500</Health>
 		<IncHealth>5</IncHealth>
-		<Attack>400</Attack>
+		<Attack>300</Attack>
 		<IncAttack>10</IncAttack>
 		<AttackSpeed>0.5</AttackSpeed>
 		<IncAttackSpeed>0.005</IncAttackSpeed>
@@ -1425,7 +1425,7 @@
 		<Munitions>26</Munitions>
 		<Health>400</Health>
 		<IncHealth>5</IncHealth>
-		<Attack>500</Attack>
+		<Attack>400</Attack>
 		<IncAttack>12</IncAttack>
 		<AttackSpeed>0.45</AttackSpeed>
 		<IncAttackSpeed>0.005</IncAttackSpeed>
@@ -1485,7 +1485,7 @@
 		<Munitions>18</Munitions>
 		<Health>2000</Health>
 		<IncHealth>20</IncHealth>
-		<Attack>50</Attack>
+		<Attack>75</Attack>
 		<IncAttack>3</IncAttack>
 		<AttackSpeed>1</AttackSpeed>
 		<IncAttackSpeed>0.005</IncAttackSpeed>
@@ -1572,10 +1572,10 @@
 		<EffectKey>Thrust2</EffectKey>
 		<ProductTime>30</ProductTime>
 		<Population>1</Population>
-		<Munitions>40</Munitions>
-		<Health>6000</Health>
+		<Munitions>30</Munitions>
+		<Health>5000</Health>
 		<IncHealth>28</IncHealth>
-		<Attack>450</Attack>
+		<Attack>400</Attack>
 		<IncAttack>24</IncAttack>
 		<AttackSpeed>1.1</AttackSpeed>
 		<IncAttackSpeed>0.005</IncAttackSpeed>
@@ -1602,10 +1602,10 @@
 		<EffectKey>Claw2</EffectKey>
 		<ProductTime>30</ProductTime>
 		<Population>1</Population>
-		<Munitions>60</Munitions>
-		<Health>6500</Health>
+		<Munitions>45</Munitions>
+		<Health>5500</Health>
 		<IncHealth>30</IncHealth>
-		<Attack>280</Attack>
+		<Attack>240</Attack>
 		<IncAttack>12</IncAttack>
 		<AttackSpeed>1.2</AttackSpeed>
 		<IncAttackSpeed>0.005</IncAttackSpeed>
@@ -1632,8 +1632,8 @@
 		<EffectKey>Arrow2</EffectKey>
 		<ProductTime>30</ProductTime>
 		<Population>1</Population>
-		<Munitions>40</Munitions>
-		<Health>5000</Health>
+		<Munitions>30</Munitions>
+		<Health>4000</Health>
 		<IncHealth>22</IncHealth>
 		<Attack>600</Attack>
 		<IncAttack>24</IncAttack>
@@ -1662,10 +1662,10 @@
 		<EffectKey>Throw2</EffectKey>
 		<ProductTime>30</ProductTime>
 		<Population>1</Population>
-		<Munitions>60</Munitions>
-		<Health>5500</Health>
+		<Munitions>45</Munitions>
+		<Health>4500</Health>
 		<IncHealth>24</IncHealth>
-		<Attack>360</Attack>
+		<Attack>280</Attack>
 		<IncAttack>20</IncAttack>
 		<AttackSpeed>1.35</AttackSpeed>
 		<IncAttackSpeed>0.005</IncAttackSpeed>
@@ -1692,8 +1692,8 @@
 		<EffectKey>Arrow2</EffectKey>
 		<ProductTime>30</ProductTime>
 		<Population>1</Population>
-		<Munitions>40</Munitions>
-		<Health>5000</Health>
+		<Munitions>30</Munitions>
+		<Health>4000</Health>
 		<IncHealth>20</IncHealth>
 		<Attack>300</Attack>
 		<IncAttack>18</IncAttack>
@@ -1722,10 +1722,10 @@
 		<EffectKey>Claw2</EffectKey>
 		<ProductTime>30</ProductTime>
 		<Population>1</Population>
-		<Munitions>60</Munitions>
-		<Health>7000</Health>
+		<Munitions>45</Munitions>
+		<Health>6000</Health>
 		<IncHealth>35</IncHealth>
-		<Attack>400</Attack>
+		<Attack>280</Attack>
 		<IncAttack>15</IncAttack>
 		<AttackSpeed>1.5</AttackSpeed>
 		<IncAttackSpeed>0.005</IncAttackSpeed>
@@ -1752,10 +1752,10 @@
 		<EffectKey>Smash2</EffectKey>
 		<ProductTime>30</ProductTime>
 		<Population>1</Population>
-		<Munitions>40</Munitions>
-		<Health>8500</Health>
+		<Munitions>30</Munitions>
+		<Health>7500</Health>
 		<IncHealth>32</IncHealth>
-		<Attack>350</Attack>
+		<Attack>200</Attack>
 		<IncAttack>12</IncAttack>
 		<AttackSpeed>1.1</AttackSpeed>
 		<IncAttackSpeed>0.005</IncAttackSpeed>
@@ -1782,10 +1782,10 @@
 		<EffectKey>Claw2</EffectKey>
 		<ProductTime>30</ProductTime>
 		<Population>1</Population>
-		<Munitions>60</Munitions>
-		<Health>6500</Health>
+		<Munitions>45</Munitions>
+		<Health>5500</Health>
 		<IncHealth>40</IncHealth>
-		<Attack>300</Attack>
+		<Attack>275</Attack>
 		<IncAttack>12</IncAttack>
 		<AttackSpeed>1.5</AttackSpeed>
 		<IncAttackSpeed>0.005</IncAttackSpeed>
@@ -1812,10 +1812,10 @@
 		<EffectKey>Smash2</EffectKey>
 		<ProductTime>30</ProductTime>
 		<Population>1</Population>
-		<Munitions>40</Munitions>
-		<Health>6000</Health>
+		<Munitions>30</Munitions>
+		<Health>5000</Health>
 		<IncHealth>32</IncHealth>
-		<Attack>800</Attack>
+		<Attack>450</Attack>
 		<IncAttack>16</IncAttack>
 		<AttackSpeed>1</AttackSpeed>
 		<IncAttackSpeed>0.005</IncAttackSpeed>
@@ -1842,10 +1842,10 @@
 		<EffectKey>Slash2</EffectKey>
 		<ProductTime>30</ProductTime>
 		<Population>1</Population>
-		<Munitions>60</Munitions>
-		<Health>6500</Health>
+		<Munitions>45</Munitions>
+		<Health>5500</Health>
 		<IncHealth>35</IncHealth>
-		<Attack>600</Attack>
+		<Attack>350</Attack>
 		<IncAttack>24</IncAttack>
 		<AttackSpeed>1.1</AttackSpeed>
 		<IncAttackSpeed>0.005</IncAttackSpeed>
@@ -1872,10 +1872,10 @@
 		<EffectKey>0</EffectKey>
 		<ProductTime>30</ProductTime>
 		<Population>1</Population>
-		<Munitions>40</Munitions>
-		<Health>7000</Health>
+		<Munitions>30</Munitions>
+		<Health>6000</Health>
 		<IncHealth>32</IncHealth>
-		<Attack>500</Attack>
+		<Attack>450</Attack>
 		<IncAttack>22</IncAttack>
 		<AttackSpeed>1.2</AttackSpeed>
 		<IncAttackSpeed>0.005</IncAttackSpeed>

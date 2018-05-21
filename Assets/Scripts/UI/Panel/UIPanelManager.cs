@@ -27,7 +27,9 @@ public class UIPanelManager : SingletonClass<UIPanelManager>
     /// <returns></returns>
     public UIPanel nowPanel()
     {
-        return m_panelStack.Peek();
+        if(m_panelStack.Count > 0)
+            return m_panelStack.Peek();
+        return null;
     }
 
     /// <summary>

@@ -39,7 +39,9 @@ public class AccountSinario
     /// </summary>
     public Stage nowStage { get; set; }
 
-    public AccountSinario(){}
+    public AccountSinario(){
+//        m_stageClearList.Add("Stage018");
+    }
 
     /// <summary>
     /// 직렬화된 데이터 변환하기

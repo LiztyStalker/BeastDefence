@@ -463,7 +463,7 @@ public class UIPlayer : UIController, IRootPanel {
         if (m_munitionsSlider.value >= 1f)
         {
             m_upgradeButton.enabled = true;
-            m_upgradeButton.GetComponentInChildren<Text>().text = "업그레이드";
+            m_upgradeButton.GetComponentInChildren<Text>().text = "확장";
         }
         else
         {
@@ -576,7 +576,7 @@ public class UIPlayer : UIController, IRootPanel {
         if (m_munitionsSlider.value >= 1f)
         {
             upgradeMunitions();
-            setMsg("보급 업그레이드");
+            setMsg("보급 확장 완료!");
         }
     }
 

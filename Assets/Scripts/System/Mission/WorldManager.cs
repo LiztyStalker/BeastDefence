@@ -141,7 +141,9 @@ public class WorldManager : SingletonClass<WorldManager>
                     string name = xmlNode.SelectSingleNode(TYPE_STAGE_DATA.Name.ToString()).InnerText;
                     string areaKey = xmlNode.SelectSingleNode(TYPE_STAGE_DATA.AreaKey.ToString()).InnerText;
 
-                    Sprite icon = stageIcons.Where(tIcon => tIcon.name == key).SingleOrDefault();
+                    Stage.TYPE_STAGE typeStage = (Stage.TYPE_STAGE)Enum.Parse(typeof(Stage.TYPE_STAGE), xmlNode.SelectSingleNode(TYPE_STAGE_DATA.TypeStage.ToString()).InnerText);
+
+                    Sprite icon = stageIcons.Where(tIcon => tIcon.name == typeStage.ToString()).SingleOrDefault();
                     if (icon == null) Prep.LogWarning(key, "아이콘을 찾을 수 없음", GetType());
 
                     //Vector2 pos = Vector2.zero;
@@ -159,7 +161,6 @@ public class WorldManager : SingletonClass<WorldManager>
 
                     Stage.TYPE_MODE typeMode = (Stage.TYPE_MODE)Enum.Parse(typeof(Stage.TYPE_MODE), xmlNode.SelectSingleNode(TYPE_STAGE_DATA.TypeMode.ToString()).InnerText);
 
-                    Stage.TYPE_STAGE typeStage = (Stage.TYPE_STAGE)Enum.Parse(typeof(Stage.TYPE_STAGE), xmlNode.SelectSingleNode(TYPE_STAGE_DATA.TypeStage.ToString()).InnerText);
 
                     string requester = xmlNode.SelectSingleNode(TYPE_STAGE_DATA.Requester.ToString()).InnerText;
                     string contents = xmlNode.SelectSingleNode(TYPE_STAGE_DATA.Contents.ToString()).InnerText;

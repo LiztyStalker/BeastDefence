@@ -51,6 +51,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e1f1fa1698b977a4ea25cc885516d09b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_attack: 220
-  m_count: 8
+  m_attack: 80
+  m_count: 7
   m_gapTime: 0.1

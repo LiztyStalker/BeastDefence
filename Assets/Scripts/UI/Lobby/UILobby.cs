@@ -47,6 +47,9 @@ public class UILobby : UIPanel, IRootPanel
     [SerializeField]
     UITutorial m_uiTutorial;
 
+    [SerializeField]
+    GameObject m_backgroundPanel;
+    
     UICommon m_uiCommon;
 
     SoundPlay m_soundPlay;
@@ -117,22 +120,36 @@ public class UILobby : UIPanel, IRootPanel
         UIPanelManager.GetInstance.setRoot(this);
         soundPlay.audioPlay("BGMLobby", TYPE_SOUND.BGM);
 
-        if (string.IsNullOrEmpty(Account.GetInstance.name))
-            uiTutorial.uiName.viewPanel();
+//        if (string.IsNullOrEmpty(Account.GetInstance.name))
+//            uiTutorial.uiName.viewPanel();
 
     }
-
 
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.Escape)){
+//        uiUpdate();
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
             if (UIPanelManager.GetInstance.nowPanel() == this)
                 OnExitClicked();
             else
+            {
                 UIPanelManager.GetInstance.backPanel();
+                
+
+            }
         }
     }
 
+    public override void uiUpdate()
+    {
+        base.uiUpdate();
+        if (UIPanelManager.GetInstance.nowPanel() == this)
+        {
+            //패널 닫기
+            m_backgroundPanel.SetActive(false);
+        }
+    }
 
     protected void OnEnable()
     {
@@ -171,38 +188,45 @@ public class UILobby : UIPanel, IRootPanel
     public void OnMissionClicked()
     {
         m_uiMission.openPanel(this);
+        m_backgroundPanel.SetActive(true);
     }
 
     public void OnBarracksClicked()
     {
         m_uiBarracks.openPanel(this);
         m_uiBarracks.setSinario(null);
+        m_backgroundPanel.SetActive(true);
     }
 
     public void OnEmployeeClicked()
     {
         m_uiEmployee.openPanel(this);
+        m_backgroundPanel.SetActive(true);
     }
 
     public void OnDevelopClicked()
     {
         m_uiDevelop.openPanel(this);
+        m_backgroundPanel.SetActive(true);
     }
 
     public void OnShopClicked()
     {
         m_uiShop.openPanel(this);
+        m_backgroundPanel.SetActive(true);
     }
 
     public void OnShopTypeClicked(int typeShopCategory)
     {
         m_uiShop.openPanel(this);
         m_uiShop.viewShop((Shop.TYPE_SHOP_CATEGORY)typeShopCategory);
+        m_backgroundPanel.SetActive(true);
     }
 
     public void OnAchieveClicked()
     {
         m_uiAchieve.openPanel(this);
+        m_backgroundPanel.SetActive(true);
     }
 
     public void OnOptionClicked()
