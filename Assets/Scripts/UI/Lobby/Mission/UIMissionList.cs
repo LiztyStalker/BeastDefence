@@ -52,6 +52,13 @@ public class UIMissionList : MonoBehaviour
                     //                uiBtn.unit  += uiUnitInformation.setSummary;
                     dataList.Add(uiBtn);
 
+                    //메인 퀘스트와 긴급 퀘스트는 최상위로 올리기
+                    if (stage.typeStage == Stage.TYPE_STAGE.Main ||
+                        stage.typeStage == Stage.TYPE_STAGE.Warning
+                        )
+                        uiBtn.transform.SetAsFirstSibling();
+
+
                     //현재 미션까지 만들기
                     if (!Prep.isAllStage)
                     {

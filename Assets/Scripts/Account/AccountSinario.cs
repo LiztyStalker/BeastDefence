@@ -43,14 +43,7 @@ public class AccountSinario
 //        m_stageClearList.Add("Stage018");
     }
 
-    /// <summary>
-    /// 직렬화된 데이터 변환하기
-    /// </summary>
-    /// <param name="accSerial"></param>
-    public AccountSinario(AccountSinarioSerial accSerial)
-    {
-        accSerial.stageClearList.AddRange(m_stageClearList);
-    }
+
 
     /// <summary>
     /// 클리어한 스테이지 유무
@@ -84,6 +77,15 @@ public class AccountSinario
         AccountSinarioSerial accSerial = new AccountSinarioSerial();
         accSerial.stageClearList.AddRange(m_stageClearList);
         return accSerial;
+    }
+
+    /// <summary>
+    /// 직렬화된 데이터 변환하기
+    /// </summary>
+    /// <param name="accSerial"></param>
+    public AccountSinario(AccountSinarioSerial accSerial)
+    {
+        m_stageClearList.AddRange(accSerial.stageClearList);
     }
 
     /// <summary>
