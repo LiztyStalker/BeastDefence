@@ -22,7 +22,20 @@ public class UINormalBox : MonoBehaviour
     {
         transform.position = (Vector2)Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        m_nameText.text = typeAwardCategory.ToString();
+        m_nameText.text = Prep.getTypeSinarioAwardCategory(typeAwardCategory);
+
+
+
+        if (typeAwardCategory == SinarioAward.TYPE_SINARIO_AWARD_CATEGORY.HCard ||
+            typeAwardCategory == SinarioAward.TYPE_SINARIO_AWARD_CATEGORY.NCard)
+        {
+            Unit unit = UnitManager.GetInstance.getUnit(value);
+            if (unit != null)
+            {
+                value = unit.name;
+            }
+        }
+
         m_contentsText.text = value;
         gameObject.SetActive(true);
 

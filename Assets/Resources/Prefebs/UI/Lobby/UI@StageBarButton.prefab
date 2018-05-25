@@ -19,8 +19,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 224468349641362440}
-  - component: {fileID: 114021403995759912}
   - component: {fileID: 114102482150014308}
+  - component: {fileID: 114783846053868028}
   m_Layer: 5
   m_Name: UI@StageBarButton
   m_TagString: Untagged
@@ -335,26 +335,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &114021403995759912
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1111180454808440}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 303051cbcf8392340b3dde9ec5a86ca0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_nameText: {fileID: 114678943775752486}
-  m_typeText: {fileID: 114061502153862352}
-  m_image: {fileID: 114173567454188560}
-  m_stageText: {fileID: 114481790976038696}
-  m_forceText: {fileID: 114887804196905586}
-  m_levelText: {fileID: 114638615175457834}
-  m_awardTransform: {fileID: 224084382371480018}
-  m_uiAwardBtn: {fileID: 114811326031212492, guid: 2ad496d9a8fecd540a4bdf135e86cf34,
-    type: 2}
 --- !u!114 &114030222287956658
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -794,6 +774,26 @@ MonoBehaviour:
   m_FillAmount: 1
   m_FillClockwise: 1
   m_FillOrigin: 0
+--- !u!114 &114783846053868028
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1111180454808440}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7eb17b8157690d3469939e8fdb99946b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_nameText: {fileID: 114678943775752486}
+  m_typeText: {fileID: 114061502153862352}
+  m_image: {fileID: 114173567454188560}
+  m_stageText: {fileID: 114481790976038696}
+  m_forceText: {fileID: 114887804196905586}
+  m_levelText: {fileID: 114638615175457834}
+  m_awardTransform: {fileID: 224084382371480018}
+  m_uiAwardBtn: {fileID: 114811326031212492, guid: 2ad496d9a8fecd540a4bdf135e86cf34,
+    type: 2}
 --- !u!114 &114835624167591176
 MonoBehaviour:
   m_ObjectHideFlags: 1

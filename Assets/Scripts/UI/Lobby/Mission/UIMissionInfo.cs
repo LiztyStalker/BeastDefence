@@ -131,7 +131,7 @@ public class UIMissionInfo : MonoBehaviour {
         {
             m_nameText.text = commanderCard.name;
             m_levelText.text = string.Format("Lv {0}", commanderCard.level);
-            m_forceText.text = string.Format("Lv {0}", commanderCard.typeForce);
+            m_forceText.text = string.Format("{0}", Prep.getForceToText(commanderCard.typeForce));
             m_commanderImage.sprite = commanderCard.icon;
         }
 

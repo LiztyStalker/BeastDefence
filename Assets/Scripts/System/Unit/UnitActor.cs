@@ -1163,6 +1163,7 @@ public class UnitActor : MonoBehaviour, IActor
 
     public void removeActor()
     {
+        transform.localScale = Vector2.one;
         unitManagerRemoveUnitActorEvent(this);
     }
 

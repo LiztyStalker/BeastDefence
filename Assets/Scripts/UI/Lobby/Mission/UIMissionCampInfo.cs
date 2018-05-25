@@ -94,7 +94,7 @@ public class UIMissionCampInfo : MonoBehaviour
             m_commanderIcon.sprite = commanderCard.icon;
             m_commanderLevelText.text = string.Format("{0}", commanderCard.level);
             m_commanderName.text = commanderCard.name;
-            m_commanderForceText.text = string.Format("{0}", commanderCard.typeForce);
+            m_commanderForceText.text = string.Format("{0}", Prep.getForceToText(commanderCard.typeForce));
         }
 
         for (int i = 0; i < m_uiSkillIcons.Length ; i++)

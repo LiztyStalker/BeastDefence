@@ -86,7 +86,7 @@ public class UIUnitInfo : MonoBehaviour
     public void setUnitCard(UnitCard unitCard, TYPE_FORCE typeForce)
     {
 //        m_unitCard = unitCard;
-        m_commanderForceText.text = string.Format("{0}", typeForce);
+        m_commanderForceText.text = string.Format("{0}", Prep.getForceToText(typeForce));
         setUnitCard(unitCard);
     }
 
@@ -103,7 +103,7 @@ public class UIUnitInfo : MonoBehaviour
             m_nameText.text = unitCard.name;
             m_image.sprite = unitCard.icon;
             m_image.gameObject.SetActive(true);
-            m_forceText.text = string.Format("{0}", unitCard.typeForce);
+            m_forceText.text = string.Format("{0}", Prep.getForceToText(unitCard.typeForce));
             m_levelText.text = string.Format("{0}", unitCard.level);
             m_expText.text = string.Format("{0}/{1}", unitCard.nowExperiance, unitCard.maxExperiance);
             m_populationText.text = string.Format("{0}", unitCard.population);

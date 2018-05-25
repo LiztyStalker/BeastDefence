@@ -28,6 +28,21 @@ public class UIDevelopInfo : UIPanel
     [SerializeField]
     Text m_costText;
 
+    [SerializeField]
+    GameObject m_developPanel;
+
+    [SerializeField]
+    GameObject m_emptyPanel;
+
+    [SerializeField]
+    Text m_nextPanel;
+    
+    [SerializeField]
+    GameObject m_developBtnPanel;
+
+    [SerializeField]
+    GameObject m_emptyBtnPanel;
+
     //이름
     //설명
     //증가량
@@ -51,6 +66,22 @@ public class UIDevelopInfo : UIPanel
             m_nowValueText.text = "0";
         else
             m_nowValueText.text = m_developButton.develop.getValue(level).ToString();
+
+        if (devBtn.isActive)
+        {
+            m_developPanel.SetActive(false);
+            m_emptyPanel.SetActive(true);
+            m_developBtnPanel.gameObject.SetActive(false);
+            m_emptyBtnPanel.gameObject.SetActive(true);
+        }
+        else {
+            m_developPanel.SetActive(true);
+            m_emptyPanel.SetActive(false);
+            m_developBtnPanel.gameObject.SetActive(true);
+            m_emptyBtnPanel.gameObject.SetActive(false);
+        }
+
+        m_nextPanel.text = devBtn.notUseContents;
 
         m_nextValueText.text = m_developButton.develop.getValue(level + 1).ToString();
         m_icon.sprite = m_developButton.develop.icon;

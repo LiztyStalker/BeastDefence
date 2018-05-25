@@ -38,6 +38,8 @@ public class UIDevelopButton : MonoBehaviour
 
     public Develop develop { get { return m_develop; } }
     public Transform linkTransform { get { return m_linkTransform; } }
+    public bool isActive { get { return m_notUseTransform.gameObject.activeSelf; } }
+    public string notUseContents { get { return m_notUseText.text; } }
 
     void Awake()
     {
@@ -75,6 +77,8 @@ public class UIDevelopButton : MonoBehaviour
 
         Debug.Log("level : " + m_develop.typeValueGroup + " " + Account.GetInstance.accDevelop.getDevelopValue(m_develop.typeValueGroup).ToString() + " " + m_develop.techLevel.ToString());
 
+        GetComponent<Button>().interactable = true;
+
         if (nowLevel >= develop.maxLevel)
         {
             //마스터됨
@@ -101,7 +105,7 @@ public class UIDevelopButton : MonoBehaviour
                 if (develop.parentDic[parentKey] > parentLv)
                 {
                     //부모레벨 조건 체크
-                    GetComponent<Button>().interactable = false;
+//                    GetComponent<Button>().interactable = false;
                     m_notUseTransform.gameObject.SetActive(true);
                     m_notUseText.text += parentDev.name + " Lv" + develop.parentDic[parentKey] + " 필요\n";
                 }
@@ -109,7 +113,7 @@ public class UIDevelopButton : MonoBehaviour
 
             if (m_notUseText.text == "")
             {
-                GetComponent<Button>().interactable = true;
+//                GetComponent<Button>().interactable = true;
                 m_notUseTransform.gameObject.SetActive(false);
                 m_notUseText.text = "";
             }
@@ -117,10 +121,11 @@ public class UIDevelopButton : MonoBehaviour
         }
         else
         {
-            GetComponent<Button>().interactable = false;
+//            GetComponent<Button>().interactable = false;
             m_notUseTransform.gameObject.SetActive(true);
             m_notUseText.text = string.Format("{0} 기술 레벨 필요",  m_develop.techLevel + 1);
         }
+
 
     }
 

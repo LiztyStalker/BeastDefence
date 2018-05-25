@@ -4,8 +4,13 @@ using UnityEngine;
 using UnityEngine.UI;
 using Defence.CommanderPackage;
 
-public class UIMissionListToggle : MonoBehaviour
+public class UIMissionListButton : MonoBehaviour
 {
+
+    public delegate void StageDelegate(Stage stage);
+
+    public event StageDelegate stageEvent;
+
     [SerializeField]
     Text m_nameText;
 
@@ -33,7 +38,11 @@ public class UIMissionListToggle : MonoBehaviour
     List<UIMissionAwardButton> m_dataList = new List<UIMissionAwardButton>();
 
     Stage m_stage;
-   
+
+    void Awake()
+    {
+        GetComponent<Button>().onClick.AddListener(() => OnStageClicked());
+    }
 
     public void setStage(Stage stage)
     {
@@ -41,13 +50,13 @@ public class UIMissionListToggle : MonoBehaviour
         if (m_stage != null)
         {
             m_nameText.text = stage.name;
-            m_typeText.text = string.Format("{0}", stage.typeStage);
+            m_typeText.text = Prep.getTypeStageToText(stage.typeStage);
             m_image.sprite = stage.icon;
             m_stageText.text = stage.key;
             
             CommanderCard commanderCard = CommanderManager.GetInstance.getCommanderCard(stage.deck.commanderKey, stage.deck.commanderLevel);
 
-            m_forceText.text = string.Format("{0}", commanderCard.typeForce);
+            m_forceText.text = Prep.getForceToText(commanderCard.typeForce);
             m_levelText.text = string.Format("Lv {0}", commanderCard.level);
 
             SinarioAward sinarioAward = SinarioAwardManager.GetInstance.getSinarioAward(stage.key);
@@ -84,6 +93,7 @@ public class UIMissionListToggle : MonoBehaviour
     {
         UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.NONE);
         //바로 누르면 다음 미션으로 이동
+        stageEvent(m_stage);
     }
 
 }

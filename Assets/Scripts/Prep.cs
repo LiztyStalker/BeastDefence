@@ -194,6 +194,74 @@ public class Prep
 
     #endregion
 
+    #region #################### 변경 ############################
+
+    public static string getForceToText(TYPE_FORCE typeForce)
+    {
+        switch (typeForce)
+        {
+            case TYPE_FORCE.Rebel:
+                return "반란군";
+            case TYPE_FORCE.FreeCompany:
+                return "용병단";
+            case TYPE_FORCE.Order:
+                return "기사단";
+            case TYPE_FORCE.Union_Order_Free:
+                return "기사용병연합";
+            case TYPE_FORCE.Union_Rebel_Free:
+                return "반란용병연합";
+            case TYPE_FORCE.All:
+                return "연합";
+            case TYPE_FORCE.None:
+                return "야만군";
+        }
+
+        return "";
+    }
+
+    public static string getTypeStageToText(Stage.TYPE_STAGE typeStage)
+    {
+        switch (typeStage)
+        {
+            case Stage.TYPE_STAGE.Main:
+                return "메인";
+            case Stage.TYPE_STAGE.Infinite:
+                return "무한";
+            case Stage.TYPE_STAGE.Normal:
+                return "일반";
+            case Stage.TYPE_STAGE.Warning:
+                return "긴급";
+               
+        }
+        return "";
+    }
+
+    public static string getTypeSinarioAwardCategory(SinarioAward.TYPE_SINARIO_AWARD_CATEGORY typeAward)
+    {
+        switch (typeAward)
+        {
+            case SinarioAward.TYPE_SINARIO_AWARD_CATEGORY.Card:
+                return "랜덤병사카드";
+            case SinarioAward.TYPE_SINARIO_AWARD_CATEGORY.CCard:
+                return "지휘관카드";
+            case SinarioAward.TYPE_SINARIO_AWARD_CATEGORY.Exp:
+                return "경험치";
+            case SinarioAward.TYPE_SINARIO_AWARD_CATEGORY.Food:
+                return "식량";
+            case SinarioAward.TYPE_SINARIO_AWARD_CATEGORY.Fruit:
+                return "열매";
+            case SinarioAward.TYPE_SINARIO_AWARD_CATEGORY.Gold:
+                return "골드";
+            case SinarioAward.TYPE_SINARIO_AWARD_CATEGORY.HCard:
+                return "영웅카드";
+            case SinarioAward.TYPE_SINARIO_AWARD_CATEGORY.NCard:
+                return "병사카드";
+        }
+        return "";
+    }
+
+    #endregion
+
     #region #################### 시스템 ##########################
 
     public static readonly string[] sortingLayerNames = { "TopLine", "MidLine", "BotLine" };
