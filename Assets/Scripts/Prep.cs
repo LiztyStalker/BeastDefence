@@ -44,6 +44,7 @@ public class Prep
     #region #################### 자막 ##########################
 
     public static readonly string contentsDataPath = "Data/Contents";
+    public static readonly string contentsImagePath = "Image/Contents";
 //    public static readonly string characterFacePath = "Image/Character/Face";
 
     #endregion
@@ -120,8 +121,13 @@ public class Prep
 
     #endregion
 
+    #region #################### 리소스 ########################
 
-//    public static readonly string IconPath = "Image/Research";
+    public static readonly string uiCommonPrefebsPath = "Prefebs/UI/Game@Common";
+
+    #endregion
+
+    //    public static readonly string IconPath = "Image/Research";
     //    public static readonly string researchDataPath = "Data/Research";
 
     #region #################### 추가조건 ##########################

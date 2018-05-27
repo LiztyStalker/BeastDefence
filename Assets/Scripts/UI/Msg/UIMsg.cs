@@ -35,11 +35,12 @@ public class UIMsg : UIPanel
     {
 
         openPanel(null);
+        
 //        m_msgFriendPanel.gameObject.SetActive(false);
 //        m_wantedBtnPanel.gameObject.SetActive(false);
         m_contentsText.text = msg;
         setTypeButton(typeBtn);
-
+        setMsgText(typeMsgPanel);
             
     }
 
@@ -87,6 +88,10 @@ public class UIMsg : UIPanel
                 m_titleText.text = "불가!";
                 UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.ERROR);
                 break;
+            default:
+                UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.OPEN);
+                break;
+
         }
     }
 

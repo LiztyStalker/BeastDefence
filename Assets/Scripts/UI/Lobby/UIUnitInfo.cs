@@ -10,7 +10,7 @@ public class UIUnitInfo : MonoBehaviour
 
     public event UnitRefleshDelegate unitRefleshEvent;
 
-    UIDataBox m_uiDataBox;
+    UIDataBoxManager m_uiDataBox;
 
     [SerializeField]
     Text m_nameText;
@@ -75,7 +75,7 @@ public class UIUnitInfo : MonoBehaviour
 
         for (int i = 0; i < m_uiSkillIcons.Length; i++)
         {
-            m_uiSkillIcons[i].dataBoxEvent += m_uiDataBox.setSkillData;
+            m_uiSkillIcons[i].dataBoxEvent += m_uiDataBox.setData;
         }
 
         if(m_trainingButton != null)

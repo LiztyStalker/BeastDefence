@@ -15,13 +15,22 @@ public class UIUnitInfomation : UIPanel
     [SerializeField]
     GameObject m_employeeButton;
 
+    [SerializeField]
+    Text m_costText;
+
     ISummary m_iSummary;
 
-    UIDataBox m_uiDataBox;
+    UIDataBoxManager m_uiDataBox;
     
     void Awake()
     {
         m_uiDataBox = UIPanelManager.GetInstance.root.uiCommon.uiDataBox;
+    }
+
+    protected override void OnEnable()
+    {
+        base.OnEnable();
+        StartCoroutine(UIPanelManager.GetInstance.root.uiCommon.uiContents.contentsCoroutine(Contents.TYPE_CONTENTS_EVENT.UnitInfo));
     }
 
     /// <summary>
@@ -33,10 +42,12 @@ public class UIUnitInfomation : UIPanel
     {
         if (iSummary.unit != null)
         {
+            UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.OPEN);
             openPanel(null);
             m_iSummary = iSummary;
             m_uiUnitInfo.setUnit(iSummary.unit);
             m_employeeButton.SetActive(isCost);
+            m_costText.text = string.Format("{0}", -iSummary.unit.cost);
         }
     }
 
@@ -50,10 +61,12 @@ public class UIUnitInfomation : UIPanel
     {
         if (iSummary.unit != null)
         {
+            UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.OPEN);
             openPanel(null);
             m_iSummary = iSummary;
             m_uiUnitInfo.setUnitCard(new UnitCard(iSummary.unit, level), typeForce);
             m_employeeButton.SetActive(false);
+//            m_costText.text = string.Format("{0}", -iSummary.unit.cost);
         }
     }
 
@@ -66,10 +79,12 @@ public class UIUnitInfomation : UIPanel
     {
         if (iSummary.unit != null)
         {
+            UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.OPEN);
             openPanel(null);
             m_iSummary = iSummary;
             m_uiUnitInfo.setUnitCard(new UnitCard(iSummary.unit, level));
             m_employeeButton.SetActive(false);
+//            m_costText.text = string.Format("{0}", -iSummary.unit.cost);
         }
     }
 
@@ -98,14 +113,16 @@ public class UIUnitInfomation : UIPanel
         Account.GetInstance.accData.useValue(m_iSummary.unit.cost, TYPE_ACCOUNT_CATEGORY.Fruit);
         Account.GetInstance.accUnit.addUnit(m_iSummary.unit);
         recruitDataUpdateEvent(m_iSummary);
-        closePanel();
         UIPanelManager.GetInstance.root.uiCommon.uiMsg.setMsg("모집 완료", TYPE_MSG_PANEL.INFO, TYPE_MSG_BTN.OK);
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.BUY);
+        base.closePanel();
     }
 
 
 
     public override void closePanel()
     {
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.CLOSE);
         m_uiDataBox.close();
         base.closePanel();
     }

@@ -29,9 +29,25 @@ public class UIMissionCampInfo : MonoBehaviour
     [SerializeField]
     Transform m_heroPanel;
 
+
+    UIDataBoxManager m_uiDataBox;
+
     UIStageCardSummary[] uiUnitCardArray = null;
 
     UIUnitInfomation uiUnitInformation;
+
+
+    void Awake()
+    {
+        m_uiDataBox = UIPanelManager.GetInstance.root.uiCommon.uiDataBox;
+
+        for (int i = 0; i < m_uiSkillIcons.Length; i++)
+        {
+            //지휘관 스킬 삽입
+            m_uiSkillIcons[i].dataBoxEvent += m_uiDataBox.setData;
+        }
+
+    }
 
     void initArray(bool isReverse = false)
     {
@@ -104,7 +120,6 @@ public class UIMissionCampInfo : MonoBehaviour
             if (skill != null)
             {
                 m_uiSkillIcons[i].setSkill(skill, 1);
-                m_uiSkillIcons[i].dataBoxEvent += UIPanelManager.GetInstance.root.uiCommon.uiDataBox.setSkillData;
             }
 //            uiUnitCardArray[i].setCard(null);
         }
@@ -129,7 +144,11 @@ public class UIMissionCampInfo : MonoBehaviour
             {
                 UnitCard unitCard = Account.GetInstance.accUnit.getUnitCard(unitList[i]);
                 uiUnitCardArray[i].setCard(unitCard);// setUnitCard(unitCard);
-                uiUnitCardArray[i].GetComponent<Button>().interactable = true;
+
+                //스테이지 1-2부터 열림
+                uiUnitCardArray[i].GetComponent<Button>().interactable = Account.GetInstance.accSinario.isStage("Stage012");
+
+
             }
             else
             {
@@ -190,6 +209,11 @@ public class UIMissionCampInfo : MonoBehaviour
 
 //            Debug.Log("deck : " + mission.deck[i]);
         }
+    }
+
+    void OnDisable()
+    {
+        m_uiDataBox.close();
     }
 }
 

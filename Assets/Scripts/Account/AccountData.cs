@@ -1,4 +1,5 @@
 ﻿using System;
+using UnityEngine;
 
 
 public class AccountData
@@ -483,6 +484,8 @@ public class AccountData
 
         DateTime.TryParse(accSerial.lastTime, out m_lastTime);
         TimeSpan.TryParse(accSerial.playTime, out m_playTime);
+
+//        Debug.LogFormat("{0}{1}{2}", m_lastTime.Day != DateTime.UtcNow.Day, m_lastTime.Month != DateTime.UtcNow.Month, m_lastTime.Year != DateTime.UtcNow.Year);
 
         //마지막 접속시간과 현재 접속시간의 날짜가 다르면 (년도, 월, 일) 1 추가
         if (m_lastTime.Day != DateTime.UtcNow.Day ||

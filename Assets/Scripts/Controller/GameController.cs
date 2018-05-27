@@ -28,6 +28,8 @@ public class GameController : MonoBehaviour {
     Stage m_stage;
 
     SoundPlay m_soundPlay;
+
+    UIContents m_uiContents;
        
 
     //위치
@@ -43,6 +45,8 @@ public class GameController : MonoBehaviour {
     public UIController cpuController { get { return m_cpuController; } }
     public UnitActorManager unitActorManager { get { return m_unitActorManager; } }
     public TimeSpan gameTime { get { return m_gameTime; } }
+
+    UIContents uiContents { get { return UIPanelManager.GetInstance.root.uiCommon.uiContents; } }
 
     public SoundPlay soundPlay
     {
@@ -250,31 +254,42 @@ public class GameController : MonoBehaviour {
         {
             playerController.setHeroAppear(uiController);
             cpuController.setHeroAppear(uiController);
+
+            if(uiController is UIPlayer)
+                StartCoroutine(uiContents.contentsCoroutine(Contents.TYPE_CONTENTS_EVENT.AppearAllyHero));
+            else
+                StartCoroutine(uiContents.contentsCoroutine(Contents.TYPE_CONTENTS_EVENT.AppearEnemyHero));
         }
+
+        if (uiController is UIPlayer)
+            StartCoroutine(uiContents.contentsCoroutine(Contents.TYPE_CONTENTS_EVENT.AppearAllyUnit));
+        else
+            StartCoroutine(uiContents.contentsCoroutine(Contents.TYPE_CONTENTS_EVENT.AppearEnemyUnit));
+
 
         unitActorManager.createActor(unitCard, uiController, typeMapLine);
     }
 
     public void contentsCallBack()
     {
-        m_isContents = false;
+        uiContents.contentsCallBack();
     }
 
-    IEnumerator contentsCoroutine(Contents.TYPE_CONTENTS_EVENT typeEvent)
-    {
-//        Debug.Log("contents");
-        //현재 자막 시작
-        m_isContents = ((UIPlayer)playerController).setContents(typeEvent);
+//    IEnumerator contentsCoroutine(string eventClass)
+//    {
+////        Debug.Log("contents");
+//        //현재 자막 시작
+//        m_isContents = ((UIPlayer)playerController).setContents(eventClass);
 
-        //콜백 받아야 함
-        //
-        while (m_isContents)
-        {
-//            Debug.Log("contents");
-            yield return null;
-        }
-        yield return null;
-    }
+//        //콜백 받아야 함
+//        //
+//        while (m_isContents)
+//        {
+////            Debug.Log("contents");
+//            yield return null;
+//        }
+//        yield return null;
+//    }
 
     IEnumerator readyCoroutine()
     {
@@ -297,9 +312,15 @@ public class GameController : MonoBehaviour {
 
 //        yield break;
 
-        yield return StartCoroutine(contentsCoroutine(Contents.TYPE_CONTENTS_EVENT.Start));
+        //준비 자막 이벤트
+        yield return StartCoroutine(uiContents.contentsCoroutine(Contents.TYPE_CONTENTS_EVENT.Ready));
+
         //준비 및 시작
         yield return StartCoroutine(readyCoroutine());
+        
+        //시작 자막 이벤트
+        yield return StartCoroutine(uiContents.contentsCoroutine(Contents.TYPE_CONTENTS_EVENT.Start));
+
         m_isRun = true;
 
         float timer = 0f;
@@ -357,17 +378,21 @@ public class GameController : MonoBehaviour {
         if (m_isVictory)
         {
             //종료 자막
-            yield return StartCoroutine(contentsCoroutine(Contents.TYPE_CONTENTS_EVENT.End));
-
+            yield return StartCoroutine(uiContents.contentsCoroutine(Contents.TYPE_CONTENTS_EVENT.Victory));
+        }
+        else
+        {
+            yield return StartCoroutine(uiContents.contentsCoroutine(Contents.TYPE_CONTENTS_EVENT.Defeat));
         }
 
         //패배 또는 승리
         yield return StartCoroutine(endCoroutine());
-
-        //결과창 보이기
-        //
         
+        //결과창 보이기
         playerController.gameResult(this, m_isVictory);
+
+        //결과창 자막 이벤트
+        yield return StartCoroutine(uiContents.contentsCoroutine(Contents.TYPE_CONTENTS_EVENT.Result));
 
     }
 
@@ -434,6 +459,9 @@ public class GameController : MonoBehaviour {
             soundPlay.audioPlay("BGMVictory", TYPE_SOUND.BGM);
         else
             soundPlay.audioPlay("BGMDefeat", TYPE_SOUND.BGM);
+
+        //결과 자막 이벤트
+
         yield return new WaitForSeconds(3f);
     }
 

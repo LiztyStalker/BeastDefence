@@ -19,6 +19,8 @@ public class UIConscriptView : UIPanel
 
     public void setConscript(int count, Unit.TYPE_UNIT typeUnit)
     {
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.OPEN);
+
         openPanel(null);
 
 
@@ -36,7 +38,7 @@ public class UIConscriptView : UIPanel
             Account.GetInstance.accUnit.addUnit(m_unitList[i]);
         }
 
-
+        //코루틴 작업 필요
 
         if (count == 1)
         {
@@ -82,6 +84,8 @@ public class UIConscriptView : UIPanel
 
     protected override void OnDisable()
     {
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.CLOSE);
+
         for (int i = m_unitCardList.Count - 1; i >= 0; i--)
         {
             Destroy(m_unitCardList[i].gameObject);

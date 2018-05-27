@@ -82,6 +82,8 @@ public class MapController : MonoBehaviour
         m_castleController[0].initCastle(typeMapSize, true);
         m_castleController[1].initCastle(typeMapSize, false);
 
+        
+
     }
 
     public void linkUnit(UnitActor unitActor, UIController uiController)

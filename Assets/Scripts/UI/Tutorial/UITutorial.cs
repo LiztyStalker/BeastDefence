@@ -9,12 +9,14 @@ public class UITutorial : MonoBehaviour
     [SerializeField]
     UIIndicator m_uiIndicator;
 
+    
+
     public UIName uiName { get { return m_uiName; } }
     public UIIndicator uiIndicator { get { return m_uiIndicator; } }
 
     void Awake()
     {
-        DontDestroyOnLoad(gameObject);
+        //튜토리얼 값 가져오기
     }
 
     
@@ -28,5 +30,12 @@ public class UITutorial : MonoBehaviour
         //병사 관리, 뽑기, 개발
     }
 
+
+    public void nextTutorial()
+    {
+        //다음 단계 진행
+    }
+
+    //튜토리얼 진행
 }
 

@@ -44,6 +44,7 @@ public class UIGameMsg : MonoBehaviour
     /// <param name="rate">성 체력 비율</param>
     public void setCastleWarning(float rate)
     {
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.WARNING);
         m_warningObject.SetActive(rate <= Prep.castleWarningRate);
     }
 
@@ -53,6 +54,7 @@ public class UIGameMsg : MonoBehaviour
     /// <param name="msg"></param>
     public void setMsg(string msg)
     {
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.INFOR);
         m_msgText.text = msg;
         if (coroutine != null)
             StopCoroutine(coroutine);
@@ -65,6 +67,7 @@ public class UIGameMsg : MonoBehaviour
     /// </summary>
     public void setHeroAppear(UIController uiCtrler)
     {
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.WARNING);
         if (coroutine != null)
             StopCoroutine(coroutine);
 

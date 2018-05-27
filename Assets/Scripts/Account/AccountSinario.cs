@@ -18,6 +18,10 @@ public class AccountSinario
     //마지막 키가 현재 완료된 메인키
     List<string> m_stageClearList = new List<string>();
 
+    List<string> m_contentsClearList = new List<string>();
+
+
+
     //현재 진행하는 등록 - 등록됨
     public string stageKey { 
         get { 
@@ -41,6 +45,15 @@ public class AccountSinario
 
     public AccountSinario(){
 //        m_stageClearList.Add("Stage018");
+    }
+
+    /// <summary>
+    /// 모두 사용 가능 여부
+    /// </summary>
+    /// <returns></returns>
+    public bool isUsed()
+    {
+        return isStage("Stage013");
     }
 
 
@@ -69,6 +82,29 @@ public class AccountSinario
     }
 
     /// <summary>
+    /// 콘텐츠 삽입하기
+    /// </summary>
+    /// <param name="tutorialKey"></param>
+    public void addContents(List<Contents> contentsList)
+    {
+        foreach (Contents contents in contentsList)
+        {
+            //중복되지 않으면
+            if(!m_contentsClearList.Contains(contents.key))
+                m_contentsClearList.Add(contents.key);
+        }
+    }
+
+    /// <summary>
+    /// 컨텐츠 중복 찾기
+    /// </summary>
+    /// <param name="key"></param>
+    /// <returns></returns>
+    public bool isContents(string key) {
+        return m_contentsClearList.Contains(key);
+    }
+
+    /// <summary>
     /// 직렬화 데이터 출력
     /// </summary>
     /// <returns></returns>
@@ -76,6 +112,7 @@ public class AccountSinario
     {
         AccountSinarioSerial accSerial = new AccountSinarioSerial();
         accSerial.stageClearList.AddRange(m_stageClearList);
+        accSerial.contentsClearList.AddRange(m_contentsClearList);
         return accSerial;
     }
 
@@ -86,6 +123,7 @@ public class AccountSinario
     public AccountSinario(AccountSinarioSerial accSerial)
     {
         m_stageClearList.AddRange(accSerial.stageClearList);
+//        m_contentsClearList.AddRange(accSerial.contentsClearList);
     }
 
     /// <summary>

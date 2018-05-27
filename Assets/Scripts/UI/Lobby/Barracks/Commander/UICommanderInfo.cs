@@ -35,7 +35,7 @@ public class UICommanderInfo : MonoBehaviour
     [SerializeField]
     UISkillIcon[] m_uiSkillIcons;
 
-    UIDataBox m_uiDataBox;
+    UIDataBoxManager m_uiDataBox;
 
     void Awake()
     {
@@ -43,7 +43,7 @@ public class UICommanderInfo : MonoBehaviour
 
         for (int i = 0; i < m_uiSkillIcons.Length; i++)
         {
-            m_uiSkillIcons[i].dataBoxEvent += m_uiDataBox.setSkillData;
+            m_uiSkillIcons[i].dataBoxEvent += m_uiDataBox.setData;
         }
     }
 
@@ -68,6 +68,11 @@ public class UICommanderInfo : MonoBehaviour
                 m_uiSkillIcons[i].setSkill(skill, commanderCard.level);
             }
         }
+    }
+
+    void OnDisable()
+    {
+        m_uiDataBox.close();
     }
 
 

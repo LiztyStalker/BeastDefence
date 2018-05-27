@@ -36,6 +36,9 @@ public class UIShop : UIPanel
     protected override void OnEnable()
     {
         base.OnEnable();
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.OPEN);
+
+        StartCoroutine(UIPanelManager.GetInstance.root.uiCommon.uiContents.contentsCoroutine(Contents.TYPE_CONTENTS_EVENT.Shop));
 
         viewShop(m_typeShopCategory);
 
@@ -43,7 +46,6 @@ public class UIShop : UIPanel
 
     public void viewShop(Shop.TYPE_SHOP_CATEGORY typeShopCategory)
     {
-        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.NONE);
 
         clear();
 
@@ -58,6 +60,9 @@ public class UIShop : UIPanel
             uiShopBtn.transform.localScale = Vector2.one;
             m_uiShopBtnList.Add(uiShopBtn);
         }
+
+        m_shopToggle[(int)m_typeShopCategory].isOn = true;
+
     }
 
     void clear()
@@ -83,14 +88,14 @@ public class UIShop : UIPanel
                     break;
                 }
             }
-
+            UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.NONE);
             viewShop(m_typeShopCategory);
         }
     }
 
     protected override void OnDisable()
     {
-        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.NONE);
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.CLOSE);
         clear();
         base.OnDisable();
     }

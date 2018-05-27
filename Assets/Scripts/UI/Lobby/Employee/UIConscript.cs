@@ -112,5 +112,10 @@ public class UIConscript : UIPanel
         m_uiConscriptView.setConscript(1, Unit.TYPE_UNIT.Hero);
     }
 
+    public override void closePanel()
+    {
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.CLOSE);
+        base.closePanel();
+    }
 }
 

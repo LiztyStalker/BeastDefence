@@ -48,6 +48,7 @@ public class CastleController : MonoBehaviour
         }
 
         StartCoroutine(meshCoroutine());
+        setLine(0);
     }
 
     IEnumerator meshCoroutine()

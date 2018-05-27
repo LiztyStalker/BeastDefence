@@ -5,10 +5,12 @@ using UnityEngine.UI;
 
 public class UIUnitView : MonoBehaviour
 {
+    public delegate void StageBtnDelegate(bool isUsed);
     delegate UnitCard SearchUnitCardDelegate(string unitKey);
     public delegate void FoodValueDelegate();
 
     public FoodValueDelegate foodValueEvent;
+    public StageBtnDelegate stageBtnEvent;
 
 
 
@@ -39,7 +41,7 @@ public class UIUnitView : MonoBehaviour
     List<UIUnitCard> m_unitWaitList = new List<UIUnitCard>();
     List<UIUnitCard> m_unitCardList = new List<UIUnitCard>();
 
-    UIDataBox m_uiDataBox;
+    UIDataBoxManager m_uiDataBox;
 
     ToggleGroup m_toggleGroup;
 
@@ -47,6 +49,8 @@ public class UIUnitView : MonoBehaviour
     CommanderCard m_commanderCard;
 
     int maxPopulation = 10;
+
+    UIBarracks.TYPE_BARRACKS m_typeBarracks;
 
     void Awake()
     {
@@ -138,6 +142,8 @@ public class UIUnitView : MonoBehaviour
 
     public void initUnit(Stage stage, UIBarracks.TYPE_BARRACKS typeBarracks)
     {
+        m_typeBarracks = typeBarracks;
+
         m_stage = stage;
 
         gameObject.SetActive(true);
@@ -166,6 +172,7 @@ public class UIUnitView : MonoBehaviour
                     Account.GetInstance.accUnit.getUnitCard
                     );
 
+                StartCoroutine(UIPanelManager.GetInstance.root.uiCommon.uiContents.contentsCoroutine(Contents.TYPE_CONTENTS_EVENT.BarracksSoldier));
 
 
                 break;
@@ -179,6 +186,9 @@ public class UIUnitView : MonoBehaviour
                     Account.GetInstance.accUnit.getUnitCards(Unit.TYPE_UNIT.Hero, getTypeForce()),
                     Account.GetInstance.accUnit.getUnitCard
                     );
+
+                StartCoroutine(UIPanelManager.GetInstance.root.uiCommon.uiContents.contentsCoroutine(Contents.TYPE_CONTENTS_EVENT.BarracksHero));
+
 
                 break;
             default:
@@ -341,6 +351,21 @@ public class UIUnitView : MonoBehaviour
 
         if (m_uiDataBox != null) m_uiDataBox.close();
 
+        if (m_stage != null)
+        {
+            if (m_typeBarracks == UIBarracks.TYPE_BARRACKS.Hero)
+            {
+                //다음 스테이지가 1-3일때 영웅이 없으면 - 버튼 안나옴
+
+                Debug.Log("nowStage : " + (m_unitWaitList.Count > 0));
+
+                if (Account.GetInstance.accSinario.stageKey == "Stage013")
+                {
+                    stageBtnEvent(m_unitWaitList.Count > 0);
+                }
+            }
+        }
+
         foreach (UIUnitCard uiUnitCard in m_unitWaitList)
         {
             if (uiUnitCard.toggle.isOn)
@@ -364,6 +389,8 @@ public class UIUnitView : MonoBehaviour
         m_upButton.interactable = false;
         m_downButton.interactable = false;
 
+
+
     }
 
     public void OnUpButtonClicked()
@@ -371,11 +398,14 @@ public class UIUnitView : MonoBehaviour
         //대기 유닛 수량 조절하기
         if (m_unitWaitList.Count < 6)
         {
-            UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.NONE);
+            UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.UP);
 
             upUnitCard();
             viewButton();
             viewPopulation();
+
+            StartCoroutine(UIPanelManager.GetInstance.root.uiCommon.uiContents.contentsCoroutine(Contents.TYPE_CONTENTS_EVENT.BarracksUp));
+
         }
         else
         {
@@ -385,9 +415,11 @@ public class UIUnitView : MonoBehaviour
 
     public void OnDownButtonClicked()
     {
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.DN);
         downUnitCard();
         viewButton();
         viewPopulation();
+        StartCoroutine(UIPanelManager.GetInstance.root.uiCommon.uiContents.contentsCoroutine(Contents.TYPE_CONTENTS_EVENT.BarracksDn));
     }
 
     //카드 올리기

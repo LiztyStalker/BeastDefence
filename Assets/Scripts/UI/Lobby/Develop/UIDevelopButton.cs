@@ -148,8 +148,7 @@ public class UIDevelopButton : MonoBehaviour
 
     void OnDevelopClicked()
     {
-        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.NONE);
-
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.OPEN);
         //부모도 업데이트 되어야 함
         developViewInfoEvent(this, m_level);
     }

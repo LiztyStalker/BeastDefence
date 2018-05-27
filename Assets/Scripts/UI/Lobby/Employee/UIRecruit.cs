@@ -142,5 +142,10 @@ public class UIRecruit : UIPanel
         createCard();
     }
 
+    public override void closePanel()
+    {
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.CLOSE);
+        base.closePanel();
+    }
 }
 

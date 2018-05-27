@@ -32,4 +32,12 @@
 		<Key>Char_Sparrowhook</Key>
 		<Name>스패로우훅</Name>
 	</Data>
+	<Data>
+		<Key>Char_SpikeSpearSoldier</Key>
+		<Name>가시창병</Name>
+	</Data>
+	<Data>
+		<Key>Char_LongSpearSoldier</Key>
+		<Name>장창병</Name>
+	</Data>
 </Character>

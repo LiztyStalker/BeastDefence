@@ -323,7 +323,8 @@ public class UnitManager : SingletonClass<UnitManager>
             return unitDic[key];
         }
 
-        Prep.LogWarning(key, "를 찾을 수 없음", GetType());
+        if(key != "-")
+            Prep.LogWarning(key, "를 찾을 수 없음", GetType());
 
         return null;
     }

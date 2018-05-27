@@ -109,7 +109,7 @@ public class UIMissionView : UIPanel
         }
 
 
-        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.OK);
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.NONE);
 
         //clear();
         //전 미션
@@ -145,7 +145,7 @@ public class UIMissionView : UIPanel
         //다음 미션이 없으면 사라짐
         //진행할 수 없으면 못 누름.
 
-        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.OK);
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.NONE);
 
     }
 
@@ -164,7 +164,7 @@ public class UIMissionView : UIPanel
         }
 
         m_uiMissionInfo.setStage(stage);
-        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.OPEN);
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.FLIP);
 
         viewPanel(stage.name);
 
@@ -228,16 +228,17 @@ public class UIMissionView : UIPanel
         //정보이면 정보 닫기
         if (m_uiMissionInfo.gameObject.activeSelf)
         {
+            UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.FOLD);
             m_uiMissionInfo.gameObject.SetActive(false);
             viewPanel(m_area.name);
         }
         //리스트이면 닫기
         else
         {
+            UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.CLOSE);
             closePanel();
         }
 
-        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.CLOSE);
 
     }
 

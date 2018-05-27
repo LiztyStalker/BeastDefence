@@ -58,8 +58,9 @@ public class UIShopButton : MonoBehaviour
     void shopEvent()
     {
         Account.GetInstance.accData.useValue(m_shop.cost, m_shop.typeCostCategory);
-        UIPanelManager.GetInstance.root.uiCommon.uiMsg.setMsg("구입완료!", TYPE_MSG_PANEL.INFO, TYPE_MSG_BTN.OK);
         Account.GetInstance.accData.addValue(m_shop.value, m_shop.typeShopCategory);
+        UIPanelManager.GetInstance.root.uiCommon.uiMsg.setMsg("구입완료!", TYPE_MSG_PANEL.INFO, TYPE_MSG_BTN.OK);
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.BUY);
     }
 
     void paymentEvent()

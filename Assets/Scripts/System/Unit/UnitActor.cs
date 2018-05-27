@@ -1147,10 +1147,19 @@ public class UnitActor : MonoBehaviour, IActor
         //사망 애니메이션 실행
         //애니메이션 종료되면 사라짐
 
+        //자막 재생
+        if (uiController is UIPlayer)
+            yield return StartCoroutine(UIPanelManager.GetInstance.root.uiCommon.uiContents.contentsCoroutine(Contents.TYPE_CONTENTS_EVENT.DownAllyHero));
+        else if (uiController is UICPU)
+            yield return StartCoroutine(UIPanelManager.GetInstance.root.uiCommon.uiContents.contentsCoroutine(Contents.TYPE_CONTENTS_EVENT.DownEnemyHero));
+
+
         GetComponent<Collider2D>().enabled = false;
         skeletonAnimation();
         yield return new WaitForSeconds(1f);
-                
+
+
+
         //매니저한테 반납 - 내부에서 청소
         if (unitManagerRemoveUnitActorEvent != null)
         {

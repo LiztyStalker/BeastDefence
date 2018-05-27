@@ -1,8 +1,8 @@
-﻿using System;
+﻿using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class UIName : MonoBehaviour
+public class UIName : MonoBehaviour, IEnumerator
 {
     [SerializeField]
     Button m_okButton;
@@ -10,16 +10,30 @@ public class UIName : MonoBehaviour
     [SerializeField]
     InputField m_inputField;
 
+    bool isClicked = false;
+
+
+    public object Current
+    {
+        get {
+            if(!gameObject.activeSelf)
+                gameObject.SetActive(true);
+            return null; 
+        }
+    }
+
+    public bool MoveNext()
+    {
+        return !isClicked;
+    }
+
+    public void Reset(){}
+
     void Awake()
     {
         m_okButton.onClick.AddListener(() => OnClicked());
     }
 
-
-    public void viewPanel()
-    {
-        gameObject.SetActive(true);
-    }
 
     void OnClicked()
     {
@@ -33,8 +47,13 @@ public class UIName : MonoBehaviour
     void clicked()
     {
         Account.GetInstance.accData.setName(m_inputField.text);
+        isClicked = true;
         //튜토리얼 시작
         gameObject.SetActive(false);
     }
+
+   
+    
+
 }
 

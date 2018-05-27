@@ -40,6 +40,11 @@ public class UIAchieve : UIPanel
         
     }
 
+    protected override void OnEnable()
+    {
+        base.OnEnable();
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.OPEN);
+    }
 
     void initAchieveList(Achieve.TYPE_ACHIEVE_CATEGORY typeAchieveCategory)
     {
@@ -49,7 +54,6 @@ public class UIAchieve : UIPanel
 
         while (enumerator.MoveNext())
         {
-            //달성 전 업적은 위로, 달성된 업적은 아래로
             Achieve achieve = enumerator.Current as Achieve;
 
             UIAchieveData uiAchieveData = Instantiate(m_uiAchieveData);
@@ -59,12 +63,10 @@ public class UIAchieve : UIPanel
             uiAchieveData.refleshAchieveDataEvent += refleshAchieveData;
 
 
-
             m_uiAchieveList.Add(uiAchieveData);
         }
 
-
-
+        //달성 전 업적은 위로, 달성된 업적은 아래로
         foreach (UIAchieveData data in m_uiAchieveList)
         {
             if (data.isSuccess)
@@ -100,6 +102,8 @@ public class UIAchieve : UIPanel
                 {
                     if (achieveToggle[i].isOn)
                     {
+                        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.NONE);
+
                         initAchieveList((Achieve.TYPE_ACHIEVE_CATEGORY)i);
 //                        setFilter((TYPE_FILTER)i);
                     }
@@ -134,6 +138,12 @@ public class UIAchieve : UIPanel
         //        break;
         //    }
         //}
+    }
+
+    public override void closePanel()
+    {
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.CLOSE);
+        base.closePanel();
     }
 
     //void setFilter(TYPE_FILTER typeFilter)

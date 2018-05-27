@@ -79,6 +79,8 @@ public class UIResult : MonoBehaviour
 
     public void setResult(GameController gameCtrler)
     {
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.OPEN);
+
         this.gameCtrler = gameCtrler;
         gameObject.SetActive(true);
         
@@ -128,7 +130,7 @@ public class UIResult : MonoBehaviour
                 UIMissionAwardButton uiMissionAwardBtn = Instantiate(m_uiMissionAwardBtn);
                 
 //                int value = sinarioAward.getValue(typeCategory);
-
+                UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.NONE);
                 uiMissionAwardBtn.setAward(typeCategory, sinarioAward.getValue(typeCategory));
                 uiMissionAwardBtn.transform.SetParent(m_missionAwardPanel);
                 uiMissionAwardBtn.transform.localScale = Vector2.one;
@@ -251,6 +253,7 @@ public class UIResult : MonoBehaviour
         //획득한 카드 보여주기
         foreach(string unitKey in unitDic.Keys){
             UICardSelectInfo uiCardSelectInfo = Instantiate(m_uiCardSelectInfo);
+            UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.NONE);
             uiCardSelectInfo.setCard(unitKey, unitDic[unitKey]);
             uiCardSelectInfo.transform.SetParent(m_cardPanel);
             uiCardSelectInfo.transform.localScale = Vector2.one;
@@ -261,8 +264,10 @@ public class UIResult : MonoBehaviour
 
         //플레이어 경험치 추가
         //m_uiAccountSummary.setExp();
-        
 
+
+
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.FLIP);
 
         //지휘관 보이기
         m_uiAccountSummary.gameObject.SetActive(false);
@@ -273,6 +278,8 @@ public class UIResult : MonoBehaviour
         m_uiCommanderSummary.setSummary(cmdCard);
 
         yield return new WaitForSeconds(0.5f);
+
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.NONE);
 
         cmdCard.addExperiance(addExp);
         //지휘관 경험치 획득하기
@@ -305,12 +312,14 @@ public class UIResult : MonoBehaviour
 
     public void OnLobbyClicked()
     {
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.CLOSE);
         Account.GetInstance.nextScene = Prep.sceneLobby;
         SceneManager.LoadScene(Prep.sceneLoad);
     }
 
     public void OnRetryClicked()
     {
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.START);
         Account.GetInstance.nextScene = Prep.scenePlay;
         SceneManager.LoadScene(Prep.sceneLoad);
     }

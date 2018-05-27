@@ -63,9 +63,6 @@ public class UIAchieveData : MonoBehaviour
 
         m_awardText.text = achieve.awardValue.ToString();
 
-
-
-
         if (isSuccess)
         {
             //보상 받음
@@ -116,8 +113,10 @@ public class UIAchieveData : MonoBehaviour
             }
 
 
-
+            //업적에 키 삽입
             Account.GetInstance.accAchieve.setAchieve(m_achieve.key);
+
+            //계정 데이터에 값 삽입
             Account.GetInstance.accData.addValue(m_achieve.awardValue, m_achieve.typeAward);
 
             //새로고침

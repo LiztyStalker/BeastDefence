@@ -70,7 +70,7 @@ public class UIMissionAwardButton : MonoBehaviour
     void OnClicked()
     {
         UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.NONE);
-        UIPanelManager.GetInstance.root.uiCommon.uiNormalBox.setData(m_typeCategory, m_value);
+        UIPanelManager.GetInstance.root.uiCommon.uiDataBox.setData(m_typeCategory, m_value);
     }
 }
 

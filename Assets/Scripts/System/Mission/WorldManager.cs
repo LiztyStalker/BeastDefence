@@ -284,7 +284,7 @@ public class WorldManager : SingletonClass<WorldManager>
         {
             Stage enumStage = enumerator.Current as Stage;
 
-            Debug.Log("enumStage : " + enumStage.key);
+//            Debug.Log("enumStage : " + enumStage.key);
 
             //조건키가 클리어키가 같으면 반환 - 단, 메인키 여야함
             if(enumStage.parentKey == nowStageKey)

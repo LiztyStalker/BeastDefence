@@ -10,10 +10,7 @@ public class UICommon : MonoBehaviour
     UIOption m_uiOption;
 
     [SerializeField]
-    UIDataBox m_uiDataBox;
-
-    [SerializeField]
-    UINormalBox m_uiNormalBox;
+    UIDataBoxManager m_uiDataBox;
 
     [SerializeField]
     UIUnitInfomation m_uiUnitInfomation;
@@ -24,15 +21,19 @@ public class UICommon : MonoBehaviour
     [SerializeField]
     UIContents m_uiContents;
 
+    [SerializeField]
+    UIName m_uiName;
+
     SoundPlay m_btnSoundPlay;
 
     public UIMsg uiMsg { get { return m_uiMsg; } }
     public UIOption uiOption { get { return m_uiOption; } }
-    public UIDataBox uiDataBox { get { return m_uiDataBox; } }
-    public UINormalBox uiNormalBox { get { return m_uiNormalBox; } }
+    public UIDataBoxManager uiDataBox { get { return m_uiDataBox; } }
+//    public UINormalDataBox uiNormalBox { get { return m_uiNormalBox; } }
     public UIUnitInfomation uiUnitInfomation { get { return m_uiUnitInfomation; } }
     public UIAchieveAlarm uiAchieveAlarm { get { return m_uiAchieveAlarm; } }
     public UIContents uiContents { get { return m_uiContents; } }
+    public UIName uiName { get { return m_uiName; } }
 
     public SoundPlay btnSoundPlay { 
         get 

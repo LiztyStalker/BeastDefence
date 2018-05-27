@@ -17,8 +17,12 @@ public class UILobby : UIPanel, IRootPanel
     //[SerializeField]
     //UIUnitInfomation m_uiUnitInformation;
 
+
     [SerializeField]
     Button[] m_lobbyBtns;
+
+    [SerializeField]
+    UIAccount m_uiAccount;
 
     [SerializeField]
     UIMission m_uiMission;
@@ -44,8 +48,8 @@ public class UILobby : UIPanel, IRootPanel
     [SerializeField]
     UICommon m_tmpUICommon;
 
-    [SerializeField]
-    UITutorial m_uiTutorial;
+//    [SerializeField]
+//    UITutorial m_uiTutorial;
 
     [SerializeField]
     GameObject m_backgroundPanel;
@@ -54,8 +58,9 @@ public class UILobby : UIPanel, IRootPanel
 
     SoundPlay m_soundPlay;
 
+    bool m_isContents = false;
 
-    public UIDataBox uiDataBox { get { return uiCommon.uiDataBox; } }
+    public UIDataBoxManager uiDataBox { get { return uiCommon.uiDataBox; } }
    
 //    public UIAchieveAlarm uiAchieveAlarm { get { return m_uiAchieveAlarm; } }
     public UIUnitInfomation uiUnitInformation { get { return uiCommon.uiUnitInfomation; } }
@@ -87,15 +92,15 @@ public class UILobby : UIPanel, IRootPanel
         }
     }
 
-    public UITutorial uiTutorial
-    {
-        get
-        {
-            if (m_uiTutorial == null)
-                m_uiTutorial = GameObject.Find("Game@Tutorial").GetComponent<UITutorial>();
-            return m_uiTutorial;
-        }
-    }
+    //public UITutorial uiTutorial
+    //{
+    //    get
+    //    {
+    //        if (m_uiTutorial == null)
+    //            m_uiTutorial = GameObject.Find("Game@Tutorial").GetComponent<UITutorial>();
+    //        return m_uiTutorial;
+    //    }
+    //}
 
     public SoundPlay soundPlay
     {
@@ -120,9 +125,18 @@ public class UILobby : UIPanel, IRootPanel
         UIPanelManager.GetInstance.setRoot(this);
         soundPlay.audioPlay("BGMLobby", TYPE_SOUND.BGM);
 
-//        if (string.IsNullOrEmpty(Account.GetInstance.name))
-//            uiTutorial.uiName.viewPanel();
+        StartCoroutine(lobbyCoroutine());
+    }
 
+    IEnumerator lobbyCoroutine()
+    {
+        if (string.IsNullOrEmpty(Account.GetInstance.name))
+            yield return uiCommon.uiName;
+
+        //로비 자막 이벤트
+        yield return StartCoroutine(uiCommon.uiContents.contentsCoroutine(Contents.TYPE_CONTENTS_EVENT.Lobby));
+
+//            uiCommon.uiName.viewPanel();
     }
 
     void Update()
@@ -144,12 +158,17 @@ public class UILobby : UIPanel, IRootPanel
     public override void uiUpdate()
     {
         base.uiUpdate();
+
+//        StartCoroutine(contentsCoroutine(UIPanelManager.GetInstance.nowPanel().GetType().Name));
+//        setContents(UIPanelManager.GetInstance.nowPanel().GetType().Name);
+        
         if (UIPanelManager.GetInstance.nowPanel() == this)
         {
             //패널 닫기
             m_backgroundPanel.SetActive(false);
         }
     }
+
 
     protected void OnEnable()
     {
@@ -179,10 +198,32 @@ public class UILobby : UIPanel, IRootPanel
         //            }
         //        }
 
+
+        //스테이지 1-4가 되면 임무를 제외한 모든 버튼 풀리기
+
+        Debug.Log(" : " + Account.GetInstance.accSinario.isUsed());
+
+        for (int i = 0; i < m_lobbyBtns.Length; i++)
+        {
+            if (i == 0)
+                m_lobbyBtns[i].interactable = true;
+            else
+                m_lobbyBtns[i].interactable = Account.GetInstance.accSinario.isUsed();
+        }
+
         m_uiCommon = uiCommon;
         m_uiCommon.setCamera();
 
+
         //uiTutorial.uiIndicator.setTexture(m_lobbyBtns[0].GetComponent<RectTransform>());
+    }
+
+
+
+
+    public void OnAccountClicked()
+    {
+        m_uiAccount.openPanel(this);
     }
 
     public void OnMissionClicked()

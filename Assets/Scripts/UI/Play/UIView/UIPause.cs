@@ -8,7 +8,7 @@ public class UIPause : UIPanel
     public override void openPanel(UIPanel parent)
     {
         base.openPanel(parent);
-
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.OPEN);
         //시간 멈추기
         Time.timeScale = 0f;
         
@@ -17,6 +17,7 @@ public class UIPause : UIPanel
     public override void closePanel()
     {
         //시간 재생
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.CLOSE);
         base.closePanel();
         Time.timeScale = 1f;
 

@@ -74,6 +74,10 @@ public class UIDevelop : UIPanel
     {
         base.OnEnable();
 
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.OPEN);
+
+        StartCoroutine(UIPanelManager.GetInstance.root.uiCommon.uiContents.contentsCoroutine(Contents.TYPE_CONTENTS_EVENT.Develop));
+
         //초기화
 
 
@@ -274,7 +278,10 @@ public class UIDevelop : UIPanel
     }
 
 
-    //protected override void OnDisable()
+    protected override void OnDisable(){
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.CLOSE);
+        base.OnDisable();
+
     //{
     //    for (int i = m_developBtnList.Count - 1; i >= 0; i--)
     //    {
@@ -284,7 +291,7 @@ public class UIDevelop : UIPanel
     //    m_developBtnList.Clear();
 
     //    base.OnDisable();
-    //}
+    }
 
     //업데이트
 

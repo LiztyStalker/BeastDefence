@@ -105,6 +105,8 @@ public class UICommanderView : MonoBehaviour
        
         setCommander(null);
         viewButton();
+        StartCoroutine(UIPanelManager.GetInstance.root.uiCommon.uiContents.contentsCoroutine(Contents.TYPE_CONTENTS_EVENT.BarracksCommander));
+
     }
 
 

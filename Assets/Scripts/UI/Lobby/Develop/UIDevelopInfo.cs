@@ -106,13 +106,20 @@ public class UIDevelopInfo : UIPanel
     void developEvent()
     {
         //완료
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.DEVELOP);
 
         Account.GetInstance.accData.useValue(m_developButton.develop.getCost(m_level), TYPE_ACCOUNT_CATEGORY.Gold);
         Account.GetInstance.accDevelop.addDevelop(m_developButton.develop.key);
         developDataUpdateEvent();
 //        developDataUpdateEvent(m_developButton.develop.typeDevelopGroup);
         //developDataUpdateEvent(m_developButton);
-        closePanel();
+        base.closePanel();
+    }
+
+    public override void closePanel()
+    {
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.CLOSE);
+        base.closePanel();
     }
 
 

@@ -5,10 +5,11 @@ using System.Linq;
 using System.Xml;
 using System.IO;
 using UnityEngine;
+using Defence.CharacterPackage;
 
 public class ContentsManager : SingletonClass<ContentsManager>
 {
-    enum TYPE_CONTENTS_DATA { Key, StageKey, Event, TypePos, Character, TypeFace, Contents }
+    enum TYPE_CONTENTS_DATA { Key, ParentKey, StageKey, TypeEvent, TypePos, Character, TypeFace, Contents }
 
     Dictionary<string, List<Contents> > m_contentsDic = new Dictionary<string, List<Contents> > ();
     
@@ -21,7 +22,7 @@ public class ContentsManager : SingletonClass<ContentsManager>
     void initParse()
     {
 
-        
+        Sprite[] sprites = Resources.LoadAll<Sprite>(Prep.contentsImagePath);
 
 
         TextAsset textAsset = Resources.Load<TextAsset>(Prep.contentsDataPath);
@@ -46,12 +47,17 @@ public class ContentsManager : SingletonClass<ContentsManager>
                     if (key == "-")
                         continue;
 
+                    string parentKey = xmlNode.SelectSingleNode(TYPE_CONTENTS_DATA.ParentKey.ToString()).InnerText;
+                    if (parentKey == "-") parentKey = "";
+
                     string stageKey = xmlNode.SelectSingleNode(TYPE_CONTENTS_DATA.StageKey.ToString()).InnerText;
 
-                    Contents.TYPE_CONTENTS_EVENT typeEvent = 
+                    //string eventClass = xmlNode.SelectSingleNode(TYPE_CONTENTS_DATA.Event.ToString()).InnerText;
+
+                    Contents.TYPE_CONTENTS_EVENT typeEvent =
                         (Contents.TYPE_CONTENTS_EVENT)Enum.Parse(
-                        typeof(Contents.TYPE_CONTENTS_EVENT), 
-                        xmlNode.SelectSingleNode(TYPE_CONTENTS_DATA.Event.ToString()).InnerText
+                        typeof(Contents.TYPE_CONTENTS_EVENT),
+                        xmlNode.SelectSingleNode(TYPE_CONTENTS_DATA.TypeEvent.ToString()).InnerText
                         );
 
                     Contents.TYPE_CONTENTS_POS typePos = 
@@ -62,16 +68,22 @@ public class ContentsManager : SingletonClass<ContentsManager>
 
                     string character = xmlNode.SelectSingleNode(TYPE_CONTENTS_DATA.Character.ToString()).InnerText;
 
-                    string typeFace = xmlNode.SelectSingleNode(TYPE_CONTENTS_DATA.TypeFace.ToString()).InnerText;
+//                    string typeFace = xmlNode.SelectSingleNode(TYPE_CONTENTS_DATA.TypeFace.ToString()).InnerText;
+                    Character.TYPE_FACE typeFace = (Character.TYPE_FACE)Enum.Parse(typeof(Character.TYPE_FACE), xmlNode.SelectSingleNode(TYPE_CONTENTS_DATA.TypeFace.ToString()).InnerText);
+
 
                     string contentsStr = xmlNode.SelectSingleNode(TYPE_CONTENTS_DATA.Contents.ToString()).InnerText;
 
+                    Sprite image = sprites.Where(spr => spr.name == key).SingleOrDefault();
+
                     Contents contents = new Contents(
                                             key,
+                                            parentKey,
                                             stageKey,
                                             character,
-                                            typeFace,
                                             contentsStr,
+                                            typeFace,
+                                            image,
                                             typeEvent,
                                             typePos
                                             );
@@ -107,7 +119,19 @@ public class ContentsManager : SingletonClass<ContentsManager>
     {
         if (m_contentsDic.ContainsKey(stageKey))
         {
-            return m_contentsDic[stageKey].Where(cont => cont.typeContentsEvent == typeEvent).ToList<Contents>();
+            List<Contents> contentsList = m_contentsDic[stageKey].Where(cont => cont.typeContentsEvent == typeEvent).ToList<Contents>();
+            List<Contents> tmpContentsList = new List<Contents>();
+
+            foreach(Contents contents in contentsList)
+            {
+                //부모키가 등록되어 있거나 부모키가 없으면 등록
+                if(contents.parentKey == "" ||
+                    Account.GetInstance.accSinario.isContents(contents.parentKey))
+                {
+                    tmpContentsList.Add(contents);
+                }
+            }
+            return tmpContentsList;
         }
 
         Prep.LogError(stageKey, "를 찾을 수 없음", GetType());

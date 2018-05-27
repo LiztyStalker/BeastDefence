@@ -1,0 +1,662 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Contents xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<Data>
+		<Key>Contents0000</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>Lobby</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>야수디펜스에 온걸 환영해. 나는 반란군 지휘관 라티야</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0001</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>Lobby</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>긴 말은 하지 않을게. 지금 우리들은 너의 힘이 필요해. 우린 지금 기사단을 무찌르고 해방하기 위해서 싸우고 있어.</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0002</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>Lobby</TypeEvent>
+		<TypePos>Right</TypePos>
+		<Character>Char_Caon</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>네 녀석들은 뭐냐! 지금 반항하는 거냐!</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0003</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>Lobby</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>녀석이 벌써 근처까지 다가왔어. 시간이 없으니 일단 내가 말하는대로 따라해줘</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0004</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>Lobby</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>먼저 메인 화면이 눈 앞에 보일거야. 다양한 시설이 있지만 지금은 사용할 수 없어. 녀석들이 사용하고 있어서.</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0005</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>Lobby</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>일단 눈에 보이는 임무창부터 터치해.</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0006</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>World</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>현재 우리가 있는 지역이야. 아직은 하나밖에 없지만 게임을 진행할 수록 지역이 늘어날 거야.</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0007</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>World</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>일단 중앙에 보이는 '초원' 지역을 터치해보자</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0008</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>StageList</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>이건 임무 목록 창이야. 마찬가지로 진행하다 보면 여러 임무들이 나타날 거야.</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0009</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>StageList</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>임무를 선택해볼까?</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0010</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>StageInfo</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>우리가 해야할 임무랑 적들의 정보가 있어. 입장을 눌러볼까?</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0011</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>Barracks</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>이건 병사를 관리하는 막사야. 다양한 병사를 관리하고 출전하기 위해 대기를 시킬 수도 있지.</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0012</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>Barracks</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>왼쪽은 병사의 정보를 볼 수 있고 일정 비용을 내서 훈련을 시킬 수 있는 창이야.</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0013</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>Barracks</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>하단은 병사들이 쉴 수 있는 막사야. 병사들을 획득하면 모두 이곳으로 모여</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0014</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>Barracks</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>출전하고 싶은 병사가 있으면 중앙에 있는 화살표를 누르면 대기목록에 올라갈 수 있어.</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0015</Key>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>Barracks</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>대신 출전하는 병사는 인구랑 식량을 차지해. 나중에 개발을 할 수 있게 된다면 출전 인구를 증가시킬 수 있어.</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0016</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>Barracks</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>지금은 병사가 한 기밖에 없지만 나중에 병사들이 많아지면 병사들을 다양하게 조합해야 할거야. 일단 병사를 위로 올리자</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0017</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>BarracksUp</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>병사가 출전하기 위해 대기를 하고 있어. 다음을 눌러볼까?</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0018</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>StageReady</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>최종적으로 적의 병력과 아군의 병력을 볼 수 있어. 곧장 전투에 들어갈 수도 있고 적의 병력 정보도 확인할 수 있어. 한 번 적의 병력을 확인해볼까?</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0019</Key>
+		<ParentKey>Contents0018</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>UnitInfo</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>우리 병사보다 약간 우세한 편이야. 쉽지많은 않겠는걸?</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0020</Key>
+		<ParentKey>Contents0018</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>UnitInfo</TypeEvent>
+		<TypePos>Right</TypePos>
+		<Character>Char_Caon</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>찾았다! 너희들은 더 이상 도망칠 곳이 없으니 순순히 항복해라!</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0021</Key>
+		<ParentKey>Contents0018</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>UnitInfo</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>젠장! 우리가 숨어있는 곳을 들켰어! 더 이상 물러설 순 없어! 당장 전투를 시작하자!</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0022</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>Start</TypeEvent>
+		<TypePos>Right</TypePos>
+		<Character>Char_Caon</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>이것들이 정신을 못차렸구나! 더 이상 밖으로 나오지 못하도록 혼을 내주마!</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0023</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>Start</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>녀석이 공격을 하기 시작했어. 일단 간단하게 설명해줄게. 이건 주로 볼 수 있는 화면이야. 이 화면을 보면서 전투를 진행해야 해.</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0024</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>Start</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>상단에 있는건 아군과 적군의 성 체력을 나타내. 상대편 성을 파괴해야만 전투에서 승리할 수 있어.</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0025</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>Start</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>하단은 총 4가지로 나뉘어. 보급, 유닛, 영웅, 스킬.</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0026</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>Start</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>이건 보급창이야. 1초당 '+' 숫자만큼 보급이 차오르지. 보급이 모두 차면 확장을 할 수 있어.</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0027</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>Start</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>이건 유닛창이야. 아까 막사에서 대기열로 옮긴 유닛을 직접 생산할 수 있는 창이지.</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0028</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>Start</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>화면에 길이 3개가 보일거야. 길을 선택하면 바닥에 어느 방향으로 이동하는지 알려줘. 이 상태에서 유닛을 누르면 이 길로 유닛이 나타나서 달려갈거야.</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0029</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>Start</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>이건 영웅창이야. 유닛창과 마찬가지로 행동할 수 있어. 대신 왼쪽 오른쪽 화살표로 영웅을 선택해서 생산해야 돼. 단, 영웅은 1기밖에 생산할 수 없어.</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0030</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>Start</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>이건 스킬창이야. 선택한 지휘관의 고유 스킬을 사용할 수 있어.</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0031</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>Start</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>사용법은 간단해. 쿨타임이 다되면 스킬을 누르고 해당 위치에 드래그하면 돼. 만약 잘못 썼다면 도로 되돌리면 되니까 걱정하지마.</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0032</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>Start</TypeEvent>
+		<TypePos>Right</TypePos>
+		<Character>Char_Caon</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>녀석들을 공격해라! 한 놈도 남기지말고 싹 다 잡아버려!</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0033</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>Start</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>녀석은 초원 마을을 관리하고 있는 기사단 관리자 카온이야. 우린 녀석을 쓰러뜨리고 이곳에서 나갈거야.</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0034</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>Start</TypeEvent>
+		<TypePos>Right</TypePos>
+		<Character>Char_Caon</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>공격하라!</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0035</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>Start</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>녀석들이 온다!</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0036</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>End</TypeEvent>
+		<TypePos>Right</TypePos>
+		<Character>Char_Caon</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>겨우 이정도에 당하다니! 퇴각하라!</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0037</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage011</StageKey>
+		<TypeEvent>End</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>잘했어. 첫 전투이지만 무사히 해낼 수 있었어.</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0038</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage012</StageKey>
+		<TypeEvent>Lobby</TypeEvent>
+		<TypePos>Right</TypePos>
+		<Character>Char_LongSpearSoldier</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>라티님! 저희들도 동참하겠습니다! 부디 저희들을 부대에 넣어주세요!</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0039</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage012</StageKey>
+		<TypeEvent>Lobby</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>우리들의 기세를 알고 장창병이 참여했어. 막사에서 장창병도 출전 대기열에 넣자!</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0040</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage012</StageKey>
+		<TypeEvent>StageInfo</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_SpikeSpearSoldier</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>가시창병 준비되었습니다!</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0041</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage012</StageKey>
+		<TypeEvent>StageInfo</TypeEvent>
+		<TypePos>Right</TypePos>
+		<Character>Char_Caon</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>왜 이제야 나타나는거야! 반란군 녀석들이 커지고 있잖아!</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0042</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage012</StageKey>
+		<TypeEvent>StageInfo</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_SpikeSpearSoldier</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>죄송합니다! 당장 자리로 돌아가겠습니다!</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0043</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage012</StageKey>
+		<TypeEvent>StageInfo</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>적도 병력이 추가되었어. 이번에도 만만치 않은 전투가 될거 같아.</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0044</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage012</StageKey>
+		<TypeEvent>Start</TypeEvent>
+		<TypePos>Right</TypePos>
+		<Character>Char_Caon</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>아까는 방심해서 당했다고 해도 이번에는 절대로 물러서지 않아! 녀석들을 공격하라!</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0045</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage012</StageKey>
+		<TypeEvent>Start</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>우리들도 진격하자!</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0046</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage013</StageKey>
+		<TypeEvent>Lobby</TypeEvent>
+		<TypePos>Right</TypePos>
+		<Character>Char_Caon</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>멍청한 녀석들! 이래도 기사단이라고 할 수 있나! 내가 직접…</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0047</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage013</StageKey>
+		<TypeEvent>Lobby</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Dingoo</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>카온님! 제가 녀석들을 쓸어버리겠습니다!</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0048</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage013</StageKey>
+		<TypeEvent>Lobby</TypeEvent>
+		<TypePos>Right</TypePos>
+		<Character>Char_Caon</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>좋아. 딩구 녀석들을 쓸어버려라!</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0049</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage013</StageKey>
+		<TypeEvent>Lobby</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>이제부터 본격적으로 적이 쳐들어올거야. 딩구까지 합세한다니 더 어려워지겠는데? 이제 나도 전장에 참여하지 않으면 안되겠어.</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0050</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage013</StageKey>
+		<TypeEvent>BarracksHero</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>이번엔 적들의 간부가 직접적으로 공격에 참여할거야. 나도 그에 맞서야 하니까 출전 대기줄에 넣어줘.</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0051</Key>
+		<ParentKey>Contents0050</ParentKey>
+		<StageKey>Stage013</StageKey>
+		<TypeEvent>BarracksUp</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>이제 나도 전장에서 활약할 수 있게 되었어. 당장 전투를 시작해보자!</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0052</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage013</StageKey>
+		<TypeEvent>Start</TypeEvent>
+		<TypePos>Right</TypePos>
+		<Character>Char_Dingoo</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>켕켕켕! 카온님에게 부끄러운 모습을 보여드릴 수 없지. 진격이다!</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0053</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage013</StageKey>
+		<TypeEvent>Start</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>우리도 출격이다!</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0054</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage013</StageKey>
+		<TypeEvent>AppearEnemyHero</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>딩구가 출격했다! 군수품이 남아있으면 나도 딩구가 가는 길에 출격시켜줘! 영웅은 라인 하나를 밀어버릴 수 있을 정도로 강력하다고!</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0055</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage013</StageKey>
+		<TypeEvent>EnemyHeroDn</TypeEvent>
+		<TypePos>Right</TypePos>
+		<Character>Char_Dingoo</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>윽! 내가 당하다니!</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0056</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage013</StageKey>
+		<TypeEvent>End</TypeEvent>
+		<TypePos>Right</TypePos>
+		<Character>Char_Dingoo</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>으아아악! 후퇴하라! 후퇴!</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0057</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage014</StageKey>
+		<TypeEvent>Lobby</TypeEvent>
+		<TypePos>Right</TypePos>
+		<Character>Char_Caon</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>이런 멍청한 녀석! 일단 후퇴다!</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0058</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage013</StageKey>
+		<TypeEvent>End</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>기사단을 물리치는데 성공했다! 녀석들이 물러가고 있어!</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0059</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage014</StageKey>
+		<TypeEvent>Lobby</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>적들을 섬멸하는데 성공했어. 일단 기본적인 시설은 우리가 사용할 수 있을거야. </Contents>
+	</Data>
+	<Data>
+		<Key>Contents0060</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage014</StageKey>
+		<TypeEvent>Develop</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>여기에서 다양한 것을 개발할 수 있어. 진출 대기열을 증가시키거나 성 체력을 증가하거나 병사들의 최대 레벨을 증가시킬 수 있어.</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0061</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage014</StageKey>
+		<TypeEvent>Employee</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>여기서 우리들의 소식을 듣고 몰려온 병사들을 고용할 수 있어. 징집은 랜덤하게 병사를 징집하고 모집은 병사를 선택하서 고용할 수 있으니 각각의 장점을 살리도록 해</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0062</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage014</StageKey>
+		<TypeEvent>Shop</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>여기서 전투에 필요한 다양한 재화를 구입할 수 있어. </Contents>
+	</Data>
+	<Data>
+		<Key>Contents0063</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage014</StageKey>
+		<TypeEvent>Barracks</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>여기선 여태까지 고용한 유닛과 지휘관을 확인할 수 있어. 물론 훈련도 가능해.</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0064</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage014</StageKey>
+		<TypeEvent>Achieve</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>여기에서는 여태까지 이룩해낸 다양한 기록을 확인할 수 있어. 물론 이룩한 기록에 대해 보상도 받을 수 있지.</Contents>
+	</Data>
+	<Data>
+		<Key>Contents0065</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage014</StageKey>
+		<TypeEvent>Account</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>여기에서는 기본적인 정보를 확인할 수 있어. </Contents>
+	</Data>
+</Contents>

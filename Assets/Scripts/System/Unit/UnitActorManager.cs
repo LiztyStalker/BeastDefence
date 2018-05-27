@@ -273,10 +273,14 @@ public class UnitActorManager : MonoBehaviour, IActorManager
     {
         if (useActorList.Contains(unitActor))
         {
+
+
             Debug.LogError("해제 : " + unitActor.name);
             unitActor.clear();
             useActorList.Remove(unitActor);
             idleActorQueue.Enqueue(unitActor);
+
+
             return true;
         }
         return false;

@@ -69,6 +69,9 @@ public class UIMissionList : MonoBehaviour
             }
         }
 
+        StartCoroutine(UIPanelManager.GetInstance.root.uiCommon.uiContents.contentsCoroutine(Contents.TYPE_CONTENTS_EVENT.StageList));
+
+
     }
 
     /// <summary>

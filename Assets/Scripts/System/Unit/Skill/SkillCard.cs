@@ -5,9 +5,10 @@ public class SkillCard : ICard
 {
     Skill m_skill;
 
-    int m_level = 1;   
+    int m_level = 1;
 
 
+    public Skill skill { get { return m_skill; } }
     public string key { get { return m_skill.key; }}
     public string name { get { return m_skill.name; }}
     public Sprite icon { get { return m_skill.icon; }}

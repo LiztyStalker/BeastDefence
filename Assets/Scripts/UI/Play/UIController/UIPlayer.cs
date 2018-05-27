@@ -100,6 +100,8 @@ public class UIPlayer : UIController, IRootPanel {
 
     [SerializeField]
     UIPause m_uiPause;
+
+    [SerializeField]
     
     UICommon m_uiCommon;
 
@@ -108,7 +110,29 @@ public class UIPlayer : UIController, IRootPanel {
     public UICommon uiCommon { 
         get {
             if (m_uiCommon == null)
-                m_uiCommon = GameObject.Find("Game@Common").GetComponent<UICommon>();
+            {
+                GameObject obj = GameObject.Find("Game@Common");
+
+                if(obj != null)
+                    m_uiCommon = obj.GetComponent<UICommon>();
+
+                if (m_uiCommon == null)
+                {
+                    UICommon tmpCommon = Resources.Load<UICommon>(Prep.uiCommonPrefebsPath);
+                    if (tmpCommon != null)
+                    {
+                        m_uiCommon = Instantiate(tmpCommon);
+                    }
+                    else
+                    {
+                        Prep.LogError(Prep.uiCommonPrefebsPath, " 경로를 찾을 수 없음", GetType());
+                    }
+                }
+                else
+                {
+                    Prep.LogError("Game@Common", "를 찾을 수 없음", GetType());
+                }
+            }
             return m_uiCommon; 
         } 
     }
@@ -350,12 +374,15 @@ public class UIPlayer : UIController, IRootPanel {
         //}
 
         //상대 지휘관 카드 가져오기
-        CommanderCard cmdCard = CommanderManager.GetInstance.getCommanderCard(stage.deck.commanderKey, stage.deck.commanderLevel);
+        if (stage != null)
+        {
+            CommanderCard cmdCard = CommanderManager.GetInstance.getCommanderCard(stage.deck.commanderKey, stage.deck.commanderLevel);
 
-        //지휘관 세력에 따라서 체력바 변경하기
-        //지휘관 아이콘 삽입하기
-        if (cmdCard != null)
-            m_cpuHealthImage.color = Prep.getForceColor(cmdCard.typeForce);
+            //지휘관 세력에 따라서 체력바 변경하기
+            //지휘관 아이콘 삽입하기
+            if (cmdCard != null)
+                m_cpuHealthImage.color = Prep.getForceColor(cmdCard.typeForce);
+        }
 
         m_playerHealthImage.color = Prep.getForceColor(Account.GetInstance.accUnit.getNowCommanderCard().typeForce);
 
@@ -375,18 +402,7 @@ public class UIPlayer : UIController, IRootPanel {
 
 
 
-    public bool setContents(Contents.TYPE_CONTENTS_EVENT typeEvent)
-    {
-        if (Account.GetInstance.accSinario.nowStage != null)
-        {
-            if (uiCommon.uiContents.setContents(Account.GetInstance.accSinario.nowStage.key, typeEvent))
-            {
-                uiCommon.uiContents.openPanel(null);
-                return true;
-            }
-        }
-        return false;
-    }
+   
 
 
     //public bool viewHeroUnit()
@@ -575,6 +591,7 @@ public class UIPlayer : UIController, IRootPanel {
         //업그레이드
         if (m_munitionsSlider.value >= 1f)
         {
+            UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.LVUP);
             upgradeMunitions();
             setMsg("보급 확장 완료!");
         }
@@ -603,8 +620,10 @@ public class UIPlayer : UIController, IRootPanel {
 
     public void closeProjector(SkillCard skillCard, int index, bool isUsed)
     {
-        resetCardTime(skillCard.key);
-//        unitDelay[Prep.maxUnitSlot + Prep.maxHeroSlot + index] = 0f;
+        //사용되었으면 쿨타임 초기화
+        if (isUsed) resetCardTime(skillCard.key);
+
+        //프로젝터 종료 및 실행 여부
         m_uiProjector.closeProjector(skillCard, isUsed);
     }
 

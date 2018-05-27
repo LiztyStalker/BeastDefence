@@ -74,6 +74,7 @@ public class UICardSelect : MonoBehaviour
 
     void OnClicked()
     {
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.FLIP);
         foreach (UICardSelectButton btn in m_cardBtns)
         {
             btn.GetComponent<Button>().enabled = false;

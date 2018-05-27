@@ -43,6 +43,15 @@ public class AccountAchieve
         return m_achieveList.Contains(key);
     }
 
+    /// <summary>
+    /// 달성한 업적 개수 가져오기
+    /// </summary>
+    /// <returns></returns>
+    public int getAchieveSuccessCount()
+    {
+        return m_achieveList.Count;
+    }
+
 
     /// <summary>
     /// 업적 데이터 가져오기 
@@ -108,10 +117,10 @@ public class AccountAchieve
     /// 역직렬화
     /// </summary>
     /// <param name="accAchieveSerial"></param>
-    public AccountAchieve(AccountAchieveSerial accAchieveSerial)
+    public AccountAchieve(AccountAchieveSerial accSerial)
     {
         //역직렬화
-        m_achieveList.AddRange(accAchieveSerial.achieveList);
+        m_achieveList.AddRange(accSerial.achieveList);
     }
 
     /// <summary>

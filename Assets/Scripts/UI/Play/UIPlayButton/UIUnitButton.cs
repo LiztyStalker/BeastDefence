@@ -1,8 +1,9 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.EventSystems;
 
 
-public class UIUnitButton : UIPlayButton
+public class UIUnitButton : UIPlayButton, IPointerDownHandler, IPointerUpHandler
 {
 
     public delegate void CreateUnitDelegate(UnitCard unitCard, int index);
@@ -46,6 +47,8 @@ public class UIUnitButton : UIPlayButton
     //사용중인 유닛 - 영웅
     [SerializeField]
     GameObject m_notUsedObject;
+
+    Vector3 m_touchPos;
 
     //쿨타임 보여주기
 
@@ -124,6 +127,22 @@ public class UIUnitButton : UIPlayButton
 
     public void uiUpdate(float timer, bool isNotUsed = false)
     {
+
+
+        if (m_isClicked)
+        {
+            m_infoTime += Prep.frameTime;
+            if (m_infoTime > 1f)
+            {
+                uiDataBox.setData(m_unitCard, m_touchPos);
+            }
+        }
+        else
+        {
+            m_infoTime = 0f;
+        }
+
+
         //쿨타임 보여주기
         //영웅은 나와있는지 보여주기
         //나와있으면 사용 불가 창 띄우기
@@ -160,46 +179,65 @@ public class UIUnitButton : UIPlayButton
     {
 
         //유닛이 들어있으면
-        if(m_unitCard != null){
-
-            //사용불가가 아니면 - 영웅이면 영웅 인덱스에 없으면
-            if (!isNotUsedEvent(key))
+        if (m_unitCard != null)
+        {
+            //정보를 보고 있지 않다면
+            if (m_infoTime < 1f)
             {
-                //영웅이면
-                //현재 플레이어 영웅이 존재하면
-
-                //보급이 충분하면
-                if (checkMunitionEvent(m_unitCard))
+                //사용불가가 아니면 - 영웅이면 영웅 인덱스에 없으면
+                if (!isNotUsedEvent(key))
                 {
+                    //영웅이면
+                    //현재 플레이어 영웅이 존재하면
 
-                    //쿨타임이 완료되었으면 - UICtrler의 쿨타임이 완료되었으면
-                    if (rateCardTimeEvent(m_unitCard) >= 1f)
+                    //보급이 충분하면
+                    if (checkMunitionEvent(m_unitCard))
                     {
-                        //해당 유닛 생산하기
-                        createUnitEvent(m_unitCard, index);
+
+                        //쿨타임이 완료되었으면 - UICtrler의 쿨타임이 완료되었으면
+                        if (rateCardTimeEvent(m_unitCard) >= 1f)
+                        {
+                            //해당 유닛 생산하기
+                            UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.NONE);
+                            createUnitEvent(m_unitCard, index);
+                        }
+                        else
+                        {
+                            //쿨타임이 안되어 있습니다.
+                            UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.ERROR);
+                            msgPanelEvent("대기중입니다.");
+                        }
                     }
                     else
                     {
-                        //쿨타임이 안되어 있습니다.
-                        msgPanelEvent("대기중입니다.");                    
+                        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.ERROR);
+                        msgPanelEvent("보급이 부족합니다");
+                        //                    Debug.Log("보급이 부족합니다");
                     }
                 }
                 else
                 {
-                    msgPanelEvent("보급이 부족합니다");
-//                    Debug.Log("보급이 부족합니다");
+                    //영웅이면
+                    UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.ERROR);
+                    msgPanelEvent("전장에서 활동중입니다.");
+                    //다른 유닛이면 - 사용할 수 없습니다.
                 }
-            }
-            else
-            {
-                //영웅이면
-                msgPanelEvent("전장에서 활동중입니다.");
-                //다른 유닛이면 - 사용할 수 없습니다.
             }
         }
     }
 
-
+    public void OnPointerDown(PointerEventData eventData)
+    {
+        m_isClicked = true;
+        m_touchPos = Input.mousePosition;
+    }
+    
+    public void OnPointerUp(PointerEventData eventData)
+    {
+        m_touchPos = Vector3.zero;
+        m_isClicked = false;
+        m_infoTime = 0f;
+    }
 
 }
 

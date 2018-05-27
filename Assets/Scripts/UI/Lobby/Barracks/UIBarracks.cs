@@ -40,11 +40,15 @@ public class UIBarracks : UIPanel
 
     bool isInit = false;
 
+    void Awake()
+    {
+        m_uiUnitView.stageBtnEvent += setNextButton;
+    }
+
     void initBarracks()
     {
         if (!isInit)
         {
-
             for (int i = 0; i < m_barracksToggles.Length; i++)
             {
                 m_barracksToggles[i].isOn = false;
@@ -66,6 +70,7 @@ public class UIBarracks : UIPanel
         //타입에 따라 보여주기
         //setSinario(null);
         selectPanel();
+        StartCoroutine(UIPanelManager.GetInstance.root.uiCommon.uiContents.contentsCoroutine(Contents.TYPE_CONTENTS_EVENT.Barracks));
 
     }
 
@@ -169,16 +174,21 @@ public class UIBarracks : UIPanel
                 break;
                 case TYPE_BARRACKS.Soldier:
                 //영웅이 하나도 없으면
+
+                    //대기중인 병사가 하나도 없으면
+
+
+                    Debug.Log("Cnt : " + Account.GetInstance.accUnit.getWaitUnitCards(Unit.TYPE_UNIT.Soldier, m_stage.typeForce).Count);
+
+                    if (Account.GetInstance.accUnit.getWaitUnitCards(Unit.TYPE_UNIT.Soldier, m_stage.typeForce).Count <= 0){
+                        UIPanelManager.GetInstance.root.uiCommon.uiMsg.setMsg("병사는 적어도 1기 이상 대기해야 합니다.", TYPE_MSG_PANEL.WARNING, TYPE_MSG_BTN.OK);
+                        return;
+                    }
+
                     if (Account.GetInstance.accUnit.getUnitCount(Unit.TYPE_UNIT.Hero) <= 0)
                     {
                         //영웅칸으로 곧바로 넘어가기
                         goto case TYPE_BARRACKS.Hero;
-                    }
-
-                    //대기중인 병사가 하나도 없으면
-                    if (Account.GetInstance.accUnit.getWaitUnitCards(Unit.TYPE_UNIT.Soldier, m_stage.typeForce).Count <= 0){
-                        UIPanelManager.GetInstance.root.uiCommon.uiMsg.setMsg("병사는 적어도 1기 이상 대기해야 합니다.", TYPE_MSG_PANEL.WARNING, TYPE_MSG_BTN.OK);
-                        return;
                     }
 
                     m_typeBarracks = TYPE_BARRACKS.Hero;
@@ -188,6 +198,8 @@ public class UIBarracks : UIPanel
                 case TYPE_BARRACKS.Hero:
                     //대기중인 유닛이 0명이면 
                     UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.NONE);
+
+                    
 
                     //최종 전투대기로 전환
                     m_uiMissionReady.setMissionReady(m_stage);
@@ -227,6 +239,11 @@ public class UIBarracks : UIPanel
 
         }
         return false;
+    }
+
+    void setNextButton(bool isUsed)
+    {
+        m_sinarioButton.interactable = isUsed;
     }
 
     public override void closePanel()

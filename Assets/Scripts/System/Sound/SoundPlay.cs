@@ -2,7 +2,7 @@
 using UnityEngine;
 
 
-public enum TYPE_BTN_SOUND { NONE, OK, CANCEL, OPEN, CLOSE, INFOR, WARNING, ERROR, SELL, BUY, LVUP, START }
+public enum TYPE_BTN_SOUND { NONE, OK, CANCEL, OPEN, CLOSE, FLIP, FOLD, UP, DN, INFOR, WARNING, ERROR, SELL, BUY, LVUP, START, DEVELOP }
 public enum TYPE_SOUND {EFFECT, BGM, VOICE}
 
 public class SoundPlay : MonoBehaviour

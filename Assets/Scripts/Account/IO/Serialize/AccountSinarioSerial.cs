@@ -7,6 +7,7 @@ using System.Text;
 public class AccountSinarioSerial
 {
     public List<string> stageClearList = new List<string>();
+    public List<string> contentsClearList = new List<string>();
 
 }
 

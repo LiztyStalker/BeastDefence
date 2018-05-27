@@ -6,7 +6,6 @@ public class UIPanelManager : SingletonClass<UIPanelManager>
 {
 
     IRootPanel m_root;
-
     Stack<UIPanel> m_panelStack = new Stack<UIPanel>();
         
     public IRootPanel root { get { return m_root; } }

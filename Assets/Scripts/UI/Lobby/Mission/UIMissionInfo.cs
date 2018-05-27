@@ -135,6 +135,8 @@ public class UIMissionInfo : MonoBehaviour {
             m_commanderImage.sprite = commanderCard.icon;
         }
 
+        StartCoroutine(UIPanelManager.GetInstance.root.uiCommon.uiContents.contentsCoroutine(Contents.TYPE_CONTENTS_EVENT.StageInfo));
+
     }
 
     void clear()
