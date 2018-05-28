@@ -53,13 +53,15 @@ public class UIMissionReady : UIPanel
         m_foodCount = Account.GetInstance.accUnit.getUnitTotalPopulation(stage.typeForce);
         //시나리오 - 
         m_foodText.text = string.Format("-{0}", m_foodCount);
+        m_startBtn.interactable = true;
     }
 
 
     void Update() 
     {
         //Contents0021이 나타나면 전투 시작 가능
-        m_startBtn.interactable = Account.GetInstance.accSinario.isContents("Contents0021");
+        if (Account.GetInstance.accSinario.stageKey == "Stage011") 
+            m_startBtn.interactable = Account.GetInstance.accSinario.isContents("Contents0021");
     }
 
     public void OnStartClicked()
