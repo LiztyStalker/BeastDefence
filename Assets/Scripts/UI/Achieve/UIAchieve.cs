@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -44,7 +45,13 @@ public class UIAchieve : UIPanel
     {
         base.OnEnable();
         UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.OPEN);
+        StartCoroutine(UIPanelManager.GetInstance.root.uiCommon.uiContents.contentsCoroutine(Contents.TYPE_CONTENTS_EVENT.Achieve));
+
+
     }
+
+
+   
 
     void initAchieveList(Achieve.TYPE_ACHIEVE_CATEGORY typeAchieveCategory)
     {

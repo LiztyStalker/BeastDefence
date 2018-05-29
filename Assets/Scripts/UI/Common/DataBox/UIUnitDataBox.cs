@@ -33,7 +33,7 @@ public class UIUnitDataBox : UIDataBox
         if (unitCard != null)
         {
             m_nameText.text = unitCard.name;
-            m_typeLine.text = "공격라인 : " + unitCard.typeLine.ToString();
+            m_typeLine.text = "공격라인 : " + Prep.getTypeLineToText(unitCard.typeLine);
             m_healthText.text = "체력 : " + unitCard.health.ToString();
             m_attackText.text = "공격력 : " + unitCard.attack.ToString();
             m_contentsText.text = unitCard.contents;

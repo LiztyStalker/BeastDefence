@@ -13,6 +13,7 @@ public class UnitManager : SingletonClass<UnitManager>
 
     enum TYPE_UNIT_DATA {Key, 
         Name, 
+        IsActive,
         TypeUnit, 
         TypeForce,
         TypeMovement, 
@@ -75,6 +76,20 @@ public class UnitManager : SingletonClass<UnitManager>
 
                     string key = xmlNode.SelectSingleNode(TYPE_UNIT_DATA.Key.ToString()).InnerText;
                     if (key == "-") continue;
+
+                    bool isActive = false;
+
+                    if (!bool.TryParse(xmlNode.SelectSingleNode(TYPE_UNIT_DATA.IsActive.ToString()).InnerText, out isActive))
+                    {
+                        Prep.LogError(key, "사용 불가", GetType());
+                        continue;
+                    }
+
+                    if (!isActive)
+                    {
+                        Prep.LogError(key, "활성화 되지 않음", GetType());
+                        continue;
+                    }
 
                     string name = xmlNode.SelectSingleNode(TYPE_UNIT_DATA.Name.ToString()).InnerText;
 

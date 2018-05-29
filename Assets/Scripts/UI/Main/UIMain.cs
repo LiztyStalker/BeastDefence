@@ -28,6 +28,11 @@ public class UIMain : MonoBehaviour
 
     void Awake()
     {
+
+        Camera.main.ResetAspect();
+        Screen.SetResolution(Screen.width, Screen.width * 9 / 16, true);
+        Screen.sleepTimeout = SleepTimeout.NeverSleep;
+
         m_versionText.text = Application.version;
 
         Prep.volumeBGM = PlayerPrefs.GetFloat("VolumeBGM", 1f);

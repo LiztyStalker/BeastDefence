@@ -38,6 +38,8 @@ public class UIPanelManager : SingletonClass<UIPanelManager>
     public void pushPanel(UIPanel panel)
     {
         m_panelStack.Push(panel);
+        Debug.Log("panel : " + UIPanelManager.GetInstance.nowPanel()); 
+
 //            Debug.Log("push : " + panel + " " + m_panelStack.Peek());
     }
 

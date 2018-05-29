@@ -41,8 +41,13 @@ public class UIMission : UIPanel
     //뒤로
     public void OnBackButton()
     {
-        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.CLOSE);
         closePanel();
+    }
+
+    public override void closePanel()
+    {
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.CLOSE);
+        base.closePanel();
     }
 
     

@@ -2,6 +2,8 @@
 
 public class UnitCard : ICard
 {
+    const float cf_healthRate = 0.05f;
+
     Unit m_unit;
     int m_level;
     int m_maxExperiance;
@@ -34,7 +36,7 @@ public class UnitCard : ICard
             //성은 레벨에 대한 추가 퍼센트 체력을 획득
             if (m_unit.typeUnit == Unit.TYPE_UNIT.Building)
             {
-                nowHP += nowHP * level * 0.01f;
+                nowHP += nowHP * (float)(level - 1) * cf_healthRate;
             }
             return nowHP;
         } 
@@ -171,7 +173,16 @@ public class UnitCard : ICard
     /// <returns></returns>
     public bool isMaxLevel()
     {
-        return (m_level >= Account.GetInstance.accUnit.getUnitMaxLevel(m_unit.typeUnit));
+        return (m_level >= getMaxLevel());
+    }
+
+    /// <summary>
+    /// 최대 레벨 가져오기
+    /// </summary>
+    /// <returns></returns>
+    public int getMaxLevel()
+    {
+        return Account.GetInstance.accUnit.getUnitMaxLevel(m_unit.typeUnit);
     }
 
     /// <summary>

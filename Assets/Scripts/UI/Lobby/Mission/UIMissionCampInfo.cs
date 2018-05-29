@@ -108,7 +108,7 @@ public class UIMissionCampInfo : MonoBehaviour
         if (commanderCard != null)
         {
             m_commanderIcon.sprite = commanderCard.icon;
-            m_commanderLevelText.text = string.Format("{0}", commanderCard.level);
+            m_commanderLevelText.text = string.Format("Lv {0}", commanderCard.level);
             m_commanderName.text = commanderCard.name;
             m_commanderForceText.text = string.Format("{0}", Prep.getForceToText(commanderCard.typeForce));
         }
@@ -145,8 +145,8 @@ public class UIMissionCampInfo : MonoBehaviour
                 UnitCard unitCard = Account.GetInstance.accUnit.getUnitCard(unitList[i]);
                 uiUnitCardArray[i].setCard(unitCard);// setUnitCard(unitCard);
 
-                //스테이지 1-2부터 열림
-                uiUnitCardArray[i].GetComponent<Button>().interactable = Account.GetInstance.accSinario.isStage("Stage012");
+                //스테이지 1-1이 아니면 열림
+                uiUnitCardArray[i].GetComponent<Button>().interactable = (Account.GetInstance.accSinario.stageKey != "Stage011");
 
 
             }

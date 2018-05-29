@@ -13,10 +13,10 @@ public class UINormalDataBox : UIDataBox
 
 //    Coroutine m_coroutine;
 
-    void Awake()
-    {
-        close();
-    }
+    //void Awake()
+    //{
+    //    close();
+    //}
 
     public void setData(SinarioAward.TYPE_SINARIO_AWARD_CATEGORY typeAwardCategory, string value)
     {
@@ -45,19 +45,19 @@ public class UINormalDataBox : UIDataBox
         
     }
 
-    IEnumerator dataViewCoroutine()
-    {
-        yield return new WaitForSeconds(3f);
-        m_coroutine = null;
-        gameObject.SetActive(false);
-    }
+    //IEnumerator dataViewCoroutine()
+    //{
+    //    yield return new WaitForSeconds(3f);
+    //    m_coroutine = null;
+    //    gameObject.SetActive(false);
+    //}
 
-    public void close()
-    {
-        if (m_coroutine != null)
-            StopCoroutine(m_coroutine);
-        m_coroutine = null;
-        gameObject.SetActive(false);
-    }
+    //public void close()
+    //{
+    //    if (m_coroutine != null)
+    //        StopCoroutine(m_coroutine);
+    //    m_coroutine = null;
+    //    gameObject.SetActive(false);
+    //}
 }
 

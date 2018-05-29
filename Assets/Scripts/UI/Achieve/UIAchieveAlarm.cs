@@ -50,25 +50,60 @@ public class UIAchieveAlarm : MonoBehaviour
 
     }
 
-    public void achieveUpdate(Achieve.TYPE_ACHIEVE typeAchieve)
+    //업적 검색하기
+    //업적을 1개 이상 달성했으면 알람 보이기
+    public void achieveUpdate()
     {
+        //아직 사용하지 않음
+        return;
+        //달성한 업적 검색하기
+        //조건 타임을 기준으로 검색
+        //알람에서 떴으면 알람 리스트에 삽입
 
-        //카테고리에 따라 업적 알람 알려주기
-
-        IEnumerator enumerator = AchieveManager.GetInstance.getAchieveList(typeAchieve);
-
-        while (enumerator.MoveNext())
+        for (int i = 0; i > Enum.GetValues(typeof(Achieve.TYPE_ACHIEVE_CATEGORY)).Length; i++)
         {
-            Achieve achieve = enumerator.Current as Achieve;
+            IEnumerator enumerator = AchieveManager.GetInstance.getAchieveList((Achieve.TYPE_ACHIEVE_CATEGORY)i);
 
-            if (!achieve.isSuccess() && achieve.valueRate() >= 1f)
+            while (enumerator.MoveNext())
             {
-                //알람 띄우기
-                setAlarm(achieve);
-                break;
+
+                Achieve achieve = enumerator.Current as Achieve;
+                //            Debug.Log("achieve");
+
+                //업적을 획득하지 않았으면
+                    //                Debug.Log("achieve1");
+                //업적 값에 도달했고 업적을 획득하지 않았으면
+                if (achieve.valueRate() >= 1f && !achieve.isSuccess())
+                {
+                    Debug.Log("업적 달성 : " + achieve.key);
+                    //갱신
+//                    Account.GetInstance.accAchieve.setAchieve(achieve.key);
+
+                    setAlarm(achieve);
+                }
             }
-        }        
+        }
     }
+
+    //public void achieveUpdate(Achieve.TYPE_ACHIEVE typeAchieve)
+    //{
+
+    //    //카테고리에 따라 업적 알람 알려주기
+
+    //    IEnumerator enumerator = AchieveManager.GetInstance.getAchieveList(typeAchieve);
+
+    //    while (enumerator.MoveNext())
+    //    {
+    //        Achieve achieve = enumerator.Current as Achieve;
+
+    //        if (!achieve.isSuccess() && achieve.valueRate() >= 1f)
+    //        {
+    //            //알람 띄우기
+    //            setAlarm(achieve);
+    //            break;
+    //        }
+    //    }        
+    //}
 
 
     public void setAlarm(Achieve achieve)

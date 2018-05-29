@@ -59,9 +59,9 @@ public class UIMissionReady : UIPanel
 
     void Update() 
     {
-        //Contents0021이 나타나면 전투 시작 가능
-        if (Account.GetInstance.accSinario.stageKey == "Stage011") 
-            m_startBtn.interactable = Account.GetInstance.accSinario.isContents("Contents0021");
+        //Contents011_WarReady이 나타나면 전투 시작 가능
+        if (Account.GetInstance.accSinario.stageKey == "Stage011")
+            m_startBtn.interactable = Account.GetInstance.accSinario.isContents("Contents011_WarReady");
     }
 
     public void OnStartClicked()

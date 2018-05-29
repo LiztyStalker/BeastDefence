@@ -99,9 +99,9 @@ public class AccountData
         m_level = 1;
         m_nowExperiance = 0;
 
-        m_gold = 100000;
-        m_fruit = 100000;
-        m_maxFood = 5000;
+        m_gold = 1000;
+        m_fruit = 100;
+        m_maxFood = 100;
         m_nowFood = m_maxFood;
         m_lastTime = DateTime.UtcNow;
 //        m_maxExperiance = getE

@@ -33,8 +33,8 @@ public class UIConscript : UIPanel
                 m_conscriptButtons[i].GetComponent<Button>().onClick.AddListener(() => OnFiveConscriptClicked());
             if (i == 2)
                 m_conscriptButtons[i].GetComponent<Button>().onClick.AddListener(() => OnTenConscriptClicked());
-            if (i == 3)
-                m_conscriptButtons[i].GetComponent<Button>().onClick.AddListener(() => OnHeroConscriptClicked());
+//            if (i == 3)
+//                m_conscriptButtons[i].GetComponent<Button>().onClick.AddListener(() => OnHeroConscriptClicked());
 
         }
     }

@@ -7,12 +7,12 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0.05</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>적에게 강력한 폭탄을 투척합니다. 주변 {0}이내의 적에게 폭발시 {1}의 데미지를 가합니다.</Contents>
+		<Contents>적에게 강력한 폭탄을 투척함니다. 주변 적에게 피해를 입힙니다.</Contents>
 	</Data>
 	<Data>
 		<Key>ThrowAxe</Key>
@@ -21,12 +21,12 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0.05</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>적에게 관통되는 커다란 도끼를 투척합니다. {0}의 데미지를 가합니다.</Contents>
+		<Contents>적에게 거대한 도끼를 투척합니다. 거대한 도끼는 적을 관통합니다.</Contents>
 	</Data>
 	<Data>
 		<Key>Shove</Key>
@@ -35,12 +35,12 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0.05</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>공격시 적을 밀쳐냅니다. 적은 {0}만큼 밀려납니다.</Contents>
+		<Contents>강하게 적을 밀쳐냅니다.</Contents>
 	</Data>
 	<Data>
 		<Key>Dash</Key>
@@ -49,12 +49,12 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0.05</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>적과의 거리가 {0} 이내일 때 적앞으로 달려들어 {1}의 데미지를 입힙니다.</Contents>
+		<Contents>적에게 달라붙어 공격을 가합니다.</Contents>
 	</Data>
 	<Data>
 		<Key>FastReload</Key>
@@ -63,12 +63,12 @@
 		<TypeTeam>Ally</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0.05</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>재장전 속도가 빨라집니다. {0}초 동안 공격속도가 {1} 증가합니다.</Contents>
+		<Contents>재장전속도가 빨라집니다.</Contents>
 	</Data>
 	<Data>
 		<Key>IceWall</Key>
@@ -77,12 +77,12 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0.05</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>적 앞에 이동을 방해하는 얼음벽을 설치합니다. 얼음벽은 일정시간이 지나면 파괴됩니다.</Contents>
+		<Contents>적 앞에 이동을 방해하는 얼음벽을 설치합니다. 얼음벽은 서서히 녹습니다.</Contents>
 	</Data>
 	<Data>
 		<Key>IceStorm</Key>
@@ -91,12 +91,12 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0.05</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>전방으로 얼음미사일 발사합니다. 얼음미사일은 폭발하여 {0}의 데미지를 입히고 {1}초동안 행동불가에 빠집니다.</Contents>
+		<Contents>전방으로 얼음미사일을 발사합니다. 맞은 적은 멈춥니다.</Contents>
 	</Data>
 	<Data>
 		<Key>FireBall</Key>
@@ -105,12 +105,12 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0.05</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>전방으로 파이어볼을 발사합니다. 파이어볼은 폭발하여 {0}의 데미지를 입힙니다.</Contents>
+		<Contents>전방으로 파이어볼을 발사합니다. 주변 적에게 피해를 입힙니다.</Contents>
 	</Data>
 	<Data>
 		<Key>FireStrike</Key>
@@ -119,12 +119,12 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0.05</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>해당 지역으로 파이어볼이 {0}발 떨어집니다. 파이어볼은 폭발하여 {1}의 데미지를 입힙니다.</Contents>
+		<Contents>해당 지역으로 파이어볼이 여러발 떨어집니다. 주변 적에게 피해를 입힙니다.</Contents>
 	</Data>
 	<Data>
 		<Key>ThunderSpear</Key>
@@ -133,12 +133,12 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0.05</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>전방으로 썬더스피어를 던집니다. 적에게 {0}의 데미지를 입힙니다.</Contents>
+		<Contents>전방으로 썬더스피어를 던집니다.</Contents>
 	</Data>
 	<Data>
 		<Key>ChainLightning</Key>
@@ -147,12 +147,12 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0.05</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>전방으로 체인라이트닝을 발사합니다. {0}의 적에게 {1}의 데미지를 입힙니다.</Contents>
+		<Contents>전방으로 체인라이트닝을 발사합니다. 주변 적에게 피해를 입힙니다.</Contents>
 	</Data>
 	<Data>
 		<Key>EvasionManeuver</Key>
@@ -161,12 +161,12 @@
 		<TypeTeam>Ally</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0.05</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>피격시 {0}의 확률로 공격이 빗나갑니다.</Contents>
+		<Contents>피격시 공격이 빗나갑니다.</Contents>
 	</Data>
 	<Data>
 		<Key>Retreat</Key>
@@ -175,12 +175,12 @@
 		<TypeTeam>Ally</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0.05</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>피격시 {0}의 확률로 공격이 빗나가며 뒤로 {1}만큼 물러납니다.</Contents>
+		<Contents>피격시 공격이 빗나갑니다.</Contents>
 	</Data>
 	<Data>
 		<Key>Assault</Key>
@@ -189,12 +189,12 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0.05</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>적과의 거리가 {0} 이내일 때 적앞으로 도약하여 주변의 적에게 {1}의 데미지를 가합니다.</Contents>
+		<Contents>적에게 달라붙어 공격을 가합니다. 주변 적에게 피해를 입힙니다.</Contents>
 	</Data>
 	<Data>
 		<Key>Heal</Key>
@@ -203,12 +203,12 @@
 		<TypeTeam>Ally</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>1</Rate>
 		<IncRate>0.05</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>단일 아군에게 {0}의 체력을 회복합니다.</Contents>
+		<Contents>단일 아군의 체력을 회복합니다.</Contents>
 	</Data>
 	<Data>
 		<Key>RangeHeal</Key>
@@ -217,12 +217,12 @@
 		<TypeTeam>Ally</TypeTeam>
 		<ActorCount>0</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.5</Rate>
 		<IncRate>0.05</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>해당 지역의 아군에게 {0}의 체력을 회복합니다.</Contents>
+		<Contents>해당 지역이 아군의 체력을 회복합니다,</Contents>
 	</Data>
 	<Data>
 		<Key>Bless</Key>
@@ -231,12 +231,12 @@
 		<TypeTeam>Ally</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>1</Rate>
 		<IncRate>0.05</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>해당 지역의 아군에게 {0}초동안 공격력이 {1}만큼 증가하는 버프를 제공합니다.</Contents>
+		<Contents>해당 지역의 아군의 공격력이 증가합니다.</Contents>
 	</Data>
 	<Data>
 		<Key>FirstAid</Key>
@@ -245,12 +245,12 @@
 		<TypeTeam>Ally</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>1</Rate>
 		<IncRate>0.05</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>단일 아군에게 {0}의 체력을 회복합니다. </Contents>
+		<Contents>단일 아군의 체력을 회복합니다.</Contents>
 	</Data>
 	<Data>
 		<Key>Stimulant</Key>
@@ -259,12 +259,12 @@
 		<TypeTeam>Ally</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.5</Rate>
 		<IncRate>0.05</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>단일 아군에게 {0}초동안 공격력이 {1}만큼 증가하는 버프를 제공합니다.</Contents>
+		<Contents>단일 아군의 공격력이 증가합니다.</Contents>
 	</Data>
 	<Data>
 		<Key>Guard</Key>
@@ -278,7 +278,7 @@
 		<Rate>1</Rate>
 		<IncRate>0</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>원거리 투사체에 피격시 {0}의 확률로 공격이 빗나갑니다.</Contents>
+		<Contents>원거리 투사체에게 피격당했을 때 공격을 무효화합니다.</Contents>
 	</Data>
 	<Data>
 		<Key>Reinforce</Key>
@@ -292,7 +292,7 @@
 		<Rate>1</Rate>
 		<IncRate>0</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>받는 데미지가 {0} 감소합니다.</Contents>
+		<Contents>받는 데미지가 감소합니다.</Contents>
 	</Data>
 	<Data>
 		<Key>Melting</Key>
@@ -320,7 +320,7 @@
 		<Rate>1</Rate>
 		<IncRate>0</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>투입되는 모든 병력의 체력이 {0}증가합니다.</Contents>
+		<Contents>투입되는 모든 병력의 체력이 증가합니다.</Contents>
 	</Data>
 	<Data>
 		<Key>RainArrow</Key>
@@ -334,7 +334,7 @@
 		<Rate>1</Rate>
 		<IncRate>0</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>해당하는 지역으로 화살비를 뿌립니다. 화살은 범위 {0}내의 적에게 {1}발을 발사하여 {2}의 데미지를 가합니다. </Contents>
+		<Contents>해당하는 지역으로 화살비를 뿌립니다.</Contents>
 	</Data>
 	<Data>
 		<Key>Brave</Key>
@@ -348,7 +348,7 @@
 		<Rate>1</Rate>
 		<IncRate>0</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>{0}초동안 해당하는 지역의 모든 병사들의 이동속도가 {1} 빨라집니다.</Contents>
+		<Contents>해당하는 지역의 모든 병사들의 이동속도가 빨라집니다.</Contents>
 	</Data>
 	<Data>
 		<Key>ContinuousStabbing</Key>
@@ -362,7 +362,7 @@
 		<Rate>0.2</Rate>
 		<IncRate>0</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>단일의 적에게 {0}의 공격력으로 3번 공격을 가합니다.</Contents>
+		<Contents>단일의 적에게 3번 강한 공격을 합니다.</Contents>
 	</Data>
 	<Data>
 		<Key>StrongSting</Key>
@@ -376,7 +376,7 @@
 		<Rate>0.2</Rate>
 		<IncRate>0</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>단일의 적에게 {0}의 공격력으로 강한 공격을 가합니다.</Contents>
+		<Contents>단일의 적에게 강한 공격을 합니다.</Contents>
 	</Data>
 	<Data>
 		<Key>Brave_Unit</Key>
@@ -390,7 +390,7 @@
 		<Rate>0.2</Rate>
 		<IncRate>0</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>자신을 포함한 범위 {0}주변의 아군에게 {1}초동안 이동속도가 {2}증가합니다.</Contents>
+		<Contents>자신을 포함하여 주변에 있는 아군의 이동속도가 증가합니다.</Contents>
 	</Data>
 	<Data>
 		<Key>Suppression</Key>
@@ -404,7 +404,7 @@
 		<Rate>1</Rate>
 		<IncRate>0</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>모든 적의 이동속도가 {0} 감소합니다.</Contents>
+		<Contents>모든 적의 이동속도가 감소합니다.</Contents>
 	</Data>
 	<Data>
 		<Key>VolleyFire</Key>
@@ -418,7 +418,7 @@
 		<Rate>1</Rate>
 		<IncRate>0</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>해당하는 범위 {0}이내의 지역에 {1}의 공격력을 지닌 마법화살을 {2}발 발사합니다,</Contents>
+		<Contents>해당하는 범위에 마법화살을 뿌립니다.</Contents>
 	</Data>
 	<Data>
 		<Key>Fear</Key>
@@ -432,7 +432,7 @@
 		<Rate>1</Rate>
 		<IncRate>0</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>해당하는 범위 {0}이내의 {1}초간 모든 적의 공격속도가 {2}감소합니다.</Contents>
+		<Contents>해당하는 범위 이내의 적들의 공격속도가 감소합니다.</Contents>
 	</Data>
 	<Data>
 		<Key>StrongAssault</Key>
@@ -441,12 +441,12 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>시야 내에 보이는 단일 적에게 가까이 붙어 {0}의 공격합니다.</Contents>
+		<Contents>단일 적에게 가까이 붙어서 공격합니다.</Contents>
 	</Data>
 	<Data>
 		<Key>StrongPunch</Key>
@@ -455,12 +455,12 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>0</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>{0}의 공격력으로 강하게 공격하고 뒤로 멀리 날립니다.</Contents>
+		<Contents>단일 적에게 강한 일격을 가한 후 멀리 날려보냅니다.</Contents>
 	</Data>
 	<Data>
 		<Key>Fear_Unit</Key>
@@ -469,12 +469,12 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>0</ActorCount>
 		<Size>2</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>접근한 범위 {0}의 적에게 {1}초동안 공격속도가 {2}감소하는 디버프를 겁니다.</Contents>
+		<Contents>접근한 적의 공격속도가 감소합니다. 주변 적도 포함합니다.</Contents>
 	</Data>
 	<Data>
 		<Key>DoubleTap</Key>
@@ -483,7 +483,7 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0</IncRate>
@@ -497,7 +497,7 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0</IncRate>
@@ -511,7 +511,7 @@
 		<TypeTeam>Ally</TypeTeam>
 		<ActorCount>0</ActorCount>
 		<Size>2</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0</IncRate>
@@ -525,7 +525,7 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0</IncRate>
@@ -539,7 +539,7 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0</IncRate>
@@ -553,7 +553,7 @@
 		<TypeTeam>Ally</TypeTeam>
 		<ActorCount>0</ActorCount>
 		<Size>2</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0</IncRate>
@@ -567,7 +567,7 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0</IncRate>
@@ -581,7 +581,7 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>0</ActorCount>
 		<Size>2</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0</IncRate>
@@ -595,7 +595,7 @@
 		<TypeTeam>Ally</TypeTeam>
 		<ActorCount>0</ActorCount>
 		<Size>3</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0</IncRate>
@@ -609,7 +609,7 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>2</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0</IncRate>
@@ -623,7 +623,7 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>2</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0</IncRate>
@@ -637,7 +637,7 @@
 		<TypeTeam>Ally</TypeTeam>
 		<ActorCount>0</ActorCount>
 		<Size>2</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>3</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0</IncRate>
@@ -665,7 +665,7 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>0</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>5</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0</IncRate>
@@ -679,7 +679,7 @@
 		<TypeTeam>Ally</TypeTeam>
 		<ActorCount>0</ActorCount>
 		<Size>2</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>5</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0</IncRate>
@@ -693,7 +693,7 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>0</ActorCount>
 		<Size>2</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>10</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0</IncRate>
@@ -707,7 +707,7 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>0</ActorCount>
 		<Size>2</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>5</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0</IncRate>
@@ -721,7 +721,7 @@
 		<TypeTeam>Ally</TypeTeam>
 		<ActorCount>0</ActorCount>
 		<Size>2</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>5</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0</IncRate>
@@ -735,7 +735,7 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>0</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>5</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0</IncRate>
@@ -749,7 +749,7 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>5</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0</IncRate>
@@ -763,12 +763,12 @@
 		<TypeTeam>Ally</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>30</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0</IncRate>
 		<SkillActorKey>-</SkillActorKey>
-		<Contents>성의 체력이 증가합니다.</Contents>
+		<Contents>성의 체력을 회복합니다.</Contents>
 	</Data>
 	<Data>
 		<Key>WoodCut</Key>
@@ -777,7 +777,7 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>5</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0</IncRate>
@@ -791,7 +791,7 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>0</ActorCount>
 		<Size>2</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>5</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>0.1</Rate>
 		<IncRate>0</IncRate>
@@ -833,7 +833,7 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>2</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>10</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>1</Rate>
 		<IncRate>0</IncRate>
@@ -847,7 +847,7 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>2</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>10</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>1</Rate>
 		<IncRate>0</IncRate>
@@ -875,7 +875,7 @@
 		<TypeTeam>Enemy</TypeTeam>
 		<ActorCount>0</ActorCount>
 		<Size>2</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>20</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>1</Rate>
 		<IncRate>0</IncRate>
@@ -889,7 +889,7 @@
 		<TypeTeam>Ally</TypeTeam>
 		<ActorCount>1</ActorCount>
 		<Size>1</Size>
-		<CoolTime>1</CoolTime>
+		<CoolTime>60</CoolTime>
 		<IncCoolTime>0</IncCoolTime>
 		<Rate>1</Rate>
 		<IncRate>0</IncRate>

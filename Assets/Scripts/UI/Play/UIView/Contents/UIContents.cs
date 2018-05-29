@@ -64,12 +64,15 @@ public class UIContents : UIPanel
     {
 //        if (Account.GetInstance.accSinario.nowStage != null)
 //        {
-            if (setContents(Account.GetInstance.accSinario.stageKey, typeConEvent))
-            {
-                Debug.Log("자막 찾음");
-                openPanel(null);
-                return true;
-            }
+        if (setContents(Account.GetInstance.accSinario.stageKey, typeConEvent))
+        {
+            Debug.Log("자막 찾음");
+//                gameObject.SetActive(true);
+            openPanel(null);
+            return true;
+        }
+        Debug.Log("자막 없음");
+
 //        }
         return false;
     }
@@ -143,6 +146,8 @@ public class UIContents : UIPanel
             if (viewIndex < m_uiContentsView.Length)
             {
 
+                UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.NONE);
+
                 foreach (UIContentsView uiConView in m_uiContentsView)
                     uiConView.gameObject.SetActive(false);
 
@@ -176,11 +181,15 @@ public class UIContents : UIPanel
     }
 
 
-    public void closePanel()
+    public override void closePanel()
     {
 //        contentsEvent();
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.CLOSE);
         contentsCallBack();
-        gameObject.SetActive(false);
+//        gameObject.SetActive(false);
+        base.closePanel();
+        //closePanel();
+        
     }
 }
 

@@ -22,7 +22,7 @@ public class UIMissionMap : MonoBehaviour
         {
             m_map.sprite = map.icon;
             m_mapNameText.text = map.name;
-            m_targetText.text = ""; //임무 목표
+            m_targetText.text = map.contents; //임무 목표
             m_contentsText.text = map.contents;
         }
     }

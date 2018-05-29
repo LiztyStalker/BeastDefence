@@ -62,6 +62,8 @@ public class UIMissionView : UIPanel
     {
         base.OnEnable();
         UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.OPEN);
+        
+
     }
     
     public void setArea(Area area)
@@ -78,6 +80,11 @@ public class UIMissionView : UIPanel
         m_area = area;
 
         m_uiMissionList.setArea(area, stageClickedEvent);
+
+        if (m_uiMissionInfo.gameObject.activeSelf)
+        {
+            m_uiMissionInfo.gameObject.SetActive(false);
+        }
 
         viewPanel(area.name);
 
@@ -235,11 +242,16 @@ public class UIMissionView : UIPanel
         //리스트이면 닫기
         else
         {
-            UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.CLOSE);
             closePanel();
         }
 
 
+    }
+
+    public override void closePanel()
+    {
+        UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.CLOSE);
+        base.closePanel();
     }
 
 

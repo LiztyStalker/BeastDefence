@@ -121,12 +121,18 @@ public class UILobby : UIPanel, IRootPanel
 
     void Awake()
     {
+
+
+        Camera.main.ResetAspect();
+        Screen.SetResolution(Screen.width, Screen.width * 9 / 16, true);
+
         ActorManager.GetInstance.initActorManager();
         UIPanelManager.GetInstance.setRoot(this);
         soundPlay.audioPlay("BGMLobby", TYPE_SOUND.BGM);
 
-        StartCoroutine(lobbyCoroutine());
     }
+
+    
 
     IEnumerator lobbyCoroutine()
     {
@@ -144,14 +150,14 @@ public class UILobby : UIPanel, IRootPanel
 //        uiUpdate();
         if (Input.GetKeyDown(KeyCode.Escape))
         {
+            
             if (UIPanelManager.GetInstance.nowPanel() == this)
                 OnExitClicked();
             else
             {
                 UIPanelManager.GetInstance.backPanel();
-                
-
             }
+            
         }
     }
 
@@ -161,7 +167,8 @@ public class UILobby : UIPanel, IRootPanel
 
 //        StartCoroutine(contentsCoroutine(UIPanelManager.GetInstance.nowPanel().GetType().Name));
 //        setContents(UIPanelManager.GetInstance.nowPanel().GetType().Name);
-        
+
+
         if (UIPanelManager.GetInstance.nowPanel() == this)
         {
             //패널 닫기
@@ -178,30 +185,12 @@ public class UILobby : UIPanel, IRootPanel
         Account.GetInstance.saveData();
         //업적 재갱신
 
-        //        IEnumerator enumerator = AchieveManager.GetInstance.values;
-
-        //        while(enumerator.MoveNext())
-        //        {
-
-        //            Achieve achieve = enumerator.Current as Achieve;
-        ////            Debug.Log("achieve");
-        //            if (!Account.GetInstance.accAchieve.isAchieve(achieve.key))
-        //            {
-        ////                Debug.Log("achieve1");
-        //                if (achieve.value <= Account.GetInstance.accAchieve.getAchieveValue(achieve.typeAchieve))
-        //                {
-        ////                    Debug.Log("achieve2");
-        //                    //갱신
-        //                    Account.GetInstance.accAchieve.setAchieve(achieve.key);
-        //                    m_uiAchieveAlarm.setAlarm(achieve);
-        //                }
-        //            }
-        //        }
+       
 
 
         //스테이지 1-4가 되면 임무를 제외한 모든 버튼 풀리기
 
-        Debug.Log(" : " + Account.GetInstance.accSinario.isUsed());
+        Debug.Log(" : " + Account.GetInstance.accSinario.stageKey);
 
         for (int i = 0; i < m_lobbyBtns.Length; i++)
         {
@@ -214,6 +203,9 @@ public class UILobby : UIPanel, IRootPanel
         m_uiCommon = uiCommon;
         m_uiCommon.setCamera();
 
+        StartCoroutine(lobbyCoroutine());
+
+//        uiCommon.uiAchieveAlarm.achieveUpdate();
 
         //uiTutorial.uiIndicator.setTexture(m_lobbyBtns[0].GetComponent<RectTransform>());
     }

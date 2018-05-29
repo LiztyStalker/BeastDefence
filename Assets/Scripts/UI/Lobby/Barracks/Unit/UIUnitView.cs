@@ -359,9 +359,20 @@ public class UIUnitView : MonoBehaviour
 
                 Debug.Log("nowStage : " + (m_unitWaitList.Count > 0));
 
+                //현재 스테이지가 1-3일때 영웅 대기가 0이면
                 if (Account.GetInstance.accSinario.stageKey == "Stage013")
                 {
                     stageBtnEvent(m_unitWaitList.Count > 0);
+                }
+                //현재 스테이지가 1-6일때 영웅 대기가 1이면
+                else if (Account.GetInstance.accSinario.stageKey == "Stage016")
+                {
+                    stageBtnEvent(m_unitWaitList.Count > 1);
+                }
+                //현재 스테이지가 1-9일때 영웅 대기가 2이면
+                else if (Account.GetInstance.accSinario.stageKey == "Stage019")
+                {
+                    stageBtnEvent(m_unitWaitList.Count > 2);
                 }
             }
         }

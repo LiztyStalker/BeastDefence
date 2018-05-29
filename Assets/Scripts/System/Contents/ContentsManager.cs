@@ -124,7 +124,7 @@ public class ContentsManager : SingletonClass<ContentsManager>
 
             foreach(Contents contents in contentsList)
             {
-                //부모키가 등록되어 있거나 부모키가 없으면 등록
+                // 부모키가 없거나 부모키가 등록되어 있으면
                 if(contents.parentKey == "" ||
                     Account.GetInstance.accSinario.isContents(contents.parentKey))
                 {

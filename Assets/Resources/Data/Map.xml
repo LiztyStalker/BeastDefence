@@ -4,7 +4,7 @@
 		<Key>Grass</Key>
 		<Name>초원</Name>
 		<Effect>-</Effect>
-		<Contents>드넓은 초원입니다. 아무런 영향을 받지 않습니다.</Contents>
+		<Contents>드넓은 초원으로 이루어져 있습니다. 아무런 영향을 끼치지 않습니다.</Contents>
 	</Data>
 	<Data>
 		<Key>Forest</Key>

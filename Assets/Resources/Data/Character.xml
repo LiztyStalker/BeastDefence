@@ -40,4 +40,8 @@
 		<Key>Char_LongSpearSoldier</Key>
 		<Name>장창병</Name>
 	</Data>
+	<Data>
+		<Key>Char_SpearSoldier</Key>
+		<Name>창병</Name>
+	</Data>
 </Character>

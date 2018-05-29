@@ -611,7 +611,9 @@ public class AccountUnit
     /// <returns></returns>
     public int getHighCommanderLevel()
     {
-        return m_commanderCardDic.Values.Max(card => card.level);
+        if(m_commanderCardDic.Count > 0)
+            return m_commanderCardDic.Values.Max(card => card.level);
+        return 0;
     }
 
     /// <summary>
@@ -621,7 +623,9 @@ public class AccountUnit
     /// <returns></returns>
     public int getHighUnit(Unit.TYPE_UNIT typeUnit)
     {
-        return m_unitCardDic.Values.Where(card => card.typeUnit == typeUnit).Max(card => card.level);
+        if (m_unitCardDic.Count > 0)
+            return m_unitCardDic.Values.Where(card => card.typeUnit == typeUnit).Max(card => card.level);
+        return 0;
     }
 
 

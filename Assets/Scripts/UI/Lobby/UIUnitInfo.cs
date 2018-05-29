@@ -104,14 +104,21 @@ public class UIUnitInfo : MonoBehaviour
             m_image.sprite = unitCard.icon;
             m_image.gameObject.SetActive(true);
             m_forceText.text = string.Format("{0}", Prep.getForceToText(unitCard.typeForce));
-            m_levelText.text = string.Format("{0}", unitCard.level);
+
+//            if(unitCard.typeUnit == Unit.TYPE_UNIT.Hero)
+                m_levelText.text = string.Format("{0}/{1}", unitCard.level, unitCard.getMaxLevel()); //최대 레벨 필요
+
+            //else if (unitCard.typeUnit == Unit.TYPE_UNIT.Soldier)
+            //    m_levelText.text = string.Format("{0}/{1}", unitCard.level, (int)Account.GetInstance.accDevelop.getDevelopValue(Develop.TYPE_DEVELOP_VALUE_GROUP.SoldierLv)); //최대 레벨 필요
+
+
             m_expText.text = string.Format("{0}/{1}", unitCard.nowExperiance, unitCard.maxExperiance);
             m_populationText.text = string.Format("{0}", unitCard.population);
             m_munitionsText.text = string.Format("{0}", unitCard.munitions);
             m_healthText.text = string.Format("{0}", unitCard.health);
             m_attackText.text = string.Format("{0}", unitCard.attack);
             m_attackSpeedText.text = string.Format("{0}", unitCard.attackSpeed);
-            m_attackTypeText.text = string.Format("{0}", unitCard.typeLine);
+            m_attackTypeText.text = Prep.getTypeLineToText(unitCard.typeLine); //string.Format("{0}", unitCard.typeLine);
             m_moveSpeedText.text = string.Format("{0}", unitCard.moveSpeed);
             m_productTimeText.text = string.Format("{0}", unitCard.waitTime);
 
@@ -145,7 +152,7 @@ public class UIUnitInfo : MonoBehaviour
             m_image.sprite = null;
             m_image.gameObject.SetActive(false);
             m_forceText.text = string.Format("-");
-            m_levelText.text = string.Format("-");
+            m_levelText.text = string.Format("-/-");
             m_expText.text = string.Format("-/-");
             m_populationText.text = string.Format("-");
             m_munitionsText.text = string.Format("-");

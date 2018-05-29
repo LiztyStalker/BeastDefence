@@ -3,6 +3,7 @@
 	<Data>
 		<Key>-</Key>
 		<Name>-</Name>
+		<IsActive>-</IsActive>
 		<TypeUnit>-</TypeUnit>
 		<TypeForce>-</TypeForce>
 		<TypeMovement>-</TypeMovement>
@@ -33,6 +34,7 @@
 	<Data>
 		<Key>Castle</Key>
 		<Name>성</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Building</TypeUnit>
 		<TypeForce>None</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -63,6 +65,7 @@
 	<Data>
 		<Key>IceWall</Key>
 		<Name>얼음벽</Name>
+		<IsActive>False</IsActive>
 		<TypeUnit>Building</TypeUnit>
 		<TypeForce>None</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -93,6 +96,7 @@
 	<Data>
 		<Key>SpearSoldier</Key>
 		<Name>창병</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Rebel</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -114,7 +118,7 @@
 		<Range>1.5</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>-</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -123,6 +127,7 @@
 	<Data>
 		<Key>LongSpearSoldier</Key>
 		<Name>장창병</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Rebel</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -144,7 +149,7 @@
 		<Range>2</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>-</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -153,6 +158,7 @@
 	<Data>
 		<Key>PolearmSoldier</Key>
 		<Name>폴암병</Name>
+		<IsActive>False</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>FreeCompany</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -174,7 +180,7 @@
 		<Range>1.25</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>-</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -183,6 +189,7 @@
 	<Data>
 		<Key>BattleSpearSoldier</Key>
 		<Name>전투창병</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Order</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -204,7 +211,7 @@
 		<Range>1</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>-</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -213,6 +220,7 @@
 	<Data>
 		<Key>SpikeSpearSoldier</Key>
 		<Name>가시창병</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Order</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -234,7 +242,7 @@
 		<Range>1.5</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>-</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -243,6 +251,7 @@
 	<Data>
 		<Key>SwordSoldier</Key>
 		<Name>검병</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Rebel</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -264,7 +273,7 @@
 		<Range>1</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>-</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -273,6 +282,7 @@
 	<Data>
 		<Key>LongSwordSoldier</Key>
 		<Name>장검병</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Order</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -294,7 +304,7 @@
 		<Range>1.25</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>-</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -303,6 +313,7 @@
 	<Data>
 		<Key>DualSwordSoldier</Key>
 		<Name>쌍검병</Name>
+		<IsActive>False</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>FreeCompany</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -324,7 +335,7 @@
 		<Range>0.8</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>-</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -333,6 +344,7 @@
 	<Data>
 		<Key>Engineer</Key>
 		<Name>공병</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Rebel</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -354,7 +366,7 @@
 		<Range>1</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>ThrowBomb</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -363,6 +375,7 @@
 	<Data>
 		<Key>Grenadier</Key>
 		<Name>척탄병</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>FreeCompany</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -384,7 +397,7 @@
 		<Range>1.1</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>ThrowAxe</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -393,6 +406,7 @@
 	<Data>
 		<Key>MaceSoldier</Key>
 		<Name>철퇴병</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Order</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -414,7 +428,7 @@
 		<Range>1.1</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>Shove</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -423,6 +437,7 @@
 	<Data>
 		<Key>ClawSoldier</Key>
 		<Name>발톱병</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Rebel</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -444,7 +459,7 @@
 		<Range>0.8</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>-</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -453,6 +468,7 @@
 	<Data>
 		<Key>Assaulter</Key>
 		<Name>강습병</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Order</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -474,7 +490,7 @@
 		<Range>0.9</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>Dash</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -483,6 +499,7 @@
 	<Data>
 		<Key>Berserker</Key>
 		<Name>광전사</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>FreeCompany</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -504,7 +521,7 @@
 		<Range>0.8</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>-</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -513,6 +530,7 @@
 	<Data>
 		<Key>ThrowSpearSoldier</Key>
 		<Name>투창병</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Order</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -534,7 +552,7 @@
 		<Range>4</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>-</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -543,6 +561,7 @@
 	<Data>
 		<Key>ThrowAxeSoldier</Key>
 		<Name>투척도끼병</Name>
+		<IsActive>False</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>FreeCompany</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -564,7 +583,7 @@
 		<Range>3</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>-</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -573,6 +592,7 @@
 	<Data>
 		<Key>ThrowSoldier</Key>
 		<Name>투척병</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Rebel</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -594,7 +614,7 @@
 		<Range>4</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>-</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -603,6 +623,7 @@
 	<Data>
 		<Key>Archer</Key>
 		<Name>궁병</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Rebel</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -624,7 +645,7 @@
 		<Range>5</Range>
 		<IncRange>0.005</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>-</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -633,6 +654,7 @@
 	<Data>
 		<Key>CrossbowSoldier</Key>
 		<Name>석궁병</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Rebel</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -654,7 +676,7 @@
 		<Range>6</Range>
 		<IncRange>0.005</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>-</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -663,6 +685,7 @@
 	<Data>
 		<Key>LargeArcher</Key>
 		<Name>대궁병</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Order</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -684,7 +707,7 @@
 		<Range>5.5</Range>
 		<IncRange>0.005</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>-</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -693,6 +716,7 @@
 	<Data>
 		<Key>MagicCrossbowSoldier</Key>
 		<Name>마법석궁병</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Order</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -714,7 +738,7 @@
 		<Range>6.5</Range>
 		<IncRange>0.005</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>-</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -723,6 +747,7 @@
 	<Data>
 		<Key>Sniper</Key>
 		<Name>저격병</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Rebel</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -744,7 +769,7 @@
 		<Range>8</Range>
 		<IncRange>0.005</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>-</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -753,6 +778,7 @@
 	<Data>
 		<Key>MusketSoldier</Key>
 		<Name>머스킷병</Name>
+		<IsActive>False</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>FreeCompany</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -774,7 +800,7 @@
 		<Range>8</Range>
 		<IncRange>0.005</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>FastReload</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -783,6 +809,7 @@
 	<Data>
 		<Key>IceMagician</Key>
 		<Name>빙결술사</Name>
+		<IsActive>False</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Rebel</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -804,7 +831,7 @@
 		<Range>5</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>IceWall</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -813,6 +840,7 @@
 	<Data>
 		<Key>BlizzardMagician</Key>
 		<Name>혹한술사</Name>
+		<IsActive>False</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Rebel</TypeForce>
 		<TypeMovement>Air</TypeMovement>
@@ -834,7 +862,7 @@
 		<Range>5</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>IceWall</Skill0>
 		<Skill1>IceMissile</Skill1>
 		<Skill2>-</Skill2>
@@ -843,6 +871,7 @@
 	<Data>
 		<Key>FireMagician</Key>
 		<Name>화염술사</Name>
+		<IsActive>False</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>FreeCompany</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -864,7 +893,7 @@
 		<Range>4</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>FireBall</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -873,6 +902,7 @@
 	<Data>
 		<Key>FlameMagician</Key>
 		<Name>화마술사</Name>
+		<IsActive>False</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>FreeCompany</TypeForce>
 		<TypeMovement>Air</TypeMovement>
@@ -894,7 +924,7 @@
 		<Range>4</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>FireBall</Skill0>
 		<Skill1>FireStrike</Skill1>
 		<Skill2>-</Skill2>
@@ -903,6 +933,7 @@
 	<Data>
 		<Key>ThunderMagician</Key>
 		<Name>뇌격술사</Name>
+		<IsActive>False</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Order</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -924,7 +955,7 @@
 		<Range>6</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>ThunderSpear</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -933,6 +964,7 @@
 	<Data>
 		<Key>LightningMagician</Key>
 		<Name>전격술사</Name>
+		<IsActive>False</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Order</TypeForce>
 		<TypeMovement>Air</TypeMovement>
@@ -954,7 +986,7 @@
 		<Range>6</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>ThunderSpear</Skill0>
 		<Skill1>ChainLightning</Skill1>
 		<Skill2>-</Skill2>
@@ -963,6 +995,7 @@
 	<Data>
 		<Key>Scout</Key>
 		<Name>정찰병</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Rebel</TypeForce>
 		<TypeMovement>Air</TypeMovement>
@@ -984,7 +1017,7 @@
 		<Range>4</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>EvasionManeuver</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -993,6 +1026,7 @@
 	<Data>
 		<Key>Skirmisher</Key>
 		<Name>척후병</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Order</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -1014,7 +1048,7 @@
 		<Range>4</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>Retreat</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -1023,6 +1057,7 @@
 	<Data>
 		<Key>AirFighter</Key>
 		<Name>공중전투병</Name>
+		<IsActive>False</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Order</TypeForce>
 		<TypeMovement>Air</TypeMovement>
@@ -1044,7 +1079,7 @@
 		<Range>1.2</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>-</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -1053,6 +1088,7 @@
 	<Data>
 		<Key>AirAssaulter</Key>
 		<Name>공중습격병</Name>
+		<IsActive>False</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Order</TypeForce>
 		<TypeMovement>Air</TypeMovement>
@@ -1074,7 +1110,7 @@
 		<Range>1</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>-</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -1083,6 +1119,7 @@
 	<Data>
 		<Key>AirCruiser</Key>
 		<Name>공중군함</Name>
+		<IsActive>False</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>FreeCompany</TypeForce>
 		<TypeMovement>Air</TypeMovement>
@@ -1104,7 +1141,7 @@
 		<Range>1.5</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>-</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -1113,6 +1150,7 @@
 	<Data>
 		<Key>Healer</Key>
 		<Name>치유병</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Rebel</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -1134,7 +1172,7 @@
 		<Range>4</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>Heal</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -1143,6 +1181,7 @@
 	<Data>
 		<Key>AirHealer</Key>
 		<Name>공중치유병</Name>
+		<IsActive>False</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Rebel</TypeForce>
 		<TypeMovement>Air</TypeMovement>
@@ -1164,7 +1203,7 @@
 		<Range>4</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>Heal</Skill0>
 		<Skill1>RangeHeal</Skill1>
 		<Skill2>-</Skill2>
@@ -1173,6 +1212,7 @@
 	<Data>
 		<Key>Cleric</Key>
 		<Name>사제</Name>
+		<IsActive>False</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Order</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -1194,7 +1234,7 @@
 		<Range>5</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>Bless</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -1203,6 +1243,7 @@
 	<Data>
 		<Key>AirCleric</Key>
 		<Name>공중사제</Name>
+		<IsActive>False</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Order</TypeForce>
 		<TypeMovement>Air</TypeMovement>
@@ -1224,7 +1265,7 @@
 		<Range>5</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>Bless</Skill0>
 		<Skill1>RangeHeal</Skill1>
 		<Skill2>-</Skill2>
@@ -1233,6 +1274,7 @@
 	<Data>
 		<Key>Medic</Key>
 		<Name>의무병</Name>
+		<IsActive>False</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>FreeCompany</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -1254,7 +1296,7 @@
 		<Range>3</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>FirstAid</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -1263,6 +1305,7 @@
 	<Data>
 		<Key>AirMedic</Key>
 		<Name>공중의무병</Name>
+		<IsActive>False</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>FreeCompany</TypeForce>
 		<TypeMovement>Air</TypeMovement>
@@ -1284,7 +1327,7 @@
 		<Range>3</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>FirstAid</Skill0>
 		<Skill1>Stimulant</Skill1>
 		<Skill2>-</Skill2>
@@ -1293,6 +1336,7 @@
 	<Data>
 		<Key>AirInterceptor</Key>
 		<Name>요격병</Name>
+		<IsActive>False</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Order</TypeForce>
 		<TypeMovement>Air</TypeMovement>
@@ -1314,7 +1358,7 @@
 		<Range>1.25</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>-</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -1323,6 +1367,7 @@
 	<Data>
 		<Key>AirPirate</Key>
 		<Name>해적병</Name>
+		<IsActive>False</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Rebel</TypeForce>
 		<TypeMovement>Air</TypeMovement>
@@ -1344,7 +1389,7 @@
 		<Range>1.5</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>-</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -1353,6 +1398,7 @@
 	<Data>
 		<Key>AirBerserker</Key>
 		<Name>공중광전사</Name>
+		<IsActive>False</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>FreeCompany</TypeForce>
 		<TypeMovement>Air</TypeMovement>
@@ -1374,7 +1420,7 @@
 		<Range>1</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>-</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -1383,6 +1429,7 @@
 	<Data>
 		<Key>CannonShooter</Key>
 		<Name>철포병</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Order</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -1404,7 +1451,7 @@
 		<Range>10</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>-</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -1413,6 +1460,7 @@
 	<Data>
 		<Key>Mortar</Key>
 		<Name>박격포병</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Rebel</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -1434,7 +1482,7 @@
 		<Range>10</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>-</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -1443,6 +1491,7 @@
 	<Data>
 		<Key>Bomber</Key>
 		<Name>폭격병</Name>
+		<IsActive>False</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>FreeCompany</TypeForce>
 		<TypeMovement>Air</TypeMovement>
@@ -1464,7 +1513,7 @@
 		<Range>3</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>-</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -1473,6 +1522,7 @@
 	<Data>
 		<Key>ShieldSoldier</Key>
 		<Name>방패병</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Rebel</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -1494,7 +1544,7 @@
 		<Range>0.9</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>Guard</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -1503,6 +1553,7 @@
 	<Data>
 		<Key>ArmoredSoldier</Key>
 		<Name>장갑병</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>Order</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -1524,7 +1575,7 @@
 		<Range>1</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>Reinforce</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -1533,6 +1584,7 @@
 	<Data>
 		<Key>ChargeSoldier</Key>
 		<Name>돌격병</Name>
+		<IsActive>False</IsActive>
 		<TypeUnit>Soldier</TypeUnit>
 		<TypeForce>FreeCompany</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -1554,7 +1606,7 @@
 		<Range>1.1</Range>
 		<IncRange>0</IncRange>
 		<Weight>10000</Weight>
-		<Cost>100</Cost>
+		<Cost>200</Cost>
 		<Skill0>-</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -1563,6 +1615,7 @@
 	<Data>
 		<Key>Raty</Key>
 		<Name>라티</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Hero</TypeUnit>
 		<TypeForce>Rebel</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -1584,7 +1637,7 @@
 		<Range>1.5</Range>
 		<IncRange>0</IncRange>
 		<Weight>1000</Weight>
-		<Cost>100</Cost>
+		<Cost>300</Cost>
 		<Skill0>ContinuousStabbing</Skill0>
 		<Skill1>StrongSting</Skill1>
 		<Skill2>Brave_Unit</Skill2>
@@ -1593,6 +1646,7 @@
 	<Data>
 		<Key>Caon</Key>
 		<Name>카온</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Hero</TypeUnit>
 		<TypeForce>Order</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -1614,7 +1668,7 @@
 		<Range>1</Range>
 		<IncRange>0</IncRange>
 		<Weight>1000</Weight>
-		<Cost>100</Cost>
+		<Cost>300</Cost>
 		<Skill0>StrongAssault</Skill0>
 		<Skill1>StrongPunch</Skill1>
 		<Skill2>Fear_Unit</Skill2>
@@ -1623,6 +1677,7 @@
 	<Data>
 		<Key>Squirel</Key>
 		<Name>스퀴럴</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Hero</TypeUnit>
 		<TypeForce>Rebel</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -1644,7 +1699,7 @@
 		<Range>6</Range>
 		<IncRange>0</IncRange>
 		<Weight>1000</Weight>
-		<Cost>100</Cost>
+		<Cost>300</Cost>
 		<Skill0>PenetrateArrow_Unit</Skill0>
 		<Skill1>BombArrow_Unit</Skill1>
 		<Skill2>StrongFire_Unit</Skill2>
@@ -1653,6 +1708,7 @@
 	<Data>
 		<Key>Sparrowhook</Key>
 		<Name>스패로우훅</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Hero</TypeUnit>
 		<TypeForce>Order</TypeForce>
 		<TypeMovement>Air</TypeMovement>
@@ -1674,7 +1730,7 @@
 		<Range>4</Range>
 		<IncRange>0</IncRange>
 		<Weight>1000</Weight>
-		<Cost>100</Cost>
+		<Cost>300</Cost>
 		<Skill0>Pick</Skill0>
 		<Skill1>ContinuousSpear</Skill1>
 		<Skill2>Chase</Skill2>
@@ -1683,6 +1739,7 @@
 	<Data>
 		<Key>Goad</Key>
 		<Name>고드</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Hero</TypeUnit>
 		<TypeForce>Rebel</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -1704,7 +1761,7 @@
 		<Range>5</Range>
 		<IncRange>0</IncRange>
 		<Weight>1000</Weight>
-		<Cost>100</Cost>
+		<Cost>300</Cost>
 		<Skill0>TripleArrow</Skill0>
 		<Skill1>RainArrow_Unit</Skill1>
 		<Skill2>RapidFire</Skill2>
@@ -1713,6 +1770,7 @@
 	<Data>
 		<Key>Leopardo</Key>
 		<Name>레오파도</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Hero</TypeUnit>
 		<TypeForce>Order</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -1734,7 +1792,7 @@
 		<Range>1</Range>
 		<IncRange>0</IncRange>
 		<Weight>1000</Weight>
-		<Cost>100</Cost>
+		<Cost>300</Cost>
 		<Skill0>-</Skill0>
 		<Skill1>-</Skill1>
 		<Skill2>-</Skill2>
@@ -1743,6 +1801,7 @@
 	<Data>
 		<Key>Ted</Key>
 		<Name>테드</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Hero</TypeUnit>
 		<TypeForce>Rebel</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -1764,7 +1823,7 @@
 		<Range>1</Range>
 		<IncRange>0</IncRange>
 		<Weight>1000</Weight>
-		<Cost>100</Cost>
+		<Cost>300</Cost>
 		<Skill0>StrongGuard</Skill0>
 		<Skill1>StrongShove</Skill1>
 		<Skill2>ShieldSupply</Skill2>
@@ -1773,6 +1832,7 @@
 	<Data>
 		<Key>Catpard</Key>
 		<Name>캣파드</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Hero</TypeUnit>
 		<TypeForce>Order</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -1794,7 +1854,7 @@
 		<Range>0.5</Range>
 		<IncRange>0</IncRange>
 		<Weight>1000</Weight>
-		<Cost>100</Cost>
+		<Cost>300</Cost>
 		<Skill0>SpinDeath</Skill0>
 		<Skill1>Penetration</Skill1>
 		<Skill2>Rage</Skill2>
@@ -1803,6 +1863,7 @@
 	<Data>
 		<Key>Bealver</Key>
 		<Name>빌버</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Hero</TypeUnit>
 		<TypeForce>Rebel</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -1824,7 +1885,7 @@
 		<Range>1</Range>
 		<IncRange>0</IncRange>
 		<Weight>1000</Weight>
-		<Cost>100</Cost>
+		<Cost>300</Cost>
 		<Skill0>PowerHammer</Skill0>
 		<Skill1>StickyBomb</Skill1>
 		<Skill2>Repair</Skill2>
@@ -1833,6 +1894,7 @@
 	<Data>
 		<Key>Otto</Key>
 		<Name>오토</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Hero</TypeUnit>
 		<TypeForce>Order</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -1854,7 +1916,7 @@
 		<Range>1</Range>
 		<IncRange>0</IncRange>
 		<Weight>1000</Weight>
-		<Cost>100</Cost>
+		<Cost>300</Cost>
 		<Skill0>WoodCut</Skill0>
 		<Skill1>Firewood_Unit</Skill1>
 		<Skill2>Control_Unit</Skill2>
@@ -1863,6 +1925,7 @@
 	<Data>
 		<Key>Dingoo</Key>
 		<Name>딩구</Name>
+		<IsActive>True</IsActive>
 		<TypeUnit>Hero</TypeUnit>
 		<TypeForce>Order</TypeForce>
 		<TypeMovement>Gnd</TypeMovement>
@@ -1884,7 +1947,7 @@
 		<Range>1.2</Range>
 		<IncRange>0</IncRange>
 		<Weight>1000</Weight>
-		<Cost>100</Cost>
+		<Cost>300</Cost>
 		<Skill0>DoubleTap</Skill0>
 		<Skill1>PenetrateSpear</Skill1>
 		<Skill2>Shout</Skill2>

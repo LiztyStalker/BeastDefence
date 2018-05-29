@@ -1,7 +1,12 @@
-﻿using System;
+﻿
+
+
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
+
 
 public class GameController : MonoBehaviour {
 
@@ -108,105 +113,109 @@ public class GameController : MonoBehaviour {
 
     void OnGUI()
     {
-        GUI.Box(new Rect(10, 10, 200, 400), "Admin Menu");
 
-        Prep.isInfiniteSkillRate = GUI.Toggle(new Rect(20, 40, 200, 20), Prep.isInfiniteSkillRate, "발동확률 무한");
-        Prep.isNotEnemyCreate = GUI.Toggle(new Rect(20, 60, 200, 20), Prep.isNotEnemyCreate, "적 미생성");
-        Prep.isOneLine = GUI.Toggle(new Rect(20, 80, 200, 20), Prep.isOneLine, "한 라인");
-        Prep.isNotUnitCoolTime = GUI.Toggle(new Rect(20, 100, 200, 20), Prep.isNotUnitCoolTime, "유닛쿨타임");
-        Prep.isMunitionFull = GUI.Toggle(new Rect(20, 120, 200, 20), Prep.isMunitionFull, "군수품 채우기");
+        if (Prep.isActiveAdmin)
+        {
+            GUI.Box(new Rect(10, 10, 200, 400), "Admin Menu");
 
-
-        //캐릭터 행동
-        //캐릭터 행동
-        //Prep.isUnitControl = GUI.Toggle(new Rect(20, 80, 60, 20), Prep.isUnitControl, "유닛 직접 제어");
+            Prep.isInfiniteSkillRate = GUI.Toggle(new Rect(20, 40, 200, 20), Prep.isInfiniteSkillRate, "발동확률 무한");
+            Prep.isNotEnemyCreate = GUI.Toggle(new Rect(20, 60, 200, 20), Prep.isNotEnemyCreate, "적 미생성");
+            Prep.isOneLine = GUI.Toggle(new Rect(20, 80, 200, 20), Prep.isOneLine, "한 라인");
+            Prep.isNotUnitCoolTime = GUI.Toggle(new Rect(20, 100, 200, 20), Prep.isNotUnitCoolTime, "유닛쿨타임");
+            Prep.isMunitionFull = GUI.Toggle(new Rect(20, 120, 200, 20), Prep.isMunitionFull, "군수품 채우기");
 
 
-
-        //GUI.Button(new Rect(20, 80, 60, 20), "대기");
-        //GUI.Button(new Rect(20, 80, 60, 20), "이동");
-        //GUI.Button(new Rect(20, 80, 60, 20), "공격");
-        //GUI.Button(new Rect(20, 80, 60, 20), "스킬0");
-        //GUI.Button(new Rect(20, 80, 60, 20), "스킬1");
-        //GUI.Button(new Rect(20, 80, 60, 20), "스킬2");
-        //GUI.Button(new Rect(20, 80, 60, 20), "사망");
+            //캐릭터 행동
+            //캐릭터 행동
+            //Prep.isUnitControl = GUI.Toggle(new Rect(20, 80, 60, 20), Prep.isUnitControl, "유닛 직접 제어");
 
 
 
-        //상태이상 삽입 및 취소
-        //Prep.isStateControl = GUI.Toggle(new Rect(20, 120, 100, 20), Prep.isStateControl, "상태이상");
-
-        if (GUI.Button(new Rect(20, 140, 100, 20), "공격력 10% 증가"))
-            activeBuff("AttackUp");
-
-        if (GUI.Button(new Rect(20, 160, 100, 20), "공속 10% 증가"))
-            activeBuff("AttackSpeedUp");
-
-        if (GUI.Button(new Rect(20, 180, 100, 20), "이속 10% 증가"))
-            activeBuff("MoveSpeedUp");
-
-        if (GUI.Button(new Rect(20, 200, 100, 20), "체력 10% 증가"))
-            activeBuff("MaxHealthUp");
-
-        if (GUI.Button(new Rect(20, 220, 100, 20), "체력 10% 회복"))
-            activeBuff("RecoveryHealthUp");
-
-        if (GUI.Button(new Rect(20, 240, 100, 20), "방어 10% 증가"))
-            activeBuff("DefenceUp");
+            //GUI.Button(new Rect(20, 80, 60, 20), "대기");
+            //GUI.Button(new Rect(20, 80, 60, 20), "이동");
+            //GUI.Button(new Rect(20, 80, 60, 20), "공격");
+            //GUI.Button(new Rect(20, 80, 60, 20), "스킬0");
+            //GUI.Button(new Rect(20, 80, 60, 20), "스킬1");
+            //GUI.Button(new Rect(20, 80, 60, 20), "스킬2");
+            //GUI.Button(new Rect(20, 80, 60, 20), "사망");
 
 
 
-        if (GUI.Button(new Rect(140, 140, 100, 20), "공격력 10% 감소"))
-            activeBuff("AttackDn");
+            //상태이상 삽입 및 취소
+            //Prep.isStateControl = GUI.Toggle(new Rect(20, 120, 100, 20), Prep.isStateControl, "상태이상");
 
-        if (GUI.Button(new Rect(140, 160, 100, 20), "공속 10% 감소"))
-            activeBuff("AttackSpeedDn");
+            //if (GUI.Button(new Rect(20, 140, 100, 20), "공격력 10% 증가"))
+            //    activeBuff("AttackUp");
 
-        if (GUI.Button(new Rect(140, 180, 100, 20), "이속 10% 감소"))
-            activeBuff("MoveSpeedDn");
+            //if (GUI.Button(new Rect(20, 160, 100, 20), "공속 10% 증가"))
+            //    activeBuff("AttackSpeedUp");
 
-        if (GUI.Button(new Rect(140, 200, 100, 20), "체력 10% 감소"))
-            activeBuff("MaxHealthDn");
+            //if (GUI.Button(new Rect(20, 180, 100, 20), "이속 10% 증가"))
+            //    activeBuff("MoveSpeedUp");
 
-        if (GUI.Button(new Rect(140, 220, 100, 20), "체력 10% 하락"))
-            activeBuff("RecoveryHealthDn");
+            //if (GUI.Button(new Rect(20, 200, 100, 20), "체력 10% 증가"))
+            //    activeBuff("MaxHealthUp");
 
-        if (GUI.Button(new Rect(140, 240, 100, 20), "방어 10% 감소"))
-            activeBuff("DefenceDn");
+            //if (GUI.Button(new Rect(20, 220, 100, 20), "체력 10% 회복"))
+            //    activeBuff("RecoveryHealthUp");
 
-
-
-        if (GUI.Button(new Rect(20, 260, 100, 20), "이동만 삽입"))
-            activeBuff("OnlyMove");
-
-        if (GUI.Button(new Rect(20, 280, 100, 20), "공격불가 삽입"))
-            activeBuff("NotAttack");
-
-        if (GUI.Button(new Rect(20, 300, 100, 20), "무적 삽입"))
-            activeBuff("InvisibleState");
-
-        if (GUI.Button(new Rect(20, 320, 100, 20), "스킬불가 삽입"))
-            activeBuff("NotSkill");
-
-        if (GUI.Button(new Rect(20, 340, 100, 20), "이동불가 삽입"))
-            activeBuff("NotMove");
+            //if (GUI.Button(new Rect(20, 240, 100, 20), "방어 10% 증가"))
+            //    activeBuff("DefenceUp");
 
 
 
-        if (GUI.Button(new Rect(140, 260, 100, 20), "이동만 해제"))
-            removeBuff("OnlyMove");
+            //if (GUI.Button(new Rect(140, 140, 100, 20), "공격력 10% 감소"))
+            //    activeBuff("AttackDn");
 
-        if (GUI.Button(new Rect(140, 280, 100, 20), "공격불가 해제"))
-            removeBuff("NotAttack");
+            //if (GUI.Button(new Rect(140, 160, 100, 20), "공속 10% 감소"))
+            //    activeBuff("AttackSpeedDn");
 
-        if (GUI.Button(new Rect(140, 300, 100, 20), "무적 해제"))
-            removeBuff("InvisibleState");
+            //if (GUI.Button(new Rect(140, 180, 100, 20), "이속 10% 감소"))
+            //    activeBuff("MoveSpeedDn");
 
-        if (GUI.Button(new Rect(140, 320, 100, 20), "스킬불가 해제"))
-            removeBuff("NotSkill");
+            //if (GUI.Button(new Rect(140, 200, 100, 20), "체력 10% 감소"))
+            //    activeBuff("MaxHealthDn");
 
-        if (GUI.Button(new Rect(140, 340, 100, 20), "이동불가 해제"))
-            removeBuff("NotMove");
+            //if (GUI.Button(new Rect(140, 220, 100, 20), "체력 10% 하락"))
+            //    activeBuff("RecoveryHealthDn");
+
+            //if (GUI.Button(new Rect(140, 240, 100, 20), "방어 10% 감소"))
+            //    activeBuff("DefenceDn");
+
+
+
+            //if (GUI.Button(new Rect(20, 260, 100, 20), "이동만 삽입"))
+            //    activeBuff("OnlyMove");
+
+            //if (GUI.Button(new Rect(20, 280, 100, 20), "공격불가 삽입"))
+            //    activeBuff("NotAttack");
+
+            //if (GUI.Button(new Rect(20, 300, 100, 20), "무적 삽입"))
+            //    activeBuff("InvisibleState");
+
+            //if (GUI.Button(new Rect(20, 320, 100, 20), "스킬불가 삽입"))
+            //    activeBuff("NotSkill");
+
+            //if (GUI.Button(new Rect(20, 340, 100, 20), "이동불가 삽입"))
+            //    activeBuff("NotMove");
+
+
+
+            //if (GUI.Button(new Rect(140, 260, 100, 20), "이동만 해제"))
+            //    removeBuff("OnlyMove");
+
+            //if (GUI.Button(new Rect(140, 280, 100, 20), "공격불가 해제"))
+            //    removeBuff("NotAttack");
+
+            //if (GUI.Button(new Rect(140, 300, 100, 20), "무적 해제"))
+            //    removeBuff("InvisibleState");
+
+            //if (GUI.Button(new Rect(140, 320, 100, 20), "스킬불가 해제"))
+            //    removeBuff("NotSkill");
+
+            //if (GUI.Button(new Rect(140, 340, 100, 20), "이동불가 해제"))
+            //    removeBuff("NotMove");
+        }
 
     }
 

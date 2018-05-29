@@ -10,9 +10,19 @@ public class AccountAchieve
     /// </summary>
     List<string> m_achieveList = new List<string>();
 
+    /// <summary>
+    /// 업적 달성 알람 리스트
+    /// </summary>
+    List<string> m_achieveAlarmList = new List<string>();
+    
+    /// <summary>
+    /// 업적 달성 알람 대기 리스트
+    /// </summary>
+    Queue<string> m_achieveAlarmWaitQueue = new Queue<string>();
    
 
     public IEnumerator achieveEnumerator { get { return m_achieveList.GetEnumerator(); } }
+    public IEnumerator achieveAlarmEnumerator { get { return m_achieveAlarmList.GetEnumerator(); } }
 
     public AccountAchieve(){}
 
@@ -34,6 +44,21 @@ public class AccountAchieve
     }
 
     /// <summary>
+    /// 업적 알람 삽입하기
+    /// </summary>
+    /// <param name="key"></param>
+    /// <returns></returns>
+    public bool setAchieveAlarm(string key)
+    {
+        if (!isAchieveAlarm(key))
+        {
+            m_achieveAlarmList.Add(key);
+            return true;
+        }
+        return false;
+    }
+
+    /// <summary>
     /// 획득한 업적이 있는지 유무
     /// </summary>
     /// <param name="key"></param>
@@ -44,7 +69,18 @@ public class AccountAchieve
     }
 
     /// <summary>
+    /// 획득한 업적이 있는지 유무
+    /// </summary>
+    /// <param name="key"></param>
+    /// <returns></returns>
+    public bool isAchieveAlarm(string key)
+    {
+        return m_achieveAlarmList.Contains(key);
+    }
+
+    /// <summary>
     /// 달성한 업적 개수 가져오기
+    /// 알람 제외
     /// </summary>
     /// <returns></returns>
     public int getAchieveSuccessCount()
@@ -121,6 +157,8 @@ public class AccountAchieve
     {
         //역직렬화
         m_achieveList.AddRange(accSerial.achieveList);
+//        m_achieveAlarmList.AddRange(accSerial.achieveAlarmList);
+
     }
 
     /// <summary>
@@ -131,6 +169,7 @@ public class AccountAchieve
     {
         AccountAchieveSerial accSerial = new AccountAchieveSerial();
         accSerial.achieveList.AddRange(m_achieveList);
+//        accSerial.achieveAlarmList.AddRange(m_achieveAlarmList);
         return accSerial;
     }
 }

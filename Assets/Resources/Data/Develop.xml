@@ -31,7 +31,7 @@
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
 		<BeginCost>100</BeginCost>
-		<IncreaseCost>100</IncreaseCost>
+		<IncreaseCost>25</IncreaseCost>
 		<ParentKey1>-</ParentKey1>
 		<ParentLimit1>0</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
@@ -49,9 +49,9 @@
 		<Position>1</Position>
 		<MaxLevel>5</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>2</IncreaseValue>
-		<BeginCost>1000</BeginCost>
-		<IncreaseCost>1000</IncreaseCost>
+		<IncreaseValue>1</IncreaseValue>
+		<BeginCost>400</BeginCost>
+		<IncreaseCost>100</IncreaseCost>
 		<ParentKey1>CastleMaxHealth1</ParentKey1>
 		<ParentLimit1>5</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
@@ -69,9 +69,9 @@
 		<Position>1</Position>
 		<MaxLevel>5</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>3</IncreaseValue>
-		<BeginCost>10000</BeginCost>
-		<IncreaseCost>10000</IncreaseCost>
+		<IncreaseValue>2</IncreaseValue>
+		<BeginCost>1600</BeginCost>
+		<IncreaseCost>400</IncreaseCost>
 		<ParentKey1>CastleMaxHealth2</ParentKey1>
 		<ParentLimit1>5</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
@@ -89,9 +89,9 @@
 		<Position>1</Position>
 		<MaxLevel>5</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>4</IncreaseValue>
-		<BeginCost>100000</BeginCost>
-		<IncreaseCost>100000</IncreaseCost>
+		<IncreaseValue>2</IncreaseValue>
+		<BeginCost>6400</BeginCost>
+		<IncreaseCost>1600</IncreaseCost>
 		<ParentKey1>CastleMaxHealth3</ParentKey1>
 		<ParentLimit1>5</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
@@ -109,9 +109,9 @@
 		<Position>1</Position>
 		<MaxLevel>5</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>5</IncreaseValue>
-		<BeginCost>1000000</BeginCost>
-		<IncreaseCost>1000000</IncreaseCost>
+		<IncreaseValue>3</IncreaseValue>
+		<BeginCost>12800</BeginCost>
+		<IncreaseCost>3200</IncreaseCost>
 		<ParentKey1>CastleMaxHealth4</ParentKey1>
 		<ParentLimit1>5</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
@@ -127,10 +127,10 @@
 		<ValueGroup>MunitionsLv</ValueGroup>
 		<TechLevel>1</TechLevel>
 		<Position>2</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>3</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>100</BeginCost>
+		<BeginCost>400</BeginCost>
 		<IncreaseCost>100</IncreaseCost>
 		<ParentKey1>-</ParentKey1>
 		<ParentLimit1>0</ParentLimit1>
@@ -147,13 +147,13 @@
 		<ValueGroup>MunitionsLv</ValueGroup>
 		<TechLevel>3</TechLevel>
 		<Position>2</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>3</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>1000</BeginCost>
-		<IncreaseCost>1000</IncreaseCost>
+		<BeginCost>1600</BeginCost>
+		<IncreaseCost>400</IncreaseCost>
 		<ParentKey1>MunitionsUp1</ParentKey1>
-		<ParentLimit1>5</ParentLimit1>
+		<ParentLimit1>3</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
 		<ParentLimit2>0</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
@@ -167,13 +167,13 @@
 		<ValueGroup>MunitionsLv</ValueGroup>
 		<TechLevel>5</TechLevel>
 		<Position>2</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>3</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>10000</BeginCost>
-		<IncreaseCost>10000</IncreaseCost>
+		<BeginCost>3200</BeginCost>
+		<IncreaseCost>800</IncreaseCost>
 		<ParentKey1>MunitionsUp2</ParentKey1>
-		<ParentLimit1>5</ParentLimit1>
+		<ParentLimit1>3</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
 		<ParentLimit2>0</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
@@ -187,13 +187,13 @@
 		<ValueGroup>MunitionsLv</ValueGroup>
 		<TechLevel>7</TechLevel>
 		<Position>2</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>3</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>100000</BeginCost>
-		<IncreaseCost>100000</IncreaseCost>
+		<BeginCost>6400</BeginCost>
+		<IncreaseCost>1600</IncreaseCost>
 		<ParentKey1>MunitionsUp3</ParentKey1>
-		<ParentLimit1>5</ParentLimit1>
+		<ParentLimit1>3</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
 		<ParentLimit2>0</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
@@ -207,78 +207,18 @@
 		<ValueGroup>MunitionsLv</ValueGroup>
 		<TechLevel>9</TechLevel>
 		<Position>2</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>3</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>1000000</BeginCost>
-		<IncreaseCost>1000000</IncreaseCost>
+		<BeginCost>12800</BeginCost>
+		<IncreaseCost>3200</IncreaseCost>
 		<ParentKey1>MunitionsUp4</ParentKey1>
-		<ParentLimit1>5</ParentLimit1>
+		<ParentLimit1>3</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
 		<ParentLimit2>0</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
 		<ParentLimit3>0</ParentLimit3>
 		<Contents>보급 레벨이 {0}증가합니다.</Contents>
-	</Data>
-	<Data>
-		<Key>AwardUp1</Key>
-		<Name>수집</Name>
-		<Group>Castle</Group>
-		<ValueGroup>AwardLv</ValueGroup>
-		<TechLevel>3</TechLevel>
-		<Position>3</Position>
-		<MaxLevel>3</MaxLevel>
-		<BeginValue>0</BeginValue>
-		<IncreaseValue>5</IncreaseValue>
-		<BeginCost>1000</BeginCost>
-		<IncreaseCost>1000</IncreaseCost>
-		<ParentKey1>-</ParentKey1>
-		<ParentLimit1>0</ParentLimit1>
-		<ParentKey2>-</ParentKey2>
-		<ParentLimit2>0</ParentLimit2>
-		<ParentKey3>-</ParentKey3>
-		<ParentLimit3>0</ParentLimit3>
-		<Contents>수집 레벨이 {0}증가합니다.</Contents>
-	</Data>
-	<Data>
-		<Key>AwardUp2</Key>
-		<Name>노획</Name>
-		<Group>Castle</Group>
-		<ValueGroup>AwardLv</ValueGroup>
-		<TechLevel>6</TechLevel>
-		<Position>3</Position>
-		<MaxLevel>3</MaxLevel>
-		<BeginValue>0</BeginValue>
-		<IncreaseValue>10</IncreaseValue>
-		<BeginCost>10000</BeginCost>
-		<IncreaseCost>10000</IncreaseCost>
-		<ParentKey1>AwardUp1</ParentKey1>
-		<ParentLimit1>3</ParentLimit1>
-		<ParentKey2>-</ParentKey2>
-		<ParentLimit2>0</ParentLimit2>
-		<ParentKey3>-</ParentKey3>
-		<ParentLimit3>0</ParentLimit3>
-		<Contents>수집 레벨이 {0}증가합니다.</Contents>
-	</Data>
-	<Data>
-		<Key>AwardUp3</Key>
-		<Name>약탈</Name>
-		<Group>Castle</Group>
-		<ValueGroup>AwardLv</ValueGroup>
-		<TechLevel>9</TechLevel>
-		<Position>3</Position>
-		<MaxLevel>3</MaxLevel>
-		<BeginValue>0</BeginValue>
-		<IncreaseValue>20</IncreaseValue>
-		<BeginCost>100000</BeginCost>
-		<IncreaseCost>100000</IncreaseCost>
-		<ParentKey1>AwardUp2</ParentKey1>
-		<ParentLimit1>3</ParentLimit1>
-		<ParentKey2>-</ParentKey2>
-		<ParentLimit2>0</ParentLimit2>
-		<ParentKey3>-</ParentKey3>
-		<ParentLimit3>0</ParentLimit3>
-		<Contents>수집 레벨이 {0}증가합니다.</Contents>
 	</Data>
 	<Data>
 		<Key>CastleTech1</Key>
@@ -310,7 +250,7 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>500</BeginCost>
+		<BeginCost>200</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>CastleTech1</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
@@ -330,7 +270,7 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>1000</BeginCost>
+		<BeginCost>400</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>CastleTech2</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
@@ -350,7 +290,7 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>5000</BeginCost>
+		<BeginCost>800</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>CastleTech3</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
@@ -370,7 +310,7 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>10000</BeginCost>
+		<BeginCost>1600</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>CastleTech4</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
@@ -390,7 +330,7 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>50000</BeginCost>
+		<BeginCost>3200</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>CastleTech5</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
@@ -410,7 +350,7 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>100000</BeginCost>
+		<BeginCost>6400</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>CastleTech6</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
@@ -430,7 +370,7 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>500000</BeginCost>
+		<BeginCost>12800</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>CastleTech7</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
@@ -450,7 +390,7 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>1000000</BeginCost>
+		<BeginCost>25600</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>CastleTech8</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
@@ -467,11 +407,11 @@
 		<ValueGroup>DefenceLv</ValueGroup>
 		<TechLevel>1</TechLevel>
 		<Position>4</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>3</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>1000</BeginCost>
-		<IncreaseCost>1000</IncreaseCost>
+		<BeginCost>200</BeginCost>
+		<IncreaseCost>50</IncreaseCost>
 		<ParentKey1>-</ParentKey1>
 		<ParentLimit1>0</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
@@ -487,13 +427,13 @@
 		<ValueGroup>DefenceLv</ValueGroup>
 		<TechLevel>3</TechLevel>
 		<Position>4</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>3</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>5000</BeginCost>
-		<IncreaseCost>1000</IncreaseCost>
+		<BeginCost>800</BeginCost>
+		<IncreaseCost>200</IncreaseCost>
 		<ParentKey1>DefenceLevel1</ParentKey1>
-		<ParentLimit1>0</ParentLimit1>
+		<ParentLimit1>3</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
 		<ParentLimit2>0</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
@@ -507,13 +447,13 @@
 		<ValueGroup>DefenceLv</ValueGroup>
 		<TechLevel>5</TechLevel>
 		<Position>4</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>3</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>10000</BeginCost>
-		<IncreaseCost>10000</IncreaseCost>
+		<BeginCost>3200</BeginCost>
+		<IncreaseCost>400</IncreaseCost>
 		<ParentKey1>DefenceLevel2</ParentKey1>
-		<ParentLimit1>0</ParentLimit1>
+		<ParentLimit1>3</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
 		<ParentLimit2>0</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
@@ -527,13 +467,13 @@
 		<ValueGroup>DefenceLv</ValueGroup>
 		<TechLevel>7</TechLevel>
 		<Position>4</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>3</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>50000</BeginCost>
-		<IncreaseCost>10000</IncreaseCost>
+		<BeginCost>6400</BeginCost>
+		<IncreaseCost>800</IncreaseCost>
 		<ParentKey1>DefenceLevel3</ParentKey1>
-		<ParentLimit1>0</ParentLimit1>
+		<ParentLimit1>3</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
 		<ParentLimit2>0</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
@@ -547,13 +487,13 @@
 		<ValueGroup>DefenceLv</ValueGroup>
 		<TechLevel>9</TechLevel>
 		<Position>4</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>3</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>100000</BeginCost>
-		<IncreaseCost>100000</IncreaseCost>
+		<BeginCost>12800</BeginCost>
+		<IncreaseCost>1600</IncreaseCost>
 		<ParentKey1>DefenceLevel4</ParentKey1>
-		<ParentLimit1>0</ParentLimit1>
+		<ParentLimit1>3</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
 		<ParentLimit2>0</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
@@ -570,7 +510,7 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>1000</BeginCost>
+		<BeginCost>400</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>-</ParentKey1>
 		<ParentLimit1>0</ParentLimit1>
@@ -590,10 +530,10 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>5000</BeginCost>
+		<BeginCost>800</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>DefenceTechLv1</ParentKey1>
-		<ParentLimit1>0</ParentLimit1>
+		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
 		<ParentLimit2>0</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
@@ -610,10 +550,10 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>10000</BeginCost>
+		<BeginCost>1600</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>DefenceTechLv2</ParentKey1>
-		<ParentLimit1>0</ParentLimit1>
+		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
 		<ParentLimit2>0</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
@@ -630,10 +570,10 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>50000</BeginCost>
+		<BeginCost>3200</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>DefenceTechLv3</ParentKey1>
-		<ParentLimit1>0</ParentLimit1>
+		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
 		<ParentLimit2>0</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
@@ -650,10 +590,10 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>100000</BeginCost>
+		<BeginCost>6400</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>DefenceTechLv4</ParentKey1>
-		<ParentLimit1>0</ParentLimit1>
+		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
 		<ParentLimit2>0</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
@@ -670,10 +610,10 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>500000</BeginCost>
+		<BeginCost>12800</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>DefenceTechLv5</ParentKey1>
-		<ParentLimit1>0</ParentLimit1>
+		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
 		<ParentLimit2>0</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
@@ -690,10 +630,10 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>1000000</BeginCost>
+		<BeginCost>25600</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>DefenceTechLv6</ParentKey1>
-		<ParentLimit1>0</ParentLimit1>
+		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
 		<ParentLimit2>0</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
@@ -710,10 +650,10 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>5000000</BeginCost>
+		<BeginCost>51200</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>DefenceTechLv7</ParentKey1>
-		<ParentLimit1>0</ParentLimit1>
+		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
 		<ParentLimit2>0</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
@@ -727,10 +667,10 @@
 		<ValueGroup>SoldierWait</ValueGroup>
 		<TechLevel>1</TechLevel>
 		<Position>1</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>100</BeginCost>
+		<IncreaseValue>3</IncreaseValue>
+		<BeginCost>400</BeginCost>
 		<IncreaseCost>100</IncreaseCost>
 		<ParentKey1>-</ParentKey1>
 		<ParentLimit1>0</ParentLimit1>
@@ -747,13 +687,13 @@
 		<ValueGroup>SoldierWait</ValueGroup>
 		<TechLevel>3</TechLevel>
 		<Position>1</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>2</IncreaseValue>
-		<BeginCost>1000</BeginCost>
-		<IncreaseCost>1000</IncreaseCost>
+		<IncreaseValue>6</IncreaseValue>
+		<BeginCost>800</BeginCost>
+		<IncreaseCost>200</IncreaseCost>
 		<ParentKey1>SoldierMaxPopulation1</ParentKey1>
-		<ParentLimit1>5</ParentLimit1>
+		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
 		<ParentLimit2>0</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
@@ -767,13 +707,13 @@
 		<ValueGroup>SoldierWait</ValueGroup>
 		<TechLevel>5</TechLevel>
 		<Position>1</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>3</IncreaseValue>
-		<BeginCost>10000</BeginCost>
-		<IncreaseCost>10000</IncreaseCost>
+		<IncreaseValue>9</IncreaseValue>
+		<BeginCost>1600</BeginCost>
+		<IncreaseCost>400</IncreaseCost>
 		<ParentKey1>SoldierMaxPopulation2</ParentKey1>
-		<ParentLimit1>5</ParentLimit1>
+		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
 		<ParentLimit2>0</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
@@ -787,13 +727,13 @@
 		<ValueGroup>SoldierWait</ValueGroup>
 		<TechLevel>7</TechLevel>
 		<Position>1</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>4</IncreaseValue>
-		<BeginCost>100000</BeginCost>
-		<IncreaseCost>100000</IncreaseCost>
+		<IncreaseValue>12</IncreaseValue>
+		<BeginCost>3200</BeginCost>
+		<IncreaseCost>800</IncreaseCost>
 		<ParentKey1>SoldierMaxPopulation3</ParentKey1>
-		<ParentLimit1>5</ParentLimit1>
+		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
 		<ParentLimit2>0</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
@@ -807,13 +747,13 @@
 		<ValueGroup>SoldierWait</ValueGroup>
 		<TechLevel>9</TechLevel>
 		<Position>1</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>5</IncreaseValue>
-		<BeginCost>1000000</BeginCost>
-		<IncreaseCost>1000000</IncreaseCost>
+		<IncreaseValue>15</IncreaseValue>
+		<BeginCost>6400</BeginCost>
+		<IncreaseCost>1600</IncreaseCost>
 		<ParentKey1>SoldierMaxPopulation4</ParentKey1>
-		<ParentLimit1>5</ParentLimit1>
+		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
 		<ParentLimit2>0</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
@@ -827,11 +767,11 @@
 		<ValueGroup>HeroWait</ValueGroup>
 		<TechLevel>2</TechLevel>
 		<Position>2</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>100</BeginCost>
-		<IncreaseCost>100</IncreaseCost>
+		<BeginCost>1600</BeginCost>
+		<IncreaseCost>400</IncreaseCost>
 		<ParentKey1>SoldierMaxPopulation1</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
@@ -847,15 +787,15 @@
 		<ValueGroup>HeroWait</ValueGroup>
 		<TechLevel>4</TechLevel>
 		<Position>2</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>2</IncreaseValue>
-		<BeginCost>1000</BeginCost>
-		<IncreaseCost>1000</IncreaseCost>
+		<IncreaseValue>1</IncreaseValue>
+		<BeginCost>3200</BeginCost>
+		<IncreaseCost>800</IncreaseCost>
 		<ParentKey1>SoldierMaxPopulation2</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>HeroMaxPopulation1</ParentKey2>
-		<ParentLimit2>5</ParentLimit2>
+		<ParentLimit2>1</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
 		<ParentLimit3>0</ParentLimit3>
 		<Contents>영웅 대기 인구가 {0} 증가합니다.</Contents>
@@ -867,15 +807,15 @@
 		<ValueGroup>HeroWait</ValueGroup>
 		<TechLevel>6</TechLevel>
 		<Position>2</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>3</IncreaseValue>
-		<BeginCost>10000</BeginCost>
-		<IncreaseCost>10000</IncreaseCost>
+		<IncreaseValue>1</IncreaseValue>
+		<BeginCost>6400</BeginCost>
+		<IncreaseCost>1600</IncreaseCost>
 		<ParentKey1>SoldierMaxPopulation3</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>HeroMaxPopulation2</ParentKey2>
-		<ParentLimit2>5</ParentLimit2>
+		<ParentLimit2>1</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
 		<ParentLimit3>0</ParentLimit3>
 		<Contents>영웅 대기 인구가 {0} 증가합니다.</Contents>
@@ -887,15 +827,15 @@
 		<ValueGroup>HeroWait</ValueGroup>
 		<TechLevel>8</TechLevel>
 		<Position>2</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>4</IncreaseValue>
-		<BeginCost>100000</BeginCost>
-		<IncreaseCost>100000</IncreaseCost>
+		<IncreaseValue>1</IncreaseValue>
+		<BeginCost>12800</BeginCost>
+		<IncreaseCost>3200</IncreaseCost>
 		<ParentKey1>SoldierMaxPopulation4</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>HeroMaxPopulation3</ParentKey2>
-		<ParentLimit2>5</ParentLimit2>
+		<ParentLimit2>1</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
 		<ParentLimit3>0</ParentLimit3>
 		<Contents>영웅 대기 인구가 {0} 증가합니다.</Contents>
@@ -907,218 +847,18 @@
 		<ValueGroup>HeroWait</ValueGroup>
 		<TechLevel>9</TechLevel>
 		<Position>2</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>5</IncreaseValue>
-		<BeginCost>1000000</BeginCost>
-		<IncreaseCost>1000000</IncreaseCost>
+		<IncreaseValue>1</IncreaseValue>
+		<BeginCost>25600</BeginCost>
+		<IncreaseCost>6400</IncreaseCost>
 		<ParentKey1>SoldierMaxPopulation5</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>HeroMaxPopulation4</ParentKey2>
-		<ParentLimit2>5</ParentLimit2>
+		<ParentLimit2>1</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
 		<ParentLimit3>0</ParentLimit3>
 		<Contents>영웅 대기 인구가 {0} 증가합니다.</Contents>
-	</Data>
-	<Data>
-		<Key>SoldierMaxBarracks1</Key>
-		<Name>병사 소형텐트</Name>
-		<Group>Barracks</Group>
-		<ValueGroup>SoldierBarracks</ValueGroup>
-		<TechLevel>0</TechLevel>
-		<Position>3</Position>
-		<MaxLevel>5</MaxLevel>
-		<BeginValue>0</BeginValue>
-		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>100</BeginCost>
-		<IncreaseCost>100</IncreaseCost>
-		<ParentKey1>-</ParentKey1>
-		<ParentLimit1>0</ParentLimit1>
-		<ParentKey2>-</ParentKey2>
-		<ParentLimit2>0</ParentLimit2>
-		<ParentKey3>-</ParentKey3>
-		<ParentLimit3>0</ParentLimit3>
-		<Contents>병사 막사가 {0} 증가합니다.</Contents>
-	</Data>
-	<Data>
-		<Key>SoldierMaxBarracks2</Key>
-		<Name>병사 대형텐트</Name>
-		<Group>Barracks</Group>
-		<ValueGroup>SoldierBarracks</ValueGroup>
-		<TechLevel>2</TechLevel>
-		<Position>3</Position>
-		<MaxLevel>5</MaxLevel>
-		<BeginValue>0</BeginValue>
-		<IncreaseValue>2</IncreaseValue>
-		<BeginCost>1000</BeginCost>
-		<IncreaseCost>1000</IncreaseCost>
-		<ParentKey1>SoldierMaxBarracks1</ParentKey1>
-		<ParentLimit1>5</ParentLimit1>
-		<ParentKey2>-</ParentKey2>
-		<ParentLimit2>0</ParentLimit2>
-		<ParentKey3>-</ParentKey3>
-		<ParentLimit3>0</ParentLimit3>
-		<Contents>병사 막사가 {0} 증가합니다.</Contents>
-	</Data>
-	<Data>
-		<Key>SoldierMaxBarracks3</Key>
-		<Name>병사 임시막사</Name>
-		<Group>Barracks</Group>
-		<ValueGroup>SoldierBarracks</ValueGroup>
-		<TechLevel>4</TechLevel>
-		<Position>3</Position>
-		<MaxLevel>5</MaxLevel>
-		<BeginValue>0</BeginValue>
-		<IncreaseValue>3</IncreaseValue>
-		<BeginCost>10000</BeginCost>
-		<IncreaseCost>10000</IncreaseCost>
-		<ParentKey1>SoldierMaxBarracks2</ParentKey1>
-		<ParentLimit1>5</ParentLimit1>
-		<ParentKey2>-</ParentKey2>
-		<ParentLimit2>0</ParentLimit2>
-		<ParentKey3>-</ParentKey3>
-		<ParentLimit3>0</ParentLimit3>
-		<Contents>병사 막사가 {0} 증가합니다.</Contents>
-	</Data>
-	<Data>
-		<Key>SoldierMaxBarracks4</Key>
-		<Name>병사 소형막사</Name>
-		<Group>Barracks</Group>
-		<ValueGroup>SoldierBarracks</ValueGroup>
-		<TechLevel>6</TechLevel>
-		<Position>3</Position>
-		<MaxLevel>5</MaxLevel>
-		<BeginValue>0</BeginValue>
-		<IncreaseValue>4</IncreaseValue>
-		<BeginCost>100000</BeginCost>
-		<IncreaseCost>100000</IncreaseCost>
-		<ParentKey1>SoldierMaxBarracks3</ParentKey1>
-		<ParentLimit1>5</ParentLimit1>
-		<ParentKey2>-</ParentKey2>
-		<ParentLimit2>0</ParentLimit2>
-		<ParentKey3>-</ParentKey3>
-		<ParentLimit3>0</ParentLimit3>
-		<Contents>병사 막사가 {0} 증가합니다.</Contents>
-	</Data>
-	<Data>
-		<Key>SoldierMaxBarracks5</Key>
-		<Name>병사 대형막사</Name>
-		<Group>Barracks</Group>
-		<ValueGroup>SoldierBarracks</ValueGroup>
-		<TechLevel>8</TechLevel>
-		<Position>3</Position>
-		<MaxLevel>5</MaxLevel>
-		<BeginValue>0</BeginValue>
-		<IncreaseValue>5</IncreaseValue>
-		<BeginCost>1000000</BeginCost>
-		<IncreaseCost>1000000</IncreaseCost>
-		<ParentKey1>SoldierMaxBarracks4</ParentKey1>
-		<ParentLimit1>5</ParentLimit1>
-		<ParentKey2>-</ParentKey2>
-		<ParentLimit2>0</ParentLimit2>
-		<ParentKey3>-</ParentKey3>
-		<ParentLimit3>0</ParentLimit3>
-		<Contents>병사 막사가 {0} 증가합니다.</Contents>
-	</Data>
-	<Data>
-		<Key>HeroMaxBarracks1</Key>
-		<Name>영웅 소형텐트</Name>
-		<Group>Barracks</Group>
-		<ValueGroup>HeroBarracks</ValueGroup>
-		<TechLevel>1</TechLevel>
-		<Position>4</Position>
-		<MaxLevel>5</MaxLevel>
-		<BeginValue>0</BeginValue>
-		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>100</BeginCost>
-		<IncreaseCost>100</IncreaseCost>
-		<ParentKey1>SoldierMaxBarracks1</ParentKey1>
-		<ParentLimit1>1</ParentLimit1>
-		<ParentKey2>-</ParentKey2>
-		<ParentLimit2>0</ParentLimit2>
-		<ParentKey3>-</ParentKey3>
-		<ParentLimit3>0</ParentLimit3>
-		<Contents>영웅 막사가 {0} 증가합니다.</Contents>
-	</Data>
-	<Data>
-		<Key>HeroMaxBarracks2</Key>
-		<Name>영웅 대형텐트</Name>
-		<Group>Barracks</Group>
-		<ValueGroup>HeroBarracks</ValueGroup>
-		<TechLevel>3</TechLevel>
-		<Position>4</Position>
-		<MaxLevel>5</MaxLevel>
-		<BeginValue>0</BeginValue>
-		<IncreaseValue>2</IncreaseValue>
-		<BeginCost>1000</BeginCost>
-		<IncreaseCost>1000</IncreaseCost>
-		<ParentKey1>SoldierMaxBarracks2</ParentKey1>
-		<ParentLimit1>1</ParentLimit1>
-		<ParentKey2>HeroMaxBarracks1</ParentKey2>
-		<ParentLimit2>5</ParentLimit2>
-		<ParentKey3>-</ParentKey3>
-		<ParentLimit3>0</ParentLimit3>
-		<Contents>영웅 막사가 {0} 증가합니다.</Contents>
-	</Data>
-	<Data>
-		<Key>HeroMaxBarracks3</Key>
-		<Name>영웅 임시막사</Name>
-		<Group>Barracks</Group>
-		<ValueGroup>HeroBarracks</ValueGroup>
-		<TechLevel>5</TechLevel>
-		<Position>4</Position>
-		<MaxLevel>5</MaxLevel>
-		<BeginValue>0</BeginValue>
-		<IncreaseValue>3</IncreaseValue>
-		<BeginCost>10000</BeginCost>
-		<IncreaseCost>10000</IncreaseCost>
-		<ParentKey1>SoldierMaxBarracks3</ParentKey1>
-		<ParentLimit1>1</ParentLimit1>
-		<ParentKey2>HeroMaxBarracks2</ParentKey2>
-		<ParentLimit2>5</ParentLimit2>
-		<ParentKey3>-</ParentKey3>
-		<ParentLimit3>0</ParentLimit3>
-		<Contents>영웅 막사가 {0} 증가합니다.</Contents>
-	</Data>
-	<Data>
-		<Key>HeroMaxBarracks4</Key>
-		<Name>영웅 소형막사</Name>
-		<Group>Barracks</Group>
-		<ValueGroup>HeroBarracks</ValueGroup>
-		<TechLevel>7</TechLevel>
-		<Position>4</Position>
-		<MaxLevel>5</MaxLevel>
-		<BeginValue>0</BeginValue>
-		<IncreaseValue>4</IncreaseValue>
-		<BeginCost>100000</BeginCost>
-		<IncreaseCost>100000</IncreaseCost>
-		<ParentKey1>SoldierMaxBarracks4</ParentKey1>
-		<ParentLimit1>1</ParentLimit1>
-		<ParentKey2>HeroMaxBarracks3</ParentKey2>
-		<ParentLimit2>5</ParentLimit2>
-		<ParentKey3>-</ParentKey3>
-		<ParentLimit3>0</ParentLimit3>
-		<Contents>영웅 막사가 {0} 증가합니다.</Contents>
-	</Data>
-	<Data>
-		<Key>HeroMaxBarracks5</Key>
-		<Name>영웅 대형막사</Name>
-		<Group>Barracks</Group>
-		<ValueGroup>HeroBarracks</ValueGroup>
-		<TechLevel>9</TechLevel>
-		<Position>4</Position>
-		<MaxLevel>5</MaxLevel>
-		<BeginValue>0</BeginValue>
-		<IncreaseValue>5</IncreaseValue>
-		<BeginCost>1000000</BeginCost>
-		<IncreaseCost>1000000</IncreaseCost>
-		<ParentKey1>SoldierMaxBarracks5</ParentKey1>
-		<ParentLimit1>1</ParentLimit1>
-		<ParentKey2>HeroMaxBarracks4</ParentKey2>
-		<ParentLimit2>5</ParentLimit2>
-		<ParentKey3>-</ParentKey3>
-		<ParentLimit3>0</ParentLimit3>
-		<Contents>영웅 막사가 {0} 증가합니다.</Contents>
 	</Data>
 	<Data>
 		<Key>BarracksTech1</Key>
@@ -1150,7 +890,7 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>500</BeginCost>
+		<BeginCost>200</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>BarracksTech1</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
@@ -1170,7 +910,7 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>1000</BeginCost>
+		<BeginCost>400</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>BarracksTech2</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
@@ -1190,7 +930,7 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>5000</BeginCost>
+		<BeginCost>800</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>BarracksTech3</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
@@ -1210,7 +950,7 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>10000</BeginCost>
+		<BeginCost>1600</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>BarracksTech4</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
@@ -1230,7 +970,7 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>50000</BeginCost>
+		<BeginCost>3200</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>BarracksTech5</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
@@ -1250,7 +990,7 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>100000</BeginCost>
+		<BeginCost>6400</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>BarracksTech6</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
@@ -1270,7 +1010,7 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>500000</BeginCost>
+		<BeginCost>12800</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>BarracksTech7</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
@@ -1290,7 +1030,7 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>1000000</BeginCost>
+		<BeginCost>25600</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>BarracksTech8</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
@@ -1307,11 +1047,11 @@
 		<ValueGroup>SoldierLv</ValueGroup>
 		<TechLevel>0</TechLevel>
 		<Position>1</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>100</BeginCost>
-		<IncreaseCost>100</IncreaseCost>
+		<IncreaseValue>5</IncreaseValue>
+		<BeginCost>800</BeginCost>
+		<IncreaseCost>200</IncreaseCost>
 		<ParentKey1>-</ParentKey1>
 		<ParentLimit1>0</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
@@ -1327,13 +1067,13 @@
 		<ValueGroup>SoldierLv</ValueGroup>
 		<TechLevel>2</TechLevel>
 		<Position>1</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>1000</BeginCost>
-		<IncreaseCost>1000</IncreaseCost>
+		<IncreaseValue>5</IncreaseValue>
+		<BeginCost>1600</BeginCost>
+		<IncreaseCost>400</IncreaseCost>
 		<ParentKey1>SoldierMaxLevel1</ParentKey1>
-		<ParentLimit1>5</ParentLimit1>
+		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
 		<ParentLimit2>0</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
@@ -1347,13 +1087,13 @@
 		<ValueGroup>SoldierLv</ValueGroup>
 		<TechLevel>4</TechLevel>
 		<Position>1</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>10000</BeginCost>
-		<IncreaseCost>10000</IncreaseCost>
+		<IncreaseValue>10</IncreaseValue>
+		<BeginCost>6400</BeginCost>
+		<IncreaseCost>1600</IncreaseCost>
 		<ParentKey1>SoldierMaxLevel2</ParentKey1>
-		<ParentLimit1>5</ParentLimit1>
+		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
 		<ParentLimit2>0</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
@@ -1367,13 +1107,13 @@
 		<ValueGroup>SoldierLv</ValueGroup>
 		<TechLevel>6</TechLevel>
 		<Position>1</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>100000</BeginCost>
-		<IncreaseCost>100000</IncreaseCost>
+		<IncreaseValue>10</IncreaseValue>
+		<BeginCost>12800</BeginCost>
+		<IncreaseCost>3200</IncreaseCost>
 		<ParentKey1>SoldierMaxLevel3</ParentKey1>
-		<ParentLimit1>5</ParentLimit1>
+		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
 		<ParentLimit2>0</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
@@ -1387,13 +1127,13 @@
 		<ValueGroup>SoldierLv</ValueGroup>
 		<TechLevel>8</TechLevel>
 		<Position>1</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>1000000</BeginCost>
-		<IncreaseCost>1000000</IncreaseCost>
+		<IncreaseValue>10</IncreaseValue>
+		<BeginCost>25600</BeginCost>
+		<IncreaseCost>6400</IncreaseCost>
 		<ParentKey1>SoldierMaxLevel4</ParentKey1>
-		<ParentLimit1>5</ParentLimit1>
+		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
 		<ParentLimit2>0</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
@@ -1407,11 +1147,11 @@
 		<ValueGroup>HeroLv</ValueGroup>
 		<TechLevel>1</TechLevel>
 		<Position>2</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>100</BeginCost>
-		<IncreaseCost>100</IncreaseCost>
+		<IncreaseValue>5</IncreaseValue>
+		<BeginCost>800</BeginCost>
+		<IncreaseCost>200</IncreaseCost>
 		<ParentKey1>SoldierMaxLevel1</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
@@ -1427,15 +1167,15 @@
 		<ValueGroup>HeroLv</ValueGroup>
 		<TechLevel>3</TechLevel>
 		<Position>2</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>1000</BeginCost>
-		<IncreaseCost>1000</IncreaseCost>
+		<IncreaseValue>5</IncreaseValue>
+		<BeginCost>1600</BeginCost>
+		<IncreaseCost>400</IncreaseCost>
 		<ParentKey1>SoldierMaxLevel2</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>HeroMaxLevel1</ParentKey2>
-		<ParentLimit2>5</ParentLimit2>
+		<ParentLimit2>1</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
 		<ParentLimit3>0</ParentLimit3>
 		<Contents>영웅 최대 레벨이 {0} 증가합니다.</Contents>
@@ -1447,15 +1187,15 @@
 		<ValueGroup>HeroLv</ValueGroup>
 		<TechLevel>5</TechLevel>
 		<Position>2</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>10000</BeginCost>
-		<IncreaseCost>10000</IncreaseCost>
+		<IncreaseValue>10</IncreaseValue>
+		<BeginCost>6400</BeginCost>
+		<IncreaseCost>1600</IncreaseCost>
 		<ParentKey1>SoldierMaxLevel3</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>HeroMaxLevel2</ParentKey2>
-		<ParentLimit2>5</ParentLimit2>
+		<ParentLimit2>1</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
 		<ParentLimit3>0</ParentLimit3>
 		<Contents>영웅 최대 레벨이 {0} 증가합니다.</Contents>
@@ -1467,15 +1207,15 @@
 		<ValueGroup>HeroLv</ValueGroup>
 		<TechLevel>7</TechLevel>
 		<Position>2</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>100000</BeginCost>
-		<IncreaseCost>100000</IncreaseCost>
+		<IncreaseValue>10</IncreaseValue>
+		<BeginCost>12800</BeginCost>
+		<IncreaseCost>3200</IncreaseCost>
 		<ParentKey1>SoldierMaxLevel4</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>HeroMaxLevel3</ParentKey2>
-		<ParentLimit2>5</ParentLimit2>
+		<ParentLimit2>1</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
 		<ParentLimit3>0</ParentLimit3>
 		<Contents>영웅 최대 레벨이 {0} 증가합니다.</Contents>
@@ -1487,15 +1227,15 @@
 		<ValueGroup>HeroLv</ValueGroup>
 		<TechLevel>9</TechLevel>
 		<Position>2</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>1000000</BeginCost>
-		<IncreaseCost>1000000</IncreaseCost>
+		<IncreaseValue>10</IncreaseValue>
+		<BeginCost>25600</BeginCost>
+		<IncreaseCost>6400</IncreaseCost>
 		<ParentKey1>SoldierMaxLevel5</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>HeroMaxLevel4</ParentKey2>
-		<ParentLimit2>5</ParentLimit2>
+		<ParentLimit2>1</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
 		<ParentLimit3>0</ParentLimit3>
 		<Contents>영웅 최대 레벨이 {0} 증가합니다.</Contents>
@@ -1507,10 +1247,10 @@
 		<ValueGroup>SoldierExp</ValueGroup>
 		<TechLevel>0</TechLevel>
 		<Position>3</Position>
-		<MaxLevel>3</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>5</IncreaseValue>
-		<BeginCost>100</BeginCost>
+		<BeginCost>400</BeginCost>
 		<IncreaseCost>100</IncreaseCost>
 		<ParentKey1>-</ParentKey1>
 		<ParentLimit1>0</ParentLimit1>
@@ -1527,13 +1267,13 @@
 		<ValueGroup>SoldierExp</ValueGroup>
 		<TechLevel>2</TechLevel>
 		<Position>3</Position>
-		<MaxLevel>3</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>10</IncreaseValue>
-		<BeginCost>1000</BeginCost>
-		<IncreaseCost>1000</IncreaseCost>
+		<IncreaseValue>5</IncreaseValue>
+		<BeginCost>800</BeginCost>
+		<IncreaseCost>200</IncreaseCost>
 		<ParentKey1>SoldierAddExp1</ParentKey1>
-		<ParentLimit1>3</ParentLimit1>
+		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
 		<ParentLimit2>0</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
@@ -1547,13 +1287,13 @@
 		<ValueGroup>SoldierExp</ValueGroup>
 		<TechLevel>4</TechLevel>
 		<Position>3</Position>
-		<MaxLevel>3</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>15</IncreaseValue>
-		<BeginCost>10000</BeginCost>
-		<IncreaseCost>10000</IncreaseCost>
+		<IncreaseValue>5</IncreaseValue>
+		<BeginCost>1600</BeginCost>
+		<IncreaseCost>400</IncreaseCost>
 		<ParentKey1>SoldierAddExp2</ParentKey1>
-		<ParentLimit1>3</ParentLimit1>
+		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
 		<ParentLimit2>0</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
@@ -1567,13 +1307,13 @@
 		<ValueGroup>SoldierExp</ValueGroup>
 		<TechLevel>6</TechLevel>
 		<Position>3</Position>
-		<MaxLevel>3</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>20</IncreaseValue>
-		<BeginCost>100000</BeginCost>
-		<IncreaseCost>100000</IncreaseCost>
+		<IncreaseValue>5</IncreaseValue>
+		<BeginCost>3200</BeginCost>
+		<IncreaseCost>800</IncreaseCost>
 		<ParentKey1>SoldierAddExp3</ParentKey1>
-		<ParentLimit1>3</ParentLimit1>
+		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
 		<ParentLimit2>0</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
@@ -1589,11 +1329,11 @@
 		<Position>3</Position>
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>25</IncreaseValue>
-		<BeginCost>1000000</BeginCost>
-		<IncreaseCost>1000000</IncreaseCost>
+		<IncreaseValue>5</IncreaseValue>
+		<BeginCost>6400</BeginCost>
+		<IncreaseCost>1600</IncreaseCost>
 		<ParentKey1>SoldierAddExp4</ParentKey1>
-		<ParentLimit1>3</ParentLimit1>
+		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
 		<ParentLimit2>0</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
@@ -1607,11 +1347,11 @@
 		<ValueGroup>HeroExp</ValueGroup>
 		<TechLevel>1</TechLevel>
 		<Position>4</Position>
-		<MaxLevel>3</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>5</IncreaseValue>
-		<BeginCost>100</BeginCost>
-		<IncreaseCost>100</IncreaseCost>
+		<BeginCost>800</BeginCost>
+		<IncreaseCost>200</IncreaseCost>
 		<ParentKey1>SoldierAddExp1</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
@@ -1627,15 +1367,15 @@
 		<ValueGroup>HeroExp</ValueGroup>
 		<TechLevel>3</TechLevel>
 		<Position>4</Position>
-		<MaxLevel>3</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>10</IncreaseValue>
-		<BeginCost>1000</BeginCost>
-		<IncreaseCost>1000</IncreaseCost>
+		<IncreaseValue>5</IncreaseValue>
+		<BeginCost>1600</BeginCost>
+		<IncreaseCost>400</IncreaseCost>
 		<ParentKey1>SoldierAddExp2</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>HeroAddExp1</ParentKey2>
-		<ParentLimit2>3</ParentLimit2>
+		<ParentLimit2>1</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
 		<ParentLimit3>0</ParentLimit3>
 		<Contents>영웅 추가 경험치가 {0} 증가합니다.</Contents>
@@ -1647,15 +1387,15 @@
 		<ValueGroup>HeroExp</ValueGroup>
 		<TechLevel>5</TechLevel>
 		<Position>4</Position>
-		<MaxLevel>3</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>15</IncreaseValue>
-		<BeginCost>10000</BeginCost>
-		<IncreaseCost>10000</IncreaseCost>
+		<IncreaseValue>5</IncreaseValue>
+		<BeginCost>3200</BeginCost>
+		<IncreaseCost>800</IncreaseCost>
 		<ParentKey1>SoldierAddExp3</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>HeroAddExp2</ParentKey2>
-		<ParentLimit2>3</ParentLimit2>
+		<ParentLimit2>1</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
 		<ParentLimit3>0</ParentLimit3>
 		<Contents>영웅 추가 경험치가 {0} 증가합니다.</Contents>
@@ -1667,15 +1407,15 @@
 		<ValueGroup>HeroExp</ValueGroup>
 		<TechLevel>7</TechLevel>
 		<Position>4</Position>
-		<MaxLevel>3</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>20</IncreaseValue>
-		<BeginCost>100000</BeginCost>
-		<IncreaseCost>100000</IncreaseCost>
+		<IncreaseValue>5</IncreaseValue>
+		<BeginCost>6400</BeginCost>
+		<IncreaseCost>1600</IncreaseCost>
 		<ParentKey1>SoldierAddExp4</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>HeroAddExp3</ParentKey2>
-		<ParentLimit2>3</ParentLimit2>
+		<ParentLimit2>1</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
 		<ParentLimit3>0</ParentLimit3>
 		<Contents>영웅 추가 경험치가 {0} 증가합니다.</Contents>
@@ -1689,13 +1429,13 @@
 		<Position>4</Position>
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>25</IncreaseValue>
-		<BeginCost>1000000</BeginCost>
-		<IncreaseCost>1000000</IncreaseCost>
+		<IncreaseValue>5</IncreaseValue>
+		<BeginCost>12800</BeginCost>
+		<IncreaseCost>3200</IncreaseCost>
 		<ParentKey1>SoldierAddExp5</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>HeroAddExp4</ParentKey2>
-		<ParentLimit2>3</ParentLimit2>
+		<ParentLimit2>1</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
 		<ParentLimit3>0</ParentLimit3>
 		<Contents>영웅 추가 경험치가 {0} 증가합니다.</Contents>
@@ -1707,11 +1447,11 @@
 		<ValueGroup>SoldierBatch</ValueGroup>
 		<TechLevel>2</TechLevel>
 		<Position>5</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>3</IncreaseValue>
-		<BeginCost>10000</BeginCost>
-		<IncreaseCost>10000</IncreaseCost>
+		<IncreaseValue>10</IncreaseValue>
+		<BeginCost>1600</BeginCost>
+		<IncreaseCost>400</IncreaseCost>
 		<ParentKey1>-</ParentKey1>
 		<ParentLimit1>0</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
@@ -1727,13 +1467,13 @@
 		<ValueGroup>SoldierBatch</ValueGroup>
 		<TechLevel>5</TechLevel>
 		<Position>5</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>6</IncreaseValue>
-		<BeginCost>100000</BeginCost>
-		<IncreaseCost>100000</IncreaseCost>
+		<IncreaseValue>10</IncreaseValue>
+		<BeginCost>3200</BeginCost>
+		<IncreaseCost>800</IncreaseCost>
 		<ParentKey1>SoldierBatchDown1</ParentKey1>
-		<ParentLimit1>5</ParentLimit1>
+		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
 		<ParentLimit2>0</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
@@ -1747,13 +1487,13 @@
 		<ValueGroup>SoldierBatch</ValueGroup>
 		<TechLevel>8</TechLevel>
 		<Position>5</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>9</IncreaseValue>
-		<BeginCost>1000000</BeginCost>
-		<IncreaseCost>1000000</IncreaseCost>
+		<IncreaseValue>10</IncreaseValue>
+		<BeginCost>6400</BeginCost>
+		<IncreaseCost>1600</IncreaseCost>
 		<ParentKey1>SoldierBatchDown2</ParentKey1>
-		<ParentLimit1>5</ParentLimit1>
+		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
 		<ParentLimit2>0</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
@@ -1767,11 +1507,11 @@
 		<ValueGroup>HeroBatch</ValueGroup>
 		<TechLevel>3</TechLevel>
 		<Position>6</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>3</IncreaseValue>
-		<BeginCost>10000</BeginCost>
-		<IncreaseCost>10000</IncreaseCost>
+		<IncreaseValue>10</IncreaseValue>
+		<BeginCost>3200</BeginCost>
+		<IncreaseCost>800</IncreaseCost>
 		<ParentKey1>SoldierBatchDown1</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
@@ -1787,15 +1527,15 @@
 		<ValueGroup>HeroBatch</ValueGroup>
 		<TechLevel>6</TechLevel>
 		<Position>6</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>6</IncreaseValue>
-		<BeginCost>100000</BeginCost>
-		<IncreaseCost>100000</IncreaseCost>
+		<IncreaseValue>10</IncreaseValue>
+		<BeginCost>6400</BeginCost>
+		<IncreaseCost>1600</IncreaseCost>
 		<ParentKey1>SoldierBatchDown2</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>HeroBatchDown1</ParentKey2>
-		<ParentLimit2>5</ParentLimit2>
+		<ParentLimit2>1</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
 		<ParentLimit3>0</ParentLimit3>
 		<Contents>영웅 배치시간이 {0} 감소합니다.</Contents>
@@ -1807,15 +1547,15 @@
 		<ValueGroup>HeroBatch</ValueGroup>
 		<TechLevel>9</TechLevel>
 		<Position>6</Position>
-		<MaxLevel>5</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>9</IncreaseValue>
-		<BeginCost>1000000</BeginCost>
-		<IncreaseCost>1000000</IncreaseCost>
+		<IncreaseValue>10</IncreaseValue>
+		<BeginCost>12800</BeginCost>
+		<IncreaseCost>3200</IncreaseCost>
 		<ParentKey1>SoldierBatchDown3</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>HeroBatchDown2</ParentKey2>
-		<ParentLimit2>5</ParentLimit2>
+		<ParentLimit2>1</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
 		<ParentLimit3>0</ParentLimit3>
 		<Contents>영웅 배치시간이 {0} 감소합니다.</Contents>
@@ -1827,11 +1567,11 @@
 		<ValueGroup>SoldierMunitions</ValueGroup>
 		<TechLevel>2</TechLevel>
 		<Position>7</Position>
-		<MaxLevel>3</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>10000</BeginCost>
-		<IncreaseCost>10000</IncreaseCost>
+		<IncreaseValue>10</IncreaseValue>
+		<BeginCost>1600</BeginCost>
+		<IncreaseCost>400</IncreaseCost>
 		<ParentKey1>-</ParentKey1>
 		<ParentLimit1>0</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
@@ -1847,13 +1587,13 @@
 		<ValueGroup>SoldierMunitions</ValueGroup>
 		<TechLevel>5</TechLevel>
 		<Position>7</Position>
-		<MaxLevel>3</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>3</IncreaseValue>
-		<BeginCost>100000</BeginCost>
-		<IncreaseCost>100000</IncreaseCost>
+		<IncreaseValue>10</IncreaseValue>
+		<BeginCost>3200</BeginCost>
+		<IncreaseCost>800</IncreaseCost>
 		<ParentKey1>SoldierMunitionDown1</ParentKey1>
-		<ParentLimit1>3</ParentLimit1>
+		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
 		<ParentLimit2>0</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
@@ -1867,13 +1607,13 @@
 		<ValueGroup>SoldierMunitions</ValueGroup>
 		<TechLevel>8</TechLevel>
 		<Position>7</Position>
-		<MaxLevel>3</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>5</IncreaseValue>
-		<BeginCost>1000000</BeginCost>
-		<IncreaseCost>1000000</IncreaseCost>
+		<IncreaseValue>10</IncreaseValue>
+		<BeginCost>6400</BeginCost>
+		<IncreaseCost>1600</IncreaseCost>
 		<ParentKey1>SoldierMunitionDown2</ParentKey1>
-		<ParentLimit1>3</ParentLimit1>
+		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
 		<ParentLimit2>0</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
@@ -1887,11 +1627,11 @@
 		<ValueGroup>HeroMunitions</ValueGroup>
 		<TechLevel>3</TechLevel>
 		<Position>8</Position>
-		<MaxLevel>3</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>10000</BeginCost>
-		<IncreaseCost>10000</IncreaseCost>
+		<IncreaseValue>10</IncreaseValue>
+		<BeginCost>3200</BeginCost>
+		<IncreaseCost>800</IncreaseCost>
 		<ParentKey1>SoldierMunitionDown1</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>-</ParentKey2>
@@ -1907,15 +1647,15 @@
 		<ValueGroup>HeroMunitions</ValueGroup>
 		<TechLevel>6</TechLevel>
 		<Position>8</Position>
-		<MaxLevel>3</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>3</IncreaseValue>
-		<BeginCost>100000</BeginCost>
-		<IncreaseCost>100000</IncreaseCost>
+		<IncreaseValue>10</IncreaseValue>
+		<BeginCost>6400</BeginCost>
+		<IncreaseCost>1600</IncreaseCost>
 		<ParentKey1>SoldierMunitionDown2</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>HeroMunitionDown1</ParentKey2>
-		<ParentLimit2>3</ParentLimit2>
+		<ParentLimit2>1</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
 		<ParentLimit3>0</ParentLimit3>
 		<Contents>영웅 생산 보급량이 {0} 감소합니다.</Contents>
@@ -1927,15 +1667,15 @@
 		<ValueGroup>HeroMunitions</ValueGroup>
 		<TechLevel>9</TechLevel>
 		<Position>8</Position>
-		<MaxLevel>3</MaxLevel>
+		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
-		<IncreaseValue>5</IncreaseValue>
-		<BeginCost>1000000</BeginCost>
-		<IncreaseCost>1000000</IncreaseCost>
+		<IncreaseValue>10</IncreaseValue>
+		<BeginCost>12800</BeginCost>
+		<IncreaseCost>3200</IncreaseCost>
 		<ParentKey1>SoldierMunitionDown3</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
 		<ParentKey2>HeroMunitionDown2</ParentKey2>
-		<ParentLimit2>3</ParentLimit2>
+		<ParentLimit2>1</ParentLimit2>
 		<ParentKey3>-</ParentKey3>
 		<ParentLimit3>0</ParentLimit3>
 		<Contents>영웅 생산 보급량이 {0} 감소합니다.</Contents>
@@ -1970,7 +1710,7 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>500</BeginCost>
+		<BeginCost>200</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>TrainingTech1</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
@@ -1990,7 +1730,7 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>1000</BeginCost>
+		<BeginCost>400</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>TrainingTech2</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
@@ -2010,7 +1750,7 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>5000</BeginCost>
+		<BeginCost>800</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>TrainingTech3</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
@@ -2030,7 +1770,7 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>10000</BeginCost>
+		<BeginCost>1600</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>TrainingTech4</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
@@ -2050,7 +1790,7 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>50000</BeginCost>
+		<BeginCost>3200</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>TrainingTech5</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
@@ -2070,7 +1810,7 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>100000</BeginCost>
+		<BeginCost>6400</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>TrainingTech6</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
@@ -2090,7 +1830,7 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>500000</BeginCost>
+		<BeginCost>12800</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>TrainingTech7</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
@@ -2110,7 +1850,7 @@
 		<MaxLevel>1</MaxLevel>
 		<BeginValue>0</BeginValue>
 		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>1000000</BeginCost>
+		<BeginCost>25600</BeginCost>
 		<IncreaseCost>0</IncreaseCost>
 		<ParentKey1>TrainingTech8</ParentKey1>
 		<ParentLimit1>1</ParentLimit1>
@@ -2119,185 +1859,5 @@
 		<ParentKey3>-</ParentKey3>
 		<ParentLimit3>0</ParentLimit3>
 		<Contents>훈련 기술이 증가합니다.</Contents>
-	</Data>
-	<Data>
-		<Key>CommanderTech1</Key>
-		<Name>지휘관 기술 증가1</Name>
-		<Group>Commander</Group>
-		<ValueGroup>CommanderTechLv</ValueGroup>
-		<TechLevel>0</TechLevel>
-		<Position>0</Position>
-		<MaxLevel>1</MaxLevel>
-		<BeginValue>0</BeginValue>
-		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>100</BeginCost>
-		<IncreaseCost>0</IncreaseCost>
-		<ParentKey1>-</ParentKey1>
-		<ParentLimit1>0</ParentLimit1>
-		<ParentKey2>-</ParentKey2>
-		<ParentLimit2>0</ParentLimit2>
-		<ParentKey3>-</ParentKey3>
-		<ParentLimit3>0</ParentLimit3>
-		<Contents>지휘관 기술이 증가합니다.</Contents>
-	</Data>
-	<Data>
-		<Key>CommanderTech2</Key>
-		<Name>지휘관 기술 증가2</Name>
-		<Group>Commander</Group>
-		<ValueGroup>CommanderTechLv</ValueGroup>
-		<TechLevel>1</TechLevel>
-		<Position>0</Position>
-		<MaxLevel>1</MaxLevel>
-		<BeginValue>0</BeginValue>
-		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>500</BeginCost>
-		<IncreaseCost>0</IncreaseCost>
-		<ParentKey1>CommanderTech1</ParentKey1>
-		<ParentLimit1>1</ParentLimit1>
-		<ParentKey2>-</ParentKey2>
-		<ParentLimit2>0</ParentLimit2>
-		<ParentKey3>-</ParentKey3>
-		<ParentLimit3>0</ParentLimit3>
-		<Contents>지휘관 기술이 증가합니다.</Contents>
-	</Data>
-	<Data>
-		<Key>CommanderTech3</Key>
-		<Name>지휘관 기술 증가3</Name>
-		<Group>Commander</Group>
-		<ValueGroup>CommanderTechLv</ValueGroup>
-		<TechLevel>2</TechLevel>
-		<Position>0</Position>
-		<MaxLevel>1</MaxLevel>
-		<BeginValue>0</BeginValue>
-		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>1000</BeginCost>
-		<IncreaseCost>0</IncreaseCost>
-		<ParentKey1>CommanderTech2</ParentKey1>
-		<ParentLimit1>1</ParentLimit1>
-		<ParentKey2>-</ParentKey2>
-		<ParentLimit2>0</ParentLimit2>
-		<ParentKey3>-</ParentKey3>
-		<ParentLimit3>0</ParentLimit3>
-		<Contents>지휘관 기술이 증가합니다.</Contents>
-	</Data>
-	<Data>
-		<Key>CommanderTech4</Key>
-		<Name>지휘관 기술 증가4</Name>
-		<Group>Commander</Group>
-		<ValueGroup>CommanderTechLv</ValueGroup>
-		<TechLevel>3</TechLevel>
-		<Position>0</Position>
-		<MaxLevel>1</MaxLevel>
-		<BeginValue>0</BeginValue>
-		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>5000</BeginCost>
-		<IncreaseCost>0</IncreaseCost>
-		<ParentKey1>CommanderTech3</ParentKey1>
-		<ParentLimit1>1</ParentLimit1>
-		<ParentKey2>-</ParentKey2>
-		<ParentLimit2>0</ParentLimit2>
-		<ParentKey3>-</ParentKey3>
-		<ParentLimit3>0</ParentLimit3>
-		<Contents>지휘관 기술이 증가합니다.</Contents>
-	</Data>
-	<Data>
-		<Key>CommanderTech5</Key>
-		<Name>지휘관 기술 증가5</Name>
-		<Group>Commander</Group>
-		<ValueGroup>CommanderTechLv</ValueGroup>
-		<TechLevel>4</TechLevel>
-		<Position>0</Position>
-		<MaxLevel>1</MaxLevel>
-		<BeginValue>0</BeginValue>
-		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>10000</BeginCost>
-		<IncreaseCost>0</IncreaseCost>
-		<ParentKey1>CommanderTech4</ParentKey1>
-		<ParentLimit1>1</ParentLimit1>
-		<ParentKey2>-</ParentKey2>
-		<ParentLimit2>0</ParentLimit2>
-		<ParentKey3>-</ParentKey3>
-		<ParentLimit3>0</ParentLimit3>
-		<Contents>지휘관 기술이 증가합니다.</Contents>
-	</Data>
-	<Data>
-		<Key>CommanderTech6</Key>
-		<Name>지휘관 기술 증가6</Name>
-		<Group>Commander</Group>
-		<ValueGroup>CommanderTechLv</ValueGroup>
-		<TechLevel>5</TechLevel>
-		<Position>0</Position>
-		<MaxLevel>1</MaxLevel>
-		<BeginValue>0</BeginValue>
-		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>50000</BeginCost>
-		<IncreaseCost>0</IncreaseCost>
-		<ParentKey1>CommanderTech5</ParentKey1>
-		<ParentLimit1>1</ParentLimit1>
-		<ParentKey2>-</ParentKey2>
-		<ParentLimit2>0</ParentLimit2>
-		<ParentKey3>-</ParentKey3>
-		<ParentLimit3>0</ParentLimit3>
-		<Contents>지휘관 기술이 증가합니다.</Contents>
-	</Data>
-	<Data>
-		<Key>CommanderTech7</Key>
-		<Name>지휘관 기술 증가7</Name>
-		<Group>Commander</Group>
-		<ValueGroup>CommanderTechLv</ValueGroup>
-		<TechLevel>6</TechLevel>
-		<Position>0</Position>
-		<MaxLevel>1</MaxLevel>
-		<BeginValue>0</BeginValue>
-		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>100000</BeginCost>
-		<IncreaseCost>0</IncreaseCost>
-		<ParentKey1>CommanderTech6</ParentKey1>
-		<ParentLimit1>1</ParentLimit1>
-		<ParentKey2>-</ParentKey2>
-		<ParentLimit2>0</ParentLimit2>
-		<ParentKey3>-</ParentKey3>
-		<ParentLimit3>0</ParentLimit3>
-		<Contents>지휘관 기술이 증가합니다.</Contents>
-	</Data>
-	<Data>
-		<Key>CommanderTech8</Key>
-		<Name>지휘관 기술 증가8</Name>
-		<Group>Commander</Group>
-		<ValueGroup>CommanderTechLv</ValueGroup>
-		<TechLevel>7</TechLevel>
-		<Position>0</Position>
-		<MaxLevel>1</MaxLevel>
-		<BeginValue>0</BeginValue>
-		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>500000</BeginCost>
-		<IncreaseCost>0</IncreaseCost>
-		<ParentKey1>CommanderTech7</ParentKey1>
-		<ParentLimit1>1</ParentLimit1>
-		<ParentKey2>-</ParentKey2>
-		<ParentLimit2>0</ParentLimit2>
-		<ParentKey3>-</ParentKey3>
-		<ParentLimit3>0</ParentLimit3>
-		<Contents>지휘관 기술이 증가합니다.</Contents>
-	</Data>
-	<Data>
-		<Key>CommanderTech9</Key>
-		<Name>지휘관 기술 증가9</Name>
-		<Group>Commander</Group>
-		<ValueGroup>CommanderTechLv</ValueGroup>
-		<TechLevel>8</TechLevel>
-		<Position>0</Position>
-		<MaxLevel>1</MaxLevel>
-		<BeginValue>0</BeginValue>
-		<IncreaseValue>1</IncreaseValue>
-		<BeginCost>1000000</BeginCost>
-		<IncreaseCost>0</IncreaseCost>
-		<ParentKey1>CommanderTech8</ParentKey1>
-		<ParentLimit1>1</ParentLimit1>
-		<ParentKey2>-</ParentKey2>
-		<ParentLimit2>0</ParentLimit2>
-		<ParentKey3>-</ParentKey3>
-		<ParentLimit3>0</ParentLimit3>
-		<Contents>지휘관 기술이 증가합니다.</Contents>
 	</Data>
 </Develop>

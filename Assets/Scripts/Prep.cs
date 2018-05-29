@@ -309,6 +309,11 @@ public class Prep
     #region #################### 개발자용 ##########################
 
     /// <summary>
+    /// 개발자 명령어 활성화
+    /// </summary>
+    public static bool isActiveAdmin = false;
+
+    /// <summary>
     /// 적 생성 여부
     /// </summary>
     public static bool isNotEnemyCreate = false;
@@ -559,4 +564,33 @@ public class Prep
 //        float randX = UnityEngine.Random.Range(startPos.x - radius, startPos.x + radius);
 //        return new Vector2(randX, linePos.position.y);
 //    }
+
+    public static string getTypeLineToText(Unit.TYPE_LINE typeLine)
+    {
+        if (typeLine == Unit.TYPE_LINE.ALL)
+            return "전체";
+
+        if (typeLine == Unit.TYPE_LINE.GND_FORWARD)
+            return "지상전방";
+
+        if (typeLine == Unit.TYPE_LINE.GND_ALL)
+            return "지상전체";
+
+        if (typeLine == Unit.TYPE_LINE.GND_SIDE)
+            return "지상측방";
+
+        if (typeLine == Unit.TYPE_LINE.AIR_FORWARD)
+            return "공중전방";
+
+        if (typeLine == Unit.TYPE_LINE.AIR_SIDE)
+            return "공중측방";
+
+        if (typeLine == Unit.TYPE_LINE.AIR_ALL)
+            return "공중전체";
+
+        if (typeLine == Unit.TYPE_LINE.ALL_FORWARD)
+            return "전방전체";
+
+        return typeLine.ToString();
+    }
 }

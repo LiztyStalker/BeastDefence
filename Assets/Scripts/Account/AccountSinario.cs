@@ -31,6 +31,8 @@ public class AccountSinario
             {
                 string clearStageKey = m_stageClearList.LastOrDefault();
                 string nowStageKey = WorldManager.GetInstance.getNextStageKey(clearStageKey);
+                if (nowStageKey == "-")
+                    return m_stageClearList.LastOrDefault();
                 return nowStageKey;
             }
             //처음 시작이면 첫번째 키
@@ -38,13 +40,15 @@ public class AccountSinario
         } 
     }
 
+
     /// <summary>
     /// 현재 플레이하는 스테이지
     /// </summary>
     public Stage nowStage { get; set; }
 
     public AccountSinario(){
-//        m_stageClearList.Add("Stage018");
+//        m_stageClearList.Add("Stage029");
+//        m_contentsClearList.Add("Contents029_008");
     }
 
     /// <summary>

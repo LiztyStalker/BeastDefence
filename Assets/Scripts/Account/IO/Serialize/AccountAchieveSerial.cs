@@ -6,5 +6,6 @@ using System.Collections.Generic;
 public class AccountAchieveSerial
 {
     public List<string> achieveList = new List<string>();
+    public List<string> achieveAlarmList = new List<string>();
 }
 

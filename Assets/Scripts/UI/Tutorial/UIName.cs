@@ -39,7 +39,9 @@ public class UIName : MonoBehaviour, IEnumerator
     {
 
         if(m_inputField.text.Length < 2)
-            UIPanelManager.GetInstance.root.uiCommon.uiMsg.setMsg("계정이름이 짧습니다. 2칸 이상으로 적어주세요.", TYPE_MSG_PANEL.WARNING, TYPE_MSG_BTN.OK);
+            UIPanelManager.GetInstance.root.uiCommon.uiMsg.setMsg("계정이름이 짧습니다. 2칸 이상 8칸 이하로 적어주세요.", TYPE_MSG_PANEL.WARNING, TYPE_MSG_BTN.OK);
+        else if(m_inputField.text.Length >= 8)
+            UIPanelManager.GetInstance.root.uiCommon.uiMsg.setMsg("계정이름이 깁니다. 2칸 이상 8칸 이하로 적어주세요.", TYPE_MSG_PANEL.WARNING, TYPE_MSG_BTN.OK);
         else
             UIPanelManager.GetInstance.root.uiCommon.uiMsg.setMsg(string.Format("계정이름을 '{0}' 로 사용하시겠습니까?", m_inputField.text), TYPE_MSG_PANEL.INFO, TYPE_MSG_BTN.OK_CANCEL, clicked);
     }
