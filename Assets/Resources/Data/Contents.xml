@@ -248,7 +248,7 @@
 		<TypePos>Left</TypePos>
 		<Character>Char_Raty</Character>
 		<TypeFace>Normal</TypeFace>
-		<Contents>'닫기' 버튼을 누르고 곧바로 '시작' 버튼을 눌러줘!</Contents>
+		<Contents>'뒤로' 버튼을 누르고 곧바로 '시작' 버튼을 눌러줘!</Contents>
 	</Data>
 	<Data>
 		<Key>Contents011_024</Key>
@@ -674,6 +674,16 @@
 		<Key>Contents014_001</Key>
 		<ParentKey>-</ParentKey>
 		<StageKey>Stage014</StageKey>
+		<TypeEvent>Lobby</TypeEvent>
+		<TypePos>Left</TypePos>
+		<Character>Char_Raty</Character>
+		<TypeFace>Normal</TypeFace>
+		<Contents>혹시 이 게임에 대해서 문의사항이나 설문조사를 진행하고 싶다면 오른쪽에 보면 톱니바퀴 모양이 있는데 그것을 터치해봐.</Contents>
+	</Data>
+	<Data>
+		<Key>Contents014_002</Key>
+		<ParentKey>-</ParentKey>
+		<StageKey>Stage014</StageKey>
 		<TypeEvent>Develop</TypeEvent>
 		<TypePos>Left</TypePos>
 		<Character>Char_Raty</Character>
@@ -681,7 +691,7 @@
 		<Contents>여기에서 다양한 것을 개발할 수 있어. 진출 대기열을 증가시키거나 성 체력을 증가하거나 병사들의 최대 레벨을 증가시킬 수 있어.</Contents>
 	</Data>
 	<Data>
-		<Key>Contents014_002</Key>
+		<Key>Contents014_003</Key>
 		<ParentKey>-</ParentKey>
 		<StageKey>Stage014</StageKey>
 		<TypeEvent>Employee</TypeEvent>
@@ -691,7 +701,7 @@
 		<Contents>여기서 우리들의 소식을 듣고 몰려온 병사들을 고용할 수 있어. 징집은 랜덤하게 병사를 징집하고 모집은 병사를 선택하서 고용할 수 있으니 각각의 장점을 살리도록 해</Contents>
 	</Data>
 	<Data>
-		<Key>Contents014_003</Key>
+		<Key>Contents014_004</Key>
 		<ParentKey>-</ParentKey>
 		<StageKey>Stage014</StageKey>
 		<TypeEvent>Shop</TypeEvent>
@@ -701,7 +711,7 @@
 		<Contents>여기서 전투에 필요한 다양한 재화를 구입할 수 있어. </Contents>
 	</Data>
 	<Data>
-		<Key>Contents014_004</Key>
+		<Key>Contents014_005</Key>
 		<ParentKey>-</ParentKey>
 		<StageKey>Stage014</StageKey>
 		<TypeEvent>Barracks</TypeEvent>
@@ -711,7 +721,7 @@
 		<Contents>여기선 여태까지 고용한 유닛과 지휘관을 확인할 수 있어. 물론 훈련도 가능해.</Contents>
 	</Data>
 	<Data>
-		<Key>Contents014_005</Key>
+		<Key>Contents014_006</Key>
 		<ParentKey>-</ParentKey>
 		<StageKey>Stage014</StageKey>
 		<TypeEvent>Achieve</TypeEvent>
@@ -721,7 +731,7 @@
 		<Contents>여기에서는 여태까지 이룩해낸 다양한 기록을 확인할 수 있어. 물론 이룩한 기록에 대해 보상도 받을 수 있지.</Contents>
 	</Data>
 	<Data>
-		<Key>Contents014_006</Key>
+		<Key>Contents014_007</Key>
 		<ParentKey>-</ParentKey>
 		<StageKey>Stage014</StageKey>
 		<TypeEvent>Account</TypeEvent>
@@ -731,7 +741,7 @@
 		<Contents>여기에서는 네 기본적인 정보를 확인할 수 있어. </Contents>
 	</Data>
 	<Data>
-		<Key>Contents014_007</Key>
+		<Key>Contents014_008</Key>
 		<ParentKey>-</ParentKey>
 		<StageKey>Stage014</StageKey>
 		<TypeEvent>StageInfo</TypeEvent>
@@ -741,7 +751,7 @@
 		<Contents>이런 도움도 안 되는 녀석들! 이러고도 기사단이라고 할 수 있나!</Contents>
 	</Data>
 	<Data>
-		<Key>Contents014_008</Key>
+		<Key>Contents014_009</Key>
 		<ParentKey>-</ParentKey>
 		<StageKey>Stage014</StageKey>
 		<TypeEvent>StageInfo</TypeEvent>
@@ -751,7 +761,7 @@
 		<Contents>잠시만 기다려 주십시오. 이번엔 제가 해결해 보겠습니다.</Contents>
 	</Data>
 	<Data>
-		<Key>Contents014_009</Key>
+		<Key>Contents014_010</Key>
 		<ParentKey>-</ParentKey>
 		<StageKey>Stage014</StageKey>
 		<TypeEvent>StageInfo</TypeEvent>
@@ -761,7 +771,7 @@
 		<Contents>마침 잘되었다. 스패로우훅! 내가 뒤에서 도와줄 테니 녀석들에게 본보기를 보여주어라!</Contents>
 	</Data>
 	<Data>
-		<Key>Contents014_010</Key>
+		<Key>Contents014_011</Key>
 		<ParentKey>-</ParentKey>
 		<StageKey>Stage014</StageKey>
 		<TypeEvent>StageInfo</TypeEvent>
@@ -771,7 +781,7 @@
 		<Contents>감사합니다. 애들아 가자!</Contents>
 	</Data>
 	<Data>
-		<Key>Contents014_011</Key>
+		<Key>Contents014_012</Key>
 		<ParentKey>-</ParentKey>
 		<StageKey>Stage014</StageKey>
 		<TypeEvent>StageInfo</TypeEvent>
@@ -781,7 +791,7 @@
 		<Contents>또 다른 녀석이 나타났군. 전투 준비를 서둘러야 되겠어.</Contents>
 	</Data>
 	<Data>
-		<Key>Contents014_012</Key>
+		<Key>Contents014_013</Key>
 		<ParentKey>-</ParentKey>
 		<StageKey>Stage014</StageKey>
 		<TypeEvent>Start</TypeEvent>
@@ -791,7 +801,7 @@
 		<Contents>하하! 부하들아 어서 녀석들을 공격해라!</Contents>
 	</Data>
 	<Data>
-		<Key>Contents014_013</Key>
+		<Key>Contents014_014</Key>
 		<ParentKey>-</ParentKey>
 		<StageKey>Stage014</StageKey>
 		<TypeEvent>Start</TypeEvent>
@@ -801,7 +811,7 @@
 		<Contents>적들이 몰려온다! 모두 준비해!</Contents>
 	</Data>
 	<Data>
-		<Key>Contents014_014</Key>
+		<Key>Contents014_015</Key>
 		<ParentKey>-</ParentKey>
 		<StageKey>Stage014</StageKey>
 		<TypeEvent>Victory</TypeEvent>

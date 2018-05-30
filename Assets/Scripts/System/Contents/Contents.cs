@@ -6,9 +6,11 @@ public class Contents
     public enum TYPE_CONTENTS_EVENT{
         Lobby, //로비 입장시
         World, //지역 입장시
+        Option, //옵션 열면
         StageList, //미션 리스트 열면
         StageInfo, //미션 정보 열리면
         UnitInfo, //유닛 정보 열리면
+        Account, //계정 열면
         Barracks, //막사 열리면
         BarracksSoldier, //병사창 열리면
         BarracksCommander, //지휘관창 열리면

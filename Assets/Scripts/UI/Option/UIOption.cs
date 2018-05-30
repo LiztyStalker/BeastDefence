@@ -41,6 +41,10 @@ public class UIOption : UIPanel
 
         m_bgmSlider.value = Prep.volumeBGM;
         m_effectSlider.value = Prep.volumeEffect;
+
+        StartCoroutine(UIPanelManager.GetInstance.root.uiCommon.uiContents.contentsCoroutine(Contents.TYPE_CONTENTS_EVENT.Option));
+
+
     }
 
 
@@ -74,6 +78,34 @@ public class UIOption : UIPanel
         UIPanelManager.GetInstance.root.uiCommon.btnSoundPlay.audioPlay(TYPE_BTN_SOUND.NONE);
         base.OnDisable();
     }
+
+    public void OnQuestionnaireClicked()
+    {
+        Application.OpenURL("https://goo.gl/forms/X8mabjXaMrryool43");
+    }
+
+    public void OnEmailClicked()
+    {
+        string mailto = "liztystk@gmail.com";
+        string subject = EscapeURL("버그 / 문의사항");
+        string body = EscapeURL
+            (
+                "이 곳에 내용을 작성해주세요.\n\n\n\n" +
+                "________" +
+                "Device Model : " + SystemInfo.deviceModel + "\n\n" +
+                "Device OS : " + SystemInfo.operatingSystem + "\n\n" +
+                "________"
+            );
+ 
+        Application.OpenURL("mailto:" + mailto + "?subject=" + subject + "&body=" + body);
+    }
+ 
+    private string EscapeURL(string url)
+    {
+        return WWW.EscapeURL(url).Replace("+", "%20");
+    }
+    
+    //출처: http://minhyeokism.tistory.com/46 [programmer-dominic.kim]
 }
 
 

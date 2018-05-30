@@ -67,8 +67,6 @@
 		<Value2>2</Value2>
 		<Category3>Fruit</Category3>
 		<Value3>150</Value3>
-		<Category4>NCard</Category4>
-		<Value4>SwordSoldier</Value4>
 	</Data>
 	<Data>
 		<Key>Stage017</Key>
@@ -103,7 +101,7 @@
 		<Category3>Fruit</Category3>
 		<Value3>200</Value3>
 		<Category4>NCard</Category4>
-		<Value4>ThrowSpearSoldier</Value4>
+		<Value4>SwordSoldier</Value4>
 	</Data>
 	<Data>
 		<Key>Stage021</Key>
@@ -175,8 +173,6 @@
 		<Value1>240</Value1>
 		<Category2>Card</Category2>
 		<Value2>1</Value2>
-		<Category3>NCard</Category3>
-		<Value3>Engineer</Value3>
 	</Data>
 	<Data>
 		<Key>Stage028</Key>
@@ -186,6 +182,8 @@
 		<Value1>255</Value1>
 		<Category2>Card</Category2>
 		<Value2>1</Value2>
+		<Category3>NCard</Category3>
+		<Value3>Engineer</Value3>
 	</Data>
 	<Data>
 		<Key>Stage029</Key>
